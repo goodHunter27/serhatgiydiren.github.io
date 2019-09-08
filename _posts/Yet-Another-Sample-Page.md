@@ -1,7 +1,7 @@
 ---
 title: Yet Another Sample Page
 published: true
-date: 2016-03-23T10:20:00Z
+date: 2019-03-23T10:20:00Z
 ---
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
