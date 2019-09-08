@@ -7,17 +7,15 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <title>{{ site.title}}</title>
 
-    <style>
-      centered {text-align:center;}
-    </style>
-    
 {% seo %}
   </head>
 
   <body>
-    <h1 class="centered">
-      <a href="{{ site.url }}">{{ site.description }}</a>
-    </h1>
+    <div class="container">
+      <h1 align="center">
+        <a href="{{ site.url }}">{{ site.description }}</a>
+      </h1>
+    </div>
 
     <!--header>
       <div class="container">
