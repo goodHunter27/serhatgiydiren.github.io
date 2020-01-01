@@ -17,13 +17,13 @@ Karşınızda bir problem. Kodlamasını tamamladınız. Çalıştırdınız, ö
 
 Hem teorik bilgiyi elde edebileceğiniz hem de bunları uygulayabileceğiniz yerleri aşağıda paylaşıyorum.
 
-## Kitaplar
+### Kitaplar
 
 * Algorithms - Robert Sedgewick & Kevin Wayne
 * Introduction to Algorithms - Thomas H. Cormen & Charles E. Leiserson & Ronald L. Rivest & Clifford Stein
 * Cracking the Coding Interview - Gayle Laakmann McDowell
 
-## Online Kurslar
+### Online Kurslar
 
 * [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1){:target="_blank"}
 * [Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2){:target="_blank"}
@@ -32,7 +32,7 @@ Hem teorik bilgiyi elde edebileceğiniz hem de bunları uygulayabileceğiniz yer
 * [Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming](https://www.coursera.org/learn/algorithms-greedy){:target="_blank"}
 * [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete){:target="_blank"}
 
-## Antreman ve Yarışma Web Siteleri
+### Antreman ve Yarışma Web Siteleri
 
 * [Codeforces](https://codeforces.com){:target="_blank"}
 * [Hackerrank](https://hackerrank.com){:target="_blank"}
