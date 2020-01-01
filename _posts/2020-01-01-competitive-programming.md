@@ -5,4 +5,8 @@ published: true
 
 Nam-ı diğer Sports Programming.
 
-Kod geliştirmeyi, veri yapılarını oluşturmayı ve kullanmayı, algoritmaları öğrenmeyi ve kullanmayı seviyorsanız tam size göre bir spor.
+Kod geliştirmeyi, veri yapılarını / algoritmaları öğrenmeyi, kullanmayı ve oluşturmayı seviyorsanız tam size göre bir spor.
+
+Aynı sporu yapmayı sevenlerle bir araya gelip yarışacağınız, yarışmalar dışında da dilediğiniz kadar antreman yapabileceğiniz eğlenceli bir dünya.
+
+Eğlenmenin ötesinde size dünya çapındaki şirketlerin kapısını açabilecek kadar da etkili.
