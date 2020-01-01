@@ -17,8 +17,21 @@ Karşınızda bir problem. Kodlamasını tamamladınız. Çalıştırdınız, ö
 
 Hem teorik bilgiyi elde edebileceğiniz hem de bunları uygulayabileceğiniz yerleri aşağıda paylaşıyorum.
 
-# Kitaplar
+## Kitaplar
 
 * Algorithms - Robert Sedgewick & Kevin Wayne
 * Introduction to Algorithms - Thomas H. Cormen & Charles E. Leiserson & Ronald L. Rivest & Clifford Stein
 * Cracking the Coding Interview - Gayle Laakmann McDowell
+
+## Online Kurslar
+
+* [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1)
+* [Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2)
+* [Divide and Conquer, Sorting and Searching, and Randomized Algorithms](https://www.coursera.org/learn/algorithms-divide-conquer)
+* [Graph Search, Shortest Paths, and Data Structures](https://www.coursera.org/learn/algorithms-graphs-data-structures)
+* [Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming](https://www.coursera.org/learn/algorithms-greedy)
+* [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete)
+
+## Antreman ve Yarışma Web Siteleri
+
+* [Codeforces](https://codeforces.com/)
