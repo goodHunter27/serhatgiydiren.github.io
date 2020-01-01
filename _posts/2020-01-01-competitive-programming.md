@@ -25,7 +25,7 @@ Hem teorik bilgiyi elde edebileceğiniz hem de bunları uygulayabileceğiniz yer
 
 ## Online Kurslar
 
-* [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1)
+* [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1){:target="_blank"}
 * [Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2)
 * [Divide and Conquer, Sorting and Searching, and Randomized Algorithms](https://www.coursera.org/learn/algorithms-divide-conquer)
 * [Graph Search, Shortest Paths, and Data Structures](https://www.coursera.org/learn/algorithms-graphs-data-structures)
