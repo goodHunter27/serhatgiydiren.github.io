@@ -26,12 +26,18 @@ Hem teorik bilgiyi elde edebileceğiniz hem de bunları uygulayabileceğiniz yer
 ## Online Kurslar
 
 * [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1){:target="_blank"}
-* [Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2)
-* [Divide and Conquer, Sorting and Searching, and Randomized Algorithms](https://www.coursera.org/learn/algorithms-divide-conquer)
-* [Graph Search, Shortest Paths, and Data Structures](https://www.coursera.org/learn/algorithms-graphs-data-structures)
-* [Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming](https://www.coursera.org/learn/algorithms-greedy)
-* [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete)
+* [Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2){:target="_blank"}
+* [Divide and Conquer, Sorting and Searching, and Randomized Algorithms](https://www.coursera.org/learn/algorithms-divide-conquer){:target="_blank"}
+* [Graph Search, Shortest Paths, and Data Structures](https://www.coursera.org/learn/algorithms-graphs-data-structures){:target="_blank"}
+* [Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming](https://www.coursera.org/learn/algorithms-greedy){:target="_blank"}
+* [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete){:target="_blank"}
 
 ## Antreman ve Yarışma Web Siteleri
 
-* [Codeforces](https://codeforces.com/)
+* [Codeforces](https://codeforces.com){:target="_blank"}
+* [Hackerrank](https://hackerrank.com){:target="_blank"}
+* [Codechef](https://codechef.com){:target="_blank"}
+* [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam){:target="_blank"}
+* [Google Kick Start](https://codingcompetitions.withgoogle.com/kickstart){:target="_blank"}
+* [Google Hash Code](https://codingcompetitions.withgoogle.com/hashcode){:target="_blank"}
+* [Facebook Hacker Cup](https://www.facebook.com/hackercup){:target="_blank"}
