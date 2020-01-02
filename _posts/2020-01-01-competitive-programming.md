@@ -17,11 +17,18 @@ Karşınızda bir problem. Kodlamasını tamamladınız. Çalıştırdınız, ö
 
 Hem teorik bilgiyi elde edebileceğiniz hem de bunları uygulayabileceğiniz yerleri aşağıda paylaşıyorum.
 
+
 ### Kitaplar
 
 * Algorithms - Robert Sedgewick & Kevin Wayne
 * Introduction to Algorithms - Thomas H. Cormen & Charles E. Leiserson & Ronald L. Rivest & Clifford Stein
+* The Art of Computer Programming - Donald E. Knuth
 * Cracking the Coding Interview - Gayle Laakmann McDowell
+* Competitive Programming - Steven Halim
+* The Algorithm Design Manual - Steven S. Skiena
+* Programming Pearls - Jon Bentley
+* Programming Interviews Exposed: Secrets to Landing Your Next Job - John Mongan & Noah Suojanen & Eric Giguere
+
 
 ### Online Kurslar
 
@@ -32,11 +39,14 @@ Hem teorik bilgiyi elde edebileceğiniz hem de bunları uygulayabileceğiniz yer
 * [Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming](https://www.coursera.org/learn/algorithms-greedy){:target="_blank"}
 * [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete){:target="_blank"}
 
+
 ### Antreman ve Yarışma Web Siteleri
 
 * [Codeforces](https://codeforces.com){:target="_blank"}
 * [Hackerrank](https://hackerrank.com){:target="_blank"}
 * [Codechef](https://codechef.com){:target="_blank"}
+* [Topcoder](https://topcoder.com){:target="_blank"}
+* [Leetcode](https://leetcode.com){:target="_blank"}
 * [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam){:target="_blank"}
 * [Google Kick Start](https://codingcompetitions.withgoogle.com/kickstart){:target="_blank"}
 * [Google Hash Code](https://codingcompetitions.withgoogle.com/hashcode){:target="_blank"}
