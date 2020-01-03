@@ -9,7 +9,7 @@ Google's team-based programming competition, Hash Code, allows you to share your
 
 Event Website : g.co/hashcode
 
-Google Hash Code 2020 Schedule : https://codingcompetitions.withgoogle.com/hashcode/schedule
+Google Hash Code {{ site.year }} Schedule : https://codingcompetitions.withgoogle.com/hashcode/schedule
 
 ### Past Competition Questions
 
