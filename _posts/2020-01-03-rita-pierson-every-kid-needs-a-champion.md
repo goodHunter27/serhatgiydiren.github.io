@@ -3,7 +3,7 @@ title: Notes on TED talk "Rita Pierson - Every kid needs a champion"
 published: true
 ---
 
-> ... like seeking first to understand, as opposed to being understood.
+> Seeking first to understand, as opposed to being understood.
 
 > I am somebody. I was somebody when I came. I'll be a better somebody when I leave. I am powerful, and I am strong. I deserve the education that I get here. I have things to do, people to impress, and places to go.
 
