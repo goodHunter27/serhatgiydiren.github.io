@@ -31,6 +31,6 @@ plugins:
 
 # Custom variables
 owner : "me"
-year : "2019"
+year : "2020"
 
 theme: jekyll-theme-hacker
