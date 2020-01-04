@@ -1,5 +1,5 @@
 ---
-title: Notes on TED talk "Natalie Fratto - 3 ways to measure your adaptability and how to improve it"
+title: Quotes from TED talk "Natalie Fratto - 3 ways to measure your adaptability and how to improve it"
 published: true
 ---
 
