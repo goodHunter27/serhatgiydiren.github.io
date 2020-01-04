@@ -1,5 +1,5 @@
 ---
-title: Notes on TED talk "Drew Dudley - Everyday leadership"
+title: Quotes from TED talk "Drew Dudley - Everyday leadership"
 published: true
 ---
 
