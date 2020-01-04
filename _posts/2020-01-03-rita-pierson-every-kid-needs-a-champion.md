@@ -1,5 +1,5 @@
 ---
-title: Notes on TED talk "Rita Pierson - Every kid needs a champion"
+title: Quotes from TED talk "Rita Pierson - Every kid needs a champion"
 published: true
 ---
 
