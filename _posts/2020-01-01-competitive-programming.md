@@ -3,22 +3,21 @@ title: Competitive Programming
 published: true
 ---
 
-Nam-ı diğer Sports Programming.
+Aka Sports Programming.
 
-Kod geliştirmeyi, veri yapılarını / algoritmaları öğrenmeyi, kullanmayı ve oluşturmayı seviyorsanız tam size göre bir spor.
+If you like to develop code, learn, use and create data structures / algorithms, it's a sport for you.
 
-Aynı sporu yapmayı sevenlerle bir araya gelip yarışacağınız, yarışmalar dışında da dilediğiniz kadar antreman yapabileceğiniz eğlenceli bir dünya.
+It is a fun world where you can come together and compete with those who love to do the same sport, and you can practice as much as you want outside the competitions.
 
-Eğlenmenin ötesinde size dünya çapındaki şirketlerin kapısını açabilecek kadar da etkili.
+Beyond fun, it is also effective enough to open the door to companies around the world.
 
-Ama her sporda olduğu gibi başarının ve sonuçların gelmesi için düzenli antremanı bırakmamanız gerekiyor.
+But as with any sport, you need to do regular training for success and results.
 
-Karşınızda bir problem. Kodlamasını tamamladınız. Çalıştırdınız, örnek test senaryolarında da başarılı. Kodu tüm test senaryolarını çalıştırması için submit ettiniz. Ve bir senaryo için kodunuz TLE (time limit exceeded) hatası ile sonlandı. İşte düşünme sanatının, matematiğin, veri yapılarının ve algoritmaların devreye girmesi gerektiği nokta. Zaman ve bellek sınırları dahilinde kodunuzun ilgili problemi tüm senaryolar için herhangi bir problem yaşamadan çözmesi gerekiyor.
+There is a problem. You've completed the coding. You ran it, and it succeeds in sample test scenarios. You submitted the code to run all test scenarios. And for one scenario, your code ended up with a TLE (time limit exceeded) error. This is the point where the art of thinking, mathematics, data structures and algorithms should come into play. Within the time and memory limits, your code needs to solve the problem without any problems for all scenarios.
 
-Hem teorik bilgiyi elde edebileceğiniz hem de bunları uygulayabileceğiniz yerleri aşağıda paylaşıyorum.
+I share some details below where you can obtain both theoretical knowledge and apply them.
 
-
-### Kitaplar
+### Books
 
 * Algorithms - Robert Sedgewick & Kevin Wayne
 * Introduction to Algorithms - Thomas H. Cormen & Charles E. Leiserson & Ronald L. Rivest & Clifford Stein
@@ -30,7 +29,7 @@ Hem teorik bilgiyi elde edebileceğiniz hem de bunları uygulayabileceğiniz yer
 * Programming Interviews Exposed: Secrets to Landing Your Next Job - John Mongan & Noah Suojanen & Eric Giguere
 
 
-### Online Kurslar
+### Online Courses
 
 * [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1){:target="_blank"}
 * [Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2){:target="_blank"}
@@ -40,7 +39,7 @@ Hem teorik bilgiyi elde edebileceğiniz hem de bunları uygulayabileceğiniz yer
 * [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](https://www.coursera.org/learn/algorithms-npcomplete){:target="_blank"}
 
 
-### Antreman ve Yarışma Web Siteleri
+### Practice and Competition Websites
 
 * [Codeforces](https://codeforces.com){:target="_blank"}
 * [Hackerrank](https://hackerrank.com){:target="_blank"}
