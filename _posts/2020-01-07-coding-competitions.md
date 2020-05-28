@@ -17,7 +17,17 @@ Date | Competition | Round
 ------------ | ------------- | -------------
 28.05.2020 | Codeforces | Educational Round 88
 29.05.2020 | HackerRank | Hack the Interview IV
+30.05.2020 | LeetCode | Biweekly Contest 27
+30.05.2020 | CodeChef | May Lunchtime 2020
+30.05.2020 | AtCoder | NOMURA Programming Competition 2020
+31.05.2020 | LeetCode | Weekly Contest 191
+31.05.2020 | AtCoder | AtCoder Beginner Contest 169
+05.06.2020 | CodeChef | June Challenge 2020
+21.06.2020 | CodeChef | June Cook-off 2020
+21.06.2020 | TopCoder | SRM 787
+09.07.2020 | TopCoder | TCO2020 Round 2A
 12.07.2020 | Google Kick Start | Round D
+18.07.2020 | TopCoder | TCO2020 Round 2B
 23.08.2020 | Google Kick Start | Round E
 27.09.2020 | Google Kick Start | Round F
 18.10.2020 | Google Kick Start | Round G
