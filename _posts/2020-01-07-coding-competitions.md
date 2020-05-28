@@ -15,7 +15,6 @@ Date | Competition | Round | Rank | Urls
 
 Date | Competition | Round
 ------------ | ------------- | -------------
-28.05.2020 | Codeforces | Educational Round 88
 29.05.2020 | HackerRank | Hack the Interview IV
 30.05.2020 | LeetCode | Biweekly Contest 27
 30.05.2020 | CodeChef | May Lunchtime 2020
