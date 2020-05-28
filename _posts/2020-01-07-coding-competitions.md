@@ -15,4 +15,10 @@ Date | Competition | Round | Rank | Urls
 
 Date | Competition | Round
 ------------ | ------------- | -------------
-A | B | C
+28.05.2020 | Codeforces | Educational Round 88
+29.05.2020 | HackerRank | Hack the Interview IV
+12.07.2020 | Google Kick Start | Round D
+23.08.2020 | Google Kick Start | Round E
+27.09.2020 | Google Kick Start | Round F
+18.10.2020 | Google Kick Start | Round G
+15.11.2020 | Google Kick Start | Round H
