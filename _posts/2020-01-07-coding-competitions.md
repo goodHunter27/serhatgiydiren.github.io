@@ -17,9 +17,21 @@ Date | Competition | Round | Rank | Urls
 
 Date | Competition | Round
 ------------ | ------------- | -------------
+03.06.2020 | CodeChef | Project Code 1.0
+04.06.2020 | Codeforces | Codeforces Round #647
+04.06.2020 | CodeChef | Codepentry
+05.06.2020 | CodeChef | Crack me if you can!
 05.06.2020 | CodeChef | June Challenge 2020
+06.06.2020 | HackerEarth | June Easy '20
+07.06.2020 | AtCoder | AtCoder Grand Contest 045
+07.06.2020 | CodeChef | Get In The Voritex Room 1.0
+07.06.2020 | LeetCode | Weekly Contest 192
+13.06.2020 | AtCoder | Tokio Marine & Nichido Fire Insurance Programming Contest 2020
+20.06.2020 | AtCoder | AtCoder Grand Contest 046
+20.06.2020 | HackerEarth | Brute Force 1.0
 21.06.2020 | CodeChef | June Cook-off 2020
 21.06.2020 | TopCoder | SRM 787
+27.06.2020 | CodeChef | June Lunchtime 2020
 09.07.2020 | TopCoder | TCO2020 Round 2A
 12.07.2020 | Google Kick Start | Round D
 18.07.2020 | TopCoder | TCO2020 Round 2B
