@@ -12,20 +12,12 @@ Date | Competition | Round | Rank | Urls
 17.05.2020 | Google Kick Start | Round C | 819 / 13.650 | [Scoreboard](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff43){:target="_blank"}<br />[Certificate](https://codingcompetitions.withgoogle.com/kickstart/certificate/round/000000000019ff43){:target="_blank"}
 29.05.2020 | HackerRank | Hack the Interview IV (U.S.) | 34 / 1.217 | [Scoreboard](https://www.hackerrank.com/contests/hack-the-interview-iv/leaderboard){:target="_blank"}<br />[Certificate](https://www.hackerrank.com/results/hack-the-interview-iv/serhatgiydiren){:target="_blank"}
 29.05.2020 | HackerRank | Hack the Interview IV (Asia Pacific) | 85 / 4.353 | [Scoreboard](https://www.hackerrank.com/contests/hack-the-interview-iv-apac/leaderboard){:target="_blank"}<br />[Certificate](https://www.hackerrank.com/results/hack-the-interview-iv-apac/serhatgiydiren){:target="_blank"}
+04.06.2020 | Codeforces | Codeforces Round #647 | 1.300 / 12.044 | [Scoreboard](https://codeforces.com/contest/1362/standings){:target="_blank"}
 
 ### Upcoming Competitions  
 
 Date | Competition | Round
 ------------ | ------------- | -------------
-03.06.2020 | CodeChef | Project Code 1.0
-04.06.2020 | Codeforces | Codeforces Round #647
-04.06.2020 | CodeChef | Codepentry
-05.06.2020 | CodeChef | Crack me if you can!
-05.06.2020 | CodeChef | June Challenge 2020
-06.06.2020 | HackerEarth | June Easy '20
-07.06.2020 | AtCoder | AtCoder Grand Contest 045
-07.06.2020 | CodeChef | Get In The Voritex Room 1.0
-07.06.2020 | LeetCode | Weekly Contest 192
 13.06.2020 | AtCoder | Tokio Marine & Nichido Fire Insurance Programming Contest 2020
 20.06.2020 | AtCoder | AtCoder Grand Contest 046
 20.06.2020 | HackerEarth | Brute Force 1.0
