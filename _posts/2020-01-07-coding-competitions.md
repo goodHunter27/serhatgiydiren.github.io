@@ -18,12 +18,6 @@ Date | Competition | Round | Rank | Urls
 
 Date | Competition | Round
 ------------ | ------------- | -------------
-13.06.2020 | AtCoder | Tokio Marine & Nichido Fire Insurance Programming Contest 2020
-20.06.2020 | AtCoder | AtCoder Grand Contest 046
-20.06.2020 | HackerEarth | Brute Force 1.0
-21.06.2020 | CodeChef | June Cook-off 2020
-21.06.2020 | TopCoder | SRM 787
-27.06.2020 | CodeChef | June Lunchtime 2020
 09.07.2020 | TopCoder | TCO2020 Round 2A
 12.07.2020 | Google Kick Start | Round D
 18.07.2020 | TopCoder | TCO2020 Round 2B
