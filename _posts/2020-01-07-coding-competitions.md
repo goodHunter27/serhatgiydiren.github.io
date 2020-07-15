@@ -72,12 +72,12 @@ Date | Round
 
 Date | Round
 ------------ | -------------
+18.07.2020 | July Circuits '20
 
 #### HackerRank
 
 Date | Round
 ------------ | -------------
-18.07.2020 | July Circuits '20
 
 #### LeetCode
 
