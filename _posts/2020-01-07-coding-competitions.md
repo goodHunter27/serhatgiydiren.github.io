@@ -16,12 +16,53 @@ Date | Competition | Round | Rank | Urls
 
 ### Upcoming Competitions  
 
-Date | Competition | Round
------------- | ------------- | -------------
-09.07.2020 | TopCoder | TCO2020 Round 2A
-12.07.2020 | Google Kick Start | Round D
-18.07.2020 | TopCoder | TCO2020 Round 2B
-23.08.2020 | Google Kick Start | Round E
-27.09.2020 | Google Kick Start | Round F
-18.10.2020 | Google Kick Start | Round G
-15.11.2020 | Google Kick Start | Round H
+#### AtCoder
+
+Date | Round
+------------ | -------------
+25.07.2020 | M-SOLUTIONS Programming Contest 2020
+
+#### CodeChef
+
+Date | Round
+------------ | -------------
+17.07.2020 | M-Code
+18.07.2020 | QUARANTINE FUN
+19.07.2020 | July Cook-Off 2020
+20.07.2020 | CodeJunk
+25.07.2020 | July Lunchtime 2020
+31.07.2020 | IEM Coding Olympiad (IEMCO)
+07.08.2020 | August Challenge 2020
+
+#### Codeforces
+
+Date | Round
+------------ | -------------
+19.07.2020 | Codeforces Round #657 (Div. 2)
+21.07.2020 | Codeforces Round #658 (Div. 2)
+24.07.2020 | Codeforces Round #659 (Div. 2)
+
+#### Google Code Jam
+
+Date | Round
+------------ | -------------
+
+#### Google Hash Code
+
+Date | Round
+------------ | -------------
+
+#### Google Kick Start
+
+Date | Round
+------------ | -------------
+23.08.2020 | Round E
+27.09.2020 | Round F
+18.10.2020 | Round G
+15.11.2020 | Round H
+
+#### TopCoder
+
+Date | Round
+------------ | -------------
+18.07.2020 | TCO2020 Round 2B
