@@ -42,6 +42,13 @@ Date | Round
 21.07.2020 | Codeforces Round #658 (Div. 2)
 24.07.2020 | Codeforces Round #659 (Div. 2)
 
+#### Facebook Hacker Cup
+
+24.07.2020 | Qualification Round
+15.08.2020 | Round 1
+29.08.2020 | Round 2
+12.09.2020 | Round 3
+
 #### Google Code Jam
 
 Date | Round
@@ -61,8 +68,26 @@ Date | Round
 18.10.2020 | Round G
 15.11.2020 | Round H
 
+#### HackerEarth
+
+Date | Round
+------------ | -------------
+
+#### HackerRank
+
+Date | Round
+------------ | -------------
+18.07.2020 | July Circuits '20
+
+#### LeetCode
+
+Date | Round
+------------ | -------------
+19.07.2020 | Weekly Contest 198
+
 #### TopCoder
 
 Date | Round
 ------------ | -------------
 18.07.2020 | TCO2020 Round 2B
+24.07.2020 | SRM 788
