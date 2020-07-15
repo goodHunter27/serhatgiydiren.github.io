@@ -51,13 +51,7 @@ Date | Round
 
 #### Google Code Jam
 
-Date | Round
------------- | -------------
-
 #### Google Hash Code
-
-Date | Round
------------- | -------------
 
 #### Google Kick Start
 
@@ -75,9 +69,6 @@ Date | Round
 18.07.2020 | July Circuits '20
 
 #### HackerRank
-
-Date | Round
------------- | -------------
 
 #### LeetCode
 
