@@ -46,6 +46,8 @@ Date | Round
 
 #### Facebook Hacker Cup
 
+Date | Round
+------------ | -------------
 24.07.2020 | Qualification Round
 15.08.2020 | Round 1
 29.08.2020 | Round 2
@@ -53,7 +55,15 @@ Date | Round
 
 #### Google Code Jam
 
+Date | Round
+------------ | -------------
+- | -
+
 #### Google Hash Code
+
+Date | Round
+------------ | -------------
+- | -
 
 #### Google Kick Start
 
@@ -71,6 +81,10 @@ Date | Round
 18.07.2020 | July Circuits '20
 
 #### HackerRank
+
+Date | Round
+------------ | -------------
+- | -
 
 #### LeetCode
 
