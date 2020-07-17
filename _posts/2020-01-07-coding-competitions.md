@@ -57,13 +57,13 @@ Date | Round
 
 Date | Round
 ------------ | -------------
-- | -
+n/a | n/a
 
 #### Google Hash Code
 
 Date | Round
 ------------ | -------------
-- | -
+n/a | n/a
 
 #### Google Kick Start
 
@@ -84,7 +84,7 @@ Date | Round
 
 Date | Round
 ------------ | -------------
-- | -
+n/a | n/a
 
 #### LeetCode
 
