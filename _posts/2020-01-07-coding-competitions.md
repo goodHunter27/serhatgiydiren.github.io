@@ -28,8 +28,6 @@ Date | Round
 
 Date | Round
 ------------ | -------------
-17.07.2020 | M-Code
-18.07.2020 | QUARANTINE FUN
 19.07.2020 | July Cook-Off 2020
 20.07.2020 | CodeJunk
 25.07.2020 | July Lunchtime 2020
@@ -78,7 +76,7 @@ Date | Round
 
 Date | Round
 ------------ | -------------
-18.07.2020 | July Circuits '20
+n/a | n/a
 
 #### HackerRank
 
