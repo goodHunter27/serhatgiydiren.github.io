@@ -15,7 +15,7 @@ Date | Competition | Round | Rank | Urls
 29.05.2020 | HackerRank | Hack the Interview IV (U.S.) | 34 / 1.217 | [Scoreboard](https://www.hackerrank.com/contests/hack-the-interview-iv/leaderboard){:target="_blank"}<br />[Certificate](https://www.hackerrank.com/results/hack-the-interview-iv/serhatgiydiren){:target="_blank"}
 29.05.2020 | HackerRank | Hack the Interview IV (Asia Pacific) | 85 / 4.353 | [Scoreboard](https://www.hackerrank.com/contests/hack-the-interview-iv-apac/leaderboard){:target="_blank"}<br />[Certificate](https://www.hackerrank.com/results/hack-the-interview-iv-apac/serhatgiydiren){:target="_blank"}
 04.06.2020 | Codeforces | Codeforces Round #647 | 1.300 / 12.044 | [Scoreboard](https://codeforces.com/contest/1362/standings){:target="_blank"}
-18.07.2020 | TopCoder | TCO2020 Round 2B | 90 (qualified) | ---
+18.07.2020 | TopCoder | TCO2020 Round 2B | 90 (qualified for Round 3) | ---
 
 ### Upcoming Competitions  
 
