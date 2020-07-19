@@ -1,5 +1,5 @@
 ---
-title: Prepare for Your Google Interview: Leadership
+title: Prepare for Your Google Interview': Leadership
 published: true
 ---
 
