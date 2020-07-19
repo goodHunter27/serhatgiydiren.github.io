@@ -3,7 +3,7 @@ title: Prepare for Your Google Interview: Leadership
 published: true
 ---
 
-*** Excerpt from [here](https://youtu.be/2Cr3-et4xkI){:target="_blank"}
+* Excerpt from [here](https://youtu.be/2Cr3-et4xkI){:target="_blank"}
 
 * Leadership here at Google is important at every level. Leadership can take many forms. And every Googler, no matter their job or level, has leadership qualities.
 * No matter which role you're interviewing for, we will be evaluating you on communication and leadership style, working with teams, vision, navigating complexity and ambiguity, and delivering results.
