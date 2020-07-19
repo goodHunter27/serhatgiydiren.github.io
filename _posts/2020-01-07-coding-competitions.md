@@ -38,7 +38,6 @@ Date | Round
 
 Date | Round
 ------------ | -------------
-19.07.2020 | Codeforces Round #657 (Div. 2)
 21.07.2020 | Codeforces Round #658 (Div. 2)
 24.07.2020 | Codeforces Round #659 (Div. 2)
 
