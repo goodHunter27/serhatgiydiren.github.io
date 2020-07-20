@@ -1,6 +1,6 @@
 ---
 title: Prepare for Your Google Interview - Leadership
-published: false
+published: true
 ---
 
 #### Excerpted from [here](https://youtu.be/2Cr3-et4xkI){:target="_blank"}
