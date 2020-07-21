@@ -1,5 +1,5 @@
 ---
-title: High Performance Collaboration: Leadership, Teamwork, and Negotiation
+title: High Performance Collaboration - Leadership, Teamwork, and Negotiation
 published: true
 ---
 
