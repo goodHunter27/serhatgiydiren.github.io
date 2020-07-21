@@ -174,11 +174,15 @@ Unfortunately, the biases that leaders and managers hold, can wreak havoc on the
 **Common information effect** is the tendency for groups to discuss information that they all have in common, rather than unique information. The teams had a bias toward discussing information, clues, and assumptions they had in common. They were much less likely to discuss information they were uniquely aware of. Their remedy is to suspend initial judgment, consider the alternatives one at a time, and
 find out who has information that is not shared by all group members.
 
-**Think about a decision you're making or facing right now. Leaving your job, buying a company, starting a new venture. Here are four action steps.
+Think about a decision you're making or facing right now. Leaving your job, buying a company, starting a new venture. Here are four action steps.
 
 First, build in tests of disconfirmation. What could prove you wrong? Reward team members for providing controversial data.
 
 Two, set up policies in advance of obtaining outcomes.
 
 Three, bring in outsiders to evaluate, but don't tell them your preferred course of action.
-Finally, turn off the email inbox so you're not tempted to divert your attention or make trivial decisions before facing a big decision.**
+
+Finally, turn off the email inbox so you're not tempted to divert your attention or make trivial decisions before facing a big decision.
+
+------------------------------
+
