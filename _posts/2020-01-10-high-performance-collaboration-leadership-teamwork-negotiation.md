@@ -449,3 +449,57 @@ Third, socialize before getting down to business. In our research, we found that
 
 ------------------------------
 
+**Creativity** is the production of novel and useful ideas. Creativity is also known as ideation.
+
+**Innovation** is the production of actual ideas in the form of products and services also known as implementation.
+
+People put a lot more weight on innovation than creativity. In business, success is 5% strategy, 95% execution. Most people put too much emphasis on innovation, and forget ideation. However, every product starts with an idea.
+
+I'm going to give you two models for measuring creativity, Guilford's 3-factor model and Finke's quadrant model.
+
+According to Guilford, ideas can be evaluated in terms of **fluency**, **flexibility**, and **originality**.
+
+**Fluency** refers to the volume of ideas. Highly creative team have a lot of ideas, they're high in fluency. However, it is important to measure the number of ideas generated per person.
+
+**Flexibility**, refers to how many different kinds of ideas a group has.
+
+**Originality** means novelty. Technically, a given idea is deemed to be original if less than 5% of the population, or cohort, generates that idea. Ideas that are statistically rare can be more valuable. What does this all mean?
+
+**Flexibility** is the key here.
+
+Groups that are high in flexibility are also high in fluency and originality.
+
+According to Finke, creative output can be evaluated in terms of two dimensions, **creative** versus **traditional**. And **realistic** versus **idealistic**.
+
+Let's look at these four quadrants.
+
+**Creative realism**. High creativity and high realism. These are novel ideas that can work.
+
+**Creative idealism**. High creativity and low realism. Novel ideas in an impractical context.
+
+**Conservative realism**. Traditional ideas and high realism. Old, tried, and true ideas.
+
+**Conservative idealism**. Traditional ideas and low realism, old ideas put in an impractical context.
+
+What do you think is the most valuable quadrant? If you're like most people, you want creative realism, ideas that are very original and can work.
+
+In new product development, this would mean novel ideas that can work with existing supply chain, manufacturing capacities, and so on.
+
+In science, it would mean ideas that are novel and explained all previous research.
+
+Suppose you're a leader of a product development group. You bring all your smartest people together and ask them to think of ideas that are very novel and very realistic.
+
+What's the problem? The problem is that most people will self-censor, meaning they won't say anything because they're editing and judging.
+
+A far better idea is to encourage your team to generate ideas in all four quadrants.
+
+First, creativity starts upstream of innovation.
+
+Second, teams that generate a lot of ideas are more likely to have an idea that is original or high in creative realism.
+
+Finally, encourage people to suggest ideas that are traditional, conservative, and politically incorrect.
+
+In other words, allow the team to generate a high volume of ideas and set aside judgment.
+
+------------------------------
+
