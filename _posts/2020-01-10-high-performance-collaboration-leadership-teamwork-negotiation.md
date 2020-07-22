@@ -419,3 +419,33 @@ Finally, as a leader you need to role model the kind of debate you want to have.
 
 ------------------------------
 
+First, let's distinguish three types of teams. **Traditional**, **hybrid**, and **virtual teams*.
+
+**Traditional teams** are physically close and spend much time together.
+
+**Purely virtual teams** are never in the same place at the same time. They rely heavily on technology to communicate. Time zones are big challenges for these teams.
+
+**Hybrid teams** are somewhere in between. They are sometimes co-located, but they often are spread out across the globe. Or, some members might be co-located, whereas other team members are not. These teams face a lot of challenges.
+
+Let's use Tuckman's model of group development to derive some best practices to optimize your virtual or hybrid team. According to Tuckman, there are five stages of group development. **Forming**, **storming**, **norming**, **performing**, and **adjourning**.
+
+**Forming**. Did you know that 90% of team members have disagreeing lists when asked to identify who is on their team? For this reason, it is important to be clear about the team boundaries. The smaller the team, the more likely trust will form. In terms of selection, talent trumps location. It is better to have the most talented person on the team than the person who is most convenient.
+
+**Storming**. By storming we mean conflict. People on virtual teams often fall prey to the negativity effect. The lack of immediate visual feedback changes the signals the brain sends. Bottom line, this leads to more impulsive, aggressive behavior in virtual groups as compared to face to face interaction. For example, people deliver harsher feedback virtually than face to face, such as in performance reviews. And people are more likely to make threats when using email than face to face. People are more likely to interpret a positive message as neutral and a neutral message as negative.
+
+What are some best practices to manage conflict in virtual teams.
+
+First, humanize members. I often put pictures of team members in view when communicating electronically.
+
+Second, humanize yourself. Put a mirror in front of yourself when communicating electronically so you can check your own body language.
+
+Third, socialize before getting down to business. In our research, we found that five minutes of casual conversation sets the stage for future trust and understanding. Something that we call the schmooze or lose effect.
+
+**Norming**. Establishing norms and rules of engagement is vital for virtual teams. Start by putting away the technology when meeting face to face. Taking a call or checking email, or any multitasking while in conversation with another person leads to a loss of trust and lower perceived professionalism. Did you know that the mere presence of a cell phone during a conversation hurts the relationship? Create a team charter, be clear about the mission. Appoint a team coach for meeting and relationship management. Appoint a technology coach to troubleshoot problems.
+
+**Performing**. If you have established effective norms, you are ready to perform virtually. It is vital to check in on a weekly basis. Shorter, more frequent meetings are more effective in keeping the team on track, than longer infrequent meetings.
+
+**Adjourning**. When the project ends, have a debrief session. My favorite government agency refers to these meetings as a hot wash. This is a time to focus on three things. What worked well? What did not work so well? And what should be different next time?
+
+------------------------------
+
