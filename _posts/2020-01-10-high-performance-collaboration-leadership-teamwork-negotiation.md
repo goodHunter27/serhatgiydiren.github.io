@@ -186,3 +186,19 @@ Finally, turn off the email inbox so you're not tempted to divert your attention
 
 ------------------------------
 
+I want you to think about the best boss, leader, or mentor you've ever had, past or present, okay? Do you have that person in mind? Good, what key quality did this leader possess that was so important for you? I've asked this question in many of my executive courses, and no one has ever said my best boss was really intelligent, or my boss had a perfect GMAT score. Instead, they mention people skills.
+
+Leaders are judged, not just by how smart they are, but how they handle themselves and others. The skill that involves how to work with other people and how to manage yourself is known as emotional intelligence.
+
+There are four skills of emotional intelligence, **self awareness**, **other awareness**, also known as empathy, **self management**, and **relationship management**.
+
+**Self-awareness** is all about understanding ourselves and seeing ourselves as others see us. People who are high in self-awareness recognize the emotions they experience, the factors that lead to these emotions, and how they are perceived by others. A 360-Degree Evaluation is a modern day form of organizational torture.
+
+**Self-management** focuses on how to appropriately regulate our emotions, particularly negative ones. According to emotional intelligence guru Daniel Goleman of Harvard, people often have Amygdala Hijacks which are, essentially, adult temper tantrums. An Amygdala Hijack occurs when people exhibit an emotional response that is immediate, overwhelming and out of measure with the actual stimulus. Self-Management or self-regulation of negative emotions is a key leadership skill, perhaps even a key survival skill in the age of the ever present video camera and cell phone.
+
+Successful leaders have self implemented their own way to deal with frustration, anger, etc., before it becomes an ill-fated, career defining move. For example, one senior leader at a national laboratory takes his dog on a walk before responding to emails that are upsetting. Another senior leader at a major company meditates for 30 minutes every day. Yet another leader engages in cognitive reappraisal. She identifies the situation she is facing that is most disconcerting or upsetting. For example, instead of looking at an upcoming job interview as a test of her ability, she redefines it as a chance to network.
+
+What are the implications for leadership? First, emotional intelligence starts with self-awareness. Second, people who are high in self-awareness are more empathic. Finally, you can improve your ability to self-regulate with rehearsal and practice.
+
+------------------------------
+
