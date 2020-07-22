@@ -280,3 +280,39 @@ A third type of work that teams do is creative teamwork. Examples might be a new
 
 ------------------------------
 
+It's not enough to put your most talented people on the same team and just hope that magic happens.
+
+I've done some research on team building, and I've made two alarming discoveries. First, the average team size is too big. According to nearly any standard or rule of thumb. Second, teams tend to be too homogenous. They lack diversity.
+
+So if you're ever lucky enough to build the team of your dreams, I want to help you avoid the two most common building errors, the **Team-Overstaffing Bias** And **the Homogeneity Bias**.
+
+**The overstaffing bias** refers to the fact that teams are too large. Why is this? People wanna be politically correct and inclusive, so
+we've put everyone on a team and teams are no longer special. So what are some rules of thumb? Bare minimum rule, choose the fewest number of people necessary to accomplish the task.
+
+**The homogeneity bias** refers to the fact that people unconsciously build teams that are, well, too much alike. Most people choose members based on personality, not expertise. Unconsciously, people are biased toward their own race. The ideal type of diversity is deep level diversity. Based on expertise, training, thinking styles, if you focus on superficial characteristics to the exclusion of deep level diversity, you unwittingly create what professor Keith Mernan calls a **fault line**.
+
+**A fault line** is a dividing line that separates teams into distinct subgroups based on one or more attributes such as race, gender, functional area, etc. Faultlines in teams create an unhealthy us versus them culture.
+
+How should leaders deal with faultlines?
+
+First and foremost, diagnose them early. If you are thoughtful about building teams, you will realize it.
+
+Second, create energy and excitement around the task. When team members are excited about the work, they're not focused on superficial demographics.
+
+Third, when conflict emerges, build trust. And remember, there are two types of trust. Benevolence based trust, and competency based trust.
+As your team member, I need to trust your instincts, and trust your expertise.
+
+You get to build the dream team from the ground up. Best practices to keep in mind.
+
+One, assemble the fewest number of people possible.
+
+Two, create a grid with the potential people as the rows and their skills and competencies as the columns. For each person, ask yourself, what skills and expertise does this person uniquely bring to them?
+
+Third, make sure you don't have overlap. Avoid homogeneity.
+
+Fourth, check for faultlines.
+
+FInally, truth in disclosure. Diverse teams do have potential for more conflict. So we will need some conflict management skills in our dream team.
+
+------------------------------
+
