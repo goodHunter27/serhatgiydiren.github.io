@@ -312,7 +312,42 @@ Third, make sure you don't have overlap. Avoid homogeneity.
 
 Fourth, check for faultlines.
 
-FInally, truth in disclosure. Diverse teams do have potential for more conflict. So we will need some conflict management skills in our dream team.
+Finally, truth in disclosure. Diverse teams do have potential for more conflict. So we will need some conflict management skills in our dream team.
+
+------------------------------
+
+Have you ever been on a team in which there is a free rider? That's an expression used to refer to the fact that some team members contribute a lot less than others on a team. And in my own research, I've discovered that a lack of engagement or free riding is the number one issue that keeps leaders up at night.
+
+The question is how to prevent it from happening. The team charter is my favorite tool to combat free riders. The team charter is a living document that is written by all team members. There are three ingredients in the team charter, **goals**, **responsibilities**, and **norms**. By the way, it's not going to work if the leader, or heaven forbid, senior management writes the team charter and voiced it on the team. The charter needs to be collectively authored by the team. Don't let it exceed one page, and don't put it in a file drawer. It should be in clear sight each time the team meets.
+
+**Goals**, suppose you gave everyone on your team a Post-it note, or index card, and asked them to write a one sentence description of the team goal. Keep it anonymous, would you see overlap? Many leaders find that there's little or no overlap. Teams would be a lot better served if they revisited their overarching goal at the beginning of each meeting.
+
+**Roles and responsibilities**. Oftentimes, people are members of teams, but they don't know why they're there, and they don't know who's calling the shots. It's far better to be explicit about roles and responsibilities.
+
+I like using Richard Hackman's model of team and leader responsibility.
+
+Let's start with **manager-led teams**. In a manager-led team, the team is responsible for executing the task, and the leader is responsible for selecting the team members and monitoring and managing performance processes.
+
+Now let's move to **self-managing teams**. In a self-managing team, the team not only executes the task, but they, not the leader, are in charge of monitoring and managing their own performance.
+
+A third type of team is a **self-directing team**. Self-directing, also known as self-designing teams, do all the things that self-managing teams do. But in addition, they select, recruit, and staff the team. They have border control.
+
+A fourth type of team is the **self-governing teams**. Self-governing teams do all the things that self-directing teams do, but in addition, they have some influence over the larger organization. For example, they may shape strategic direction and new initiatives.
+
+What's the ideal?
+
+The answer is, depending upon your experience level as compared to that of your team, the organizational culture, how over-committed you are, and a variety of other factors, any one of these might be ideal.
+
+If you are not transparent about your relationship with the team, the risk you take is that people will feel over-managed or under-led.
+
+**Rules of engagement**, many teams never discuss rules of engagement. They simply let things evolve. This is very unadvisable because quite frankly, the least conscientious people will set bad norms. Did you know that norms are set within microseconds of a team's first meeting? It is far better to be proactive.
+
+Teams that declare we have no rules ultimately become paralyzed by dysfunctional norms. Far better to have clear rules of engagement.
+Let me give you one example of a team who set clear norms.
+
+Well designed teams with poor leaders outperform poorly designed teams with good leaders.
+
+Let's sum up, it is never too late to develop a team charter. Treat the charter like a live plant, revisit it, adjust. What's working? What's not working? What should be added?
 
 ------------------------------
 
