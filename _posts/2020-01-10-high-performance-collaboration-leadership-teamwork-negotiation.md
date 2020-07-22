@@ -351,3 +351,39 @@ Let's sum up, it is never too late to develop a team charter. Treat the charter 
 
 ------------------------------
 
+Teams should make decisions like scientists. Namely they should develop hypothesis, devise critical tests, and be data-driven rather than outcome driven.
+
+What's the alternative to evidence based management? It's known as the advocacy method.
+
+Thus, I want to distinguish inquiry from advocacy.
+
+Inquiry means scientific hypothesis testing.
+
+Advocacy means making an argument and attempting to support it.
+
+A question I often like to ask leaders is, if you conduct an experiment and ultimately receive data that does not agree with your hypothesis,
+do you throw away the theory or do you throw your data?
+
+Advocacy leaders throw away their data.
+
+Inquiry leaders throw away their hypothesis and put their pride aside.
+
+Let's introduce some key principles that will help you lead your team to more effective decisions.
+
+Number one, use debate norms versus politeness norms. Too often, we treat team meetings like social events or dinner parties. We are polite and we compliment one another. The Politeness Ritual refers to the fact that people often say nice things rather than what they really think. This may be fine for a social event, but not for making critical decisions about our organizations and companies.
+
+Two, leave status at the and titles at the door. When status differences are present, those who are subordinate may be reluctant to offer their opinion.
+
+Three, conduct private votes on sensitive important issues. People conform when voting publicly, but they speak their mind when voting privately.
+
+Four, invite different perspectives. Some of you have heard of the term Devil's Advocate. This is a person whose job it is to disagree with the group. The truth is, most groups don't have a Devil's Advocate, and when they do, they're not very persuasive. If you are a Devil's Advocate, it's not enough to say, I disagree. Rather, it is vital to provide evidence that argues the counterpoint. It is far better to have a person who genuinely disagrees with the group speak up than a person who pretends to disagree with the group.
+
+Five, hold multiple short meetings versus one long meeting. Most groups have meetings that are too long and too infrequent. It's far better to have short frequent meetings than long infrequent meetings. Short, frequent meetings allow group members to assimilate information and
+challenge each others views.
+
+Number six, show case failures. Failures give everyone lots of valuable information. And creates an environment in which teams and their leaders don't fear failure. This is what is meant by the **learning organization**.
+
+The problem with most learning organizations is that everybody wants to learn by observation, not by first hand experience. We all need to experience failure first hand.
+
+------------------------------
+
