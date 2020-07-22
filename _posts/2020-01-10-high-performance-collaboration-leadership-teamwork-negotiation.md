@@ -503,3 +503,21 @@ In other words, allow the team to generate a high volume of ideas and set aside 
 
 ------------------------------
 
+Who is more creative, individuals or teams? When I've asked this question to companies and leaders, nearly everyone votes for the team.
+
+As it turns out, there's over 50 years of research bearing on this question, and without exception the evidence is that individuals are more creative than teams.
+
+There are four factors that lead groups to be less creative than individuals.
+
+Number one, **social loafing** or free-riding. This is the tendency for a minority of people to do a majority of the team's work while some people don't contribute to the group. Note, social loafing becomes more of a problem as the team gets larger.
+
+Two, **conformity**. This often occurs without conscious awareness when people bring their behavior in line with what they feel will win them acceptance in a group. Over time, members grow more similar to one another, homogeneity effect.
+
+Three, **production blocking**. This refers to anything that interferes with a person's ability to fully focus on the work. This includes having to listen to other people and be polite. It also includes having to take notes.
+
+Four, **performance matching**. This refers to the fact that people in groups quickly converge on a group average. And the lowest performing members are particularly influential. We call this downward norm-setting.
+
+As leaders, I want you to take charge of your creative team by introducing hybrid strategies and techniques. 
+
+------------------------------
+
