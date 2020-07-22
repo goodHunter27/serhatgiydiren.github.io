@@ -258,3 +258,25 @@ There are three primary cultural personalities, learn to recognize them. Some of
 
 ------------------------------
 
+We're going to raise three questions about building teams.
+
+First question! What is a team? If you said group of people, think again. A group is an aggregate of people. A team is an interdependent group of people working towards a shared goal. There are two key parts to that definition. Interdependent means that none of the team members
+can successfully accomplish the goal by themselves. They need each other. A shared goal means that all members have the same desired objective.
+
+Second question. What are the key ingredients for team success? To be successful teams need three things. **Expertise**, **engagement**, and **execution**. Teams need talented people, expertise. They need to be motivated, engaged. And they need to get the work down, execute.
+
+Third question, should all teams be designed the same way? The answer is no. Team design depends on what the goal of the team is. So, let's talk about three types of goals that teams may have. To do this, we're going to use Carl Larson and Frank Lafasto's Typology of Teams to distinguish three types of work that teams do. **Tactical**, **problem solving**, and **creative**.
+
+Tactical teams, like the surgical team, the flight crew, a basketball team need clarity and the more time they spend practicing together, the better they perform. The key for tactical teamwork is training together.
+
+But sometimes we're not simply on tactical mission. We're trying to solve a problem. When the goal is to solve a problem that does not have a well defined solution, this is known as a problem-solving team. These teams need a lot of trust. When you ask people what they care about most in teams, they always say trust. There are two types of trust in teams. **Benevolence based trust** and **competency based trust**.
+Benevolence based trust means I trust your intentions.
+Competency based trust or respect means I trust your expertise.
+For problem solving teams to be effective you need both.
+
+A third type of work that teams do is creative teamwork. Examples might be a new product development group or writing team. These teams need a lot of autonomy. For example, when Pixar makes a move like A Bugs Life or Toy Story 2, the development department assembles small incubation teams that are left alone to create. There are many problems and open questions.
+
+**Bottom line, as a team leader, know the goal of your team so you can set the stage for optimal performance.**
+
+------------------------------
+
