@@ -202,3 +202,41 @@ What are the implications for leadership? First, emotional intelligence starts w
 
 ------------------------------
 
+Jim McNerney, CEO of Boeing, states that the biggest jump into the CEO job is learning to manage what you can't control having been trained to manage what you can control.
+ 
+Your human capital is the sum total of your skills, talents, and abilities, based upon your education and experience. This is what is often found on resumes. Your organizational capital is the value you bring to your organization in terms of the relationships you build and maintain in and outside of the organization.
+
+Organizational charts are rather crude depictions that reveal the chain of command and reporting relationships. However, as many managers can attest, the way that work actually gets done and information gets spread within an organization is a far cry from published organizational charts. Instead, informal systems of connections and relationships developed over time, guide the flow of information. Let's call these **informal networks**.
+
+Let's look at two hypothetical people who have the same job in the same organization.
+
+Ed has about four trusted advisors. Who he seeks for counsel and advice. Those trusted advisors are connected to each other as well. Thus, this is a very dense network. Ed has a network of relatively close colleges most likely from the same functional unit. This type of close knit self-contained network ia a clique network of closed-loop network. In the closed-loop network the members know one another quite well and communication is largely redundant.
+
+Mike's network is very different.
+
+First, Mike's network is much less tightly knit than Ed's network.
+
+Second, Mike's network spans what appears to be more functional units than Ed's network.
+
+Mike also has about the same number of trusted advisors. But, unlike Ed's network, Mike's trusted advisors are not directly connected to each other. Instead, they are connected to each other through Mike.
+
+Finally, Mike's network is more structurally unique than Ed's. This means that Mike has relationships with people that no one else has.
+
+There are some leadership and communication lessons to be learned here.
+
+First, people who span organizational divides and integrate knowledge and best practices around the organization are known as **boundary-spanners**. They are the Mikes of the organization, and they connect people and ideas.
+
+Second, the gaps in organizations are structural holes, and unless people like Mike are filling them, knowledge is literally falling through the cracks, and we have silos in the organization.
+
+Third, the structural holes that exist between people, functional units, and teams represent opportunities for leaders. Indeed boundary spanners with larger networks of otherwise disconnected contacts get promoted earlier than comparable managers with smaller networks of interconnected contacts.
+
+What can you do to increase your own organizational intelligence?
+
+First and foremost, analyze your own organizational network. Who are your trusted advisors?
+
+Second, who are your boundary-spanners. Who are the Mikes in your own network? Are you nurturing those relationships, or are you letting them stagnate?
+
+Finally, where are the structural holes in your organization? How can you act as a bridge between people and groups that should be connected? But are not.
+
+------------------------------
+
