@@ -240,3 +240,21 @@ Finally, where are the structural holes in your organization? How can you act as
 
 ------------------------------
 
+What is culture? Culture is the personality of a group. Cultural intelligence according to Professor Chris Earley, is a persons capability to adapt effectively to new cultural contexts. The risk of talking about culture is that we may fall prey to stereotyping people.
+
+A stereotype is a faulty belief that everyone from a given group or given culture is the same. No one wants to be stereotyped. Instead, let’s talk about prototypes when it comes to culture. A prototype is a central tendency. In other words, a prototype acknowledges that there may be a norm in a given culture, but there is variation and dispersion around that norm.
+
+Let's think about culture like an iceberg. As you know, about one-ninth of an iceberg is exposed above the water. Eight-ninth's is below the surface. When we meet someone from a different culture, we see their appearance and behaviors. We don't see their values, beliefs, and norms.
+
+Let's talk about three key cultural prototypes, as identified by Professor Jean Brett in her book Negotiating Globally, face, honor, and dignity cultures.
+
+Face cultures are primarily East Asia, but not exclusively. People from face cultures derive their self worth from earning the respect of others. If you agree with statements like, people should be humble to maintain good relationships, and, it is important to never criticize others, particularly superiors in public. You embrace the face culture. In terms of confrontation style, face cultures are indirect and will usually refer to superiors. With regard to power and status, people in face cultures are often embedded in stable, hierarchical relationships.
+
+Dignity cultures are primarily Europe North America, Australia, and New Zealand, but not exclusively. There are always exceptions. People who embody the dignity culture believe strongly in speaking their mind and being self-reliant. Their own self worth is self determined and they are very comfortable engaging in direct, rational, fact-based conversation. Status and titles are not nearly as important for people in dignity cultures, as information and talent. Our cultural values affect how we motivate people in our organizations. A small Texas corporation seeking to elevate productivity told its employees to look into the mirror each day and say, I am beautiful, 100 times before coming to work. Dignity culture. Employees of a Japanese owned company in New Jersey were instructed to begin the day by holding hands, and telling each other that he or she is beautiful. Face culture.
+
+Honor cultures are primarily in the Middle East, South Asia, North Africa, and Latin America. Self-worth in honor cultures is socially claimed. The confrontation style of honor cultures is to express emotion, and if necessary, take matters into your own hands. If you agree with statements like, people need to defend their family, and, it is important not to let others insult your reputation, you embrace the honor culture.
+
+There are three primary cultural personalities, learn to recognize them. Some of us are multicultural. It is vital to realize that your own cultural beliefs may not be embraced by others. Decide how much you are willing to change when communicating globally.
+
+------------------------------
+
