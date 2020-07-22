@@ -387,3 +387,35 @@ The problem with most learning organizations is that everybody wants to learn by
 
 ------------------------------
 
+Debate, conflict, and confrontation are necessary to make optimal decisions.
+
+Foster positive debate.
+
+Most people have been raised to believe that conflict and disagreement are bad and strain relationships. We've been told to get along and go along. However, this approach is really bad advice when it comes to decision-making.
+
+Let's distinguish two types of conflict, **relationship conflict** and **task conflict**.
+
+**Relationship conflict** is personality-based conflict and it negatively affects group performance.
+
+**Task conflict** refers to disagreements about the work to be done, not attacks on the people. Task conflict may help group performance. However, when improperly handled, task conflict can quickly escalate into relationship conflict.
+
+Let's suppose you notice that your team is suffering from relationship conflict. Tensions are high and grudges are being carried. What can you do? Let's use Wagemen and Donnenfeld's four-pronged approach.
+
+Step one, team re-design. When you first notice conflict and tensions are high, examine the structure of the team. What is the environment like? Are the work tasks equitably distributed? How many people are on the team? Who do they report to?
+
+Step two, team coaching. Sometimes conflict emerges from the norms and meeting style of the team.
+
+Step three, conflict skills. Sometimes team members have different experiences with regard to conflict and expressing disagreement.
+
+Step four, personal coaching. Suppose you've tried team redesign, team coaching, and teaching conflict skills, and you've still got a problem with a certain team member. At that point, you may want to get that person involved with personal coaching to work on specific skills.
+
+Let's sum up regarding conflict.
+
+Number one, conflict is a sign of a high performance team.
+
+Two, effective conflict management is a teachable skill.
+
+Finally, as a leader you need to role model the kind of debate you want to have.
+
+------------------------------
+
