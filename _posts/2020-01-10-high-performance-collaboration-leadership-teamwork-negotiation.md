@@ -576,3 +576,4 @@ Four, signal to the other party that you have attractive options.
 Finally, once you determine your BATNA, then you can devise your RP, your reservation price.
 
 ------------------------------
+
