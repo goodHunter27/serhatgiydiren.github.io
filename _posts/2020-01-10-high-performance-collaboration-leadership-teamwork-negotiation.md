@@ -604,3 +604,21 @@ Suppose they make the opening offer and not you. What to do? Best practice? Make
 First, do as much research as you can to set a target. Open first but only if you are prepared. Immediately re-anchor if they open first. Plan your opening offer and carry it out. Finally, never ask, is this negotiable? Always negotiate.
 
 ------------------------------
+
+The key to remember is that we negotiate in long-term relationships with people who have short-term memories.
+
+As far as how to play the game of negotiation, I have four pieces of advice.
+
+First, it is far better to make a large number of small concessions than a small number of large concessions.
+
+Second, do not make unilateral concessions. Never make two or more concessions in a row. Negotiation needs to be a quid pro quo.
+
+Three, be precise. People habitually use round numbers as first offers and for their concessions. However, counterparties respond more aggressively to round numbers than to precise numbers. Negotiators who make precise offers are viewed as more informed than negotiators who make round offers.
+
+Fourth, provide a rationale. Look, negotiation should not be like an auction with numbers flying back and forth over the table. It's a conversation. You have far more leverage with your offers if you provide a rationale.
+
+------------------------------
+
+
+------------------------------
+
