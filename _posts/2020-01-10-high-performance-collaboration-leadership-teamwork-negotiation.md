@@ -679,3 +679,23 @@ Finally, solve differences of belief. By crafting contingent contracts.
 
 ------------------------------
 
+Conflict occurs whenever people believe they have opposing interests or beliefs regarding an outcome or a process. A dispute is a specific type of conflict. According to Ury, Brett & Goldberg, a dispute exists whenever a claim has been made by one party and rejected by the other party.
+
+We're going to use the **interests**, **rights**, and **power** model of disputes to analyze our own and the others' behavior.
+
+A power move refers to any statement or behavior in which a person attempts to force or coerce another person. My favorite examples in negotiation are, take it or leave it, that's my last offer, or this is non-negotiable. Power moves are essentially threats. People demand a behavior and threaten to walk away or sue or escalate if the other party does not comply. Insults, obscenities, and demands are also uses of power. Let me ask you ask a question. If you used power in a negotiation, have you statistically increased or decreased the chances that the other party will use power with you? Research indicates that power is often reciprocated and encourages escalation. There are other disadvantages of using power. Most notably, the other party can call your bluff. For example, suppose you say, this is my final offer in a negotiation, when secretly that's not actually true. If the other party starts to walk away, then you have a face-saving dilemma. Namely, how do you get the other party back to the negotiation table and maintain your dignity?
+
+Rights strategy. When negotiators justify their offers with an appeal to fair standards, legal precedent, past practice, customer service, and market condition, this is rights. If you guessed that negotiators often reciprocate the right strategy with rights, you are correct. And, again, we have a conflict escalation. Okay. So far we've learned that power and rights are often very tempting to use but they encourage reciprocation and therefore increase conflict escalation. Is there an alternative to using power or rights? Yes.
+
+The interests strategy refers to any behavior in which parties attempt to understand the needs and interests of the other party. When a customer says, I'm trying to change my ticket because my daughter is ill and I need to get home as soon as possible, this would be an example of interest. When negotiators use interests, they resist the urge to teach the other party a lesson or show them who's boss. When negotiators use interests, they separate the people from the problem.
+
+How might you attempt to change the conversation from rights and power to interests?
+
+First, ask why and why-not questions.
+
+Second, don't focus on a single option. Attempt to generate multiple options or courses of action.
+
+Finally, most important, reward and reciprocate the use of interest by the other party.
+
+------------------------------
+
