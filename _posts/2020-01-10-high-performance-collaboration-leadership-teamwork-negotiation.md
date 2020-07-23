@@ -699,3 +699,33 @@ Finally, most important, reward and reciprocate the use of interest by the other
 
 ------------------------------
 
+The key predictor of divorce was anger combined with a personal attack. Something called contempt.
+
+So, there's a big difference when somebody says I'm so mad right now I could scream. Versus you are worthless.
+
+Let's focus on how you can bring rights and power based negotiators back to interest.
+
+We are going to introduce five strategies for redirecting conversations away from power and rights, and back to interests.
+
+First, don't reciprocate. The best way of extinguishing rights and power is simply not to reciprocate it.
+
+Second, don't get personal. When I work with clients involved in disputes, I coach them to stop saying things like you are making me mad, or you are so unreasonable, which is a personal attack. And instead say, I'm really frustrated now because this is a really important matter for me.
+
+Third, send a mixed message. Okay, psychologists have warned us for years not to send mixed messages. Sometimes we need to show the other party that we cannot be taken advantage of. In this case, you could combine power and interests by saying look, I'm sure that my senior management team would love to get involved in this matter, but I'm more inclined to work this out with you one on one.
+
+Fourth, meet face to face. People tend to use more power and right strategies when they communicate virtually. For this reason, solve conflicts and disputes face to face.
+
+Finally, single-text strategy. In the single-text strategy, you move away from hurling words across the table to writing proposals on a flip chart, notebook, or blackboard. You can make some proposals and then invite the other party to edit. During this critical period set aside questions of accept versus reject. And instead, focus on rank ordering.
+
+I want each of you to be trilingual, meaning, I want you to be able to use all three strategies at the right time.
+
+Let's review three conditions under which using rights or power is warranted. One, when the other party will not come to the table.
+
+Two, when you have exhausted all of your options. You've tried using the single text strategy, mixed mode of strategy, meeting face-to-face, and still, you are stuck. At this point, you might need to say something like, look I'm running out of optimism here. My goal is to settle this but I fear that I might need to seek legal council. Do you have any more ideas?
+
+Third, when the other party is not taking you seriously. Sometimes you need to flex some muscle for the other party to take you seriously.
+
+Okay, let's sum up. When we're in conflict, we get emotional and we're likely to use power or rights. This can quickly escalate. There is a time to use rights and power, and a way to use power. When using power, be clear about what actions are needed. But, find a way to help parties save face. Remember, the whole idea is to de-escalate conflict.
+
+------------------------------
+
