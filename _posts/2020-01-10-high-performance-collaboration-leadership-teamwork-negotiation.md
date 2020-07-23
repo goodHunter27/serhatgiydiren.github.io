@@ -729,3 +729,36 @@ Okay, let's sum up. When we're in conflict, we get emotional and we're likely to
 
 ------------------------------
 
+According to Robinson, Lewicki and Donahue, there are at least five types of ethically questionable behavior in negotiations.
+
+Competitive bargaining refers to, well being a hard ass. When negotiators use this behavior, they make outrageous demands, or convey an impression that they are in no hurry when actually they are.
+
+Attacking an opponents network, this negotiator may attempt to get their opponent fired or appear foolish in front of their boss. Attempting to undermine someone's credibility or reputation.
+
+Making false promises. This negotiator makes verbal agreements that they know dang good and well they cannot honor, misrepresentation. They misrepresent information in order to serve their own interests.
+
+Inappropriate information gathering. This negotiator attempts to gain information about an opponent through illegal or inappropriate means.
+
+Most people do not regard traditional competitive bargaining to be unethical. People do regard the four other types of behavior, false promises, misrepresentation, inappropriate information gathering, and undermining the opponent to be unethical.
+
+Finally, most people regard themselves to be more ethical than others.
+
+Glick and Croson discovered that negotiators earn one of four reputations in negotiation communities.
+
+Liar-manipulators will do anything to gain advantage.
+
+Tough-but-honest negotiators are tough but they don't lie.
+
+Nice-and-reasonable negotiators make concessions in a quid pro quo fashion.
+
+Cream-puffs make a great deal of concessions regardless of what the other party does.
+
+Can you guess what kind of reputation is ideal in terms leveraging your own interests? The tough and nice negotiators are more likely to engender win-win strategies from their opponent. In contrast, people act very defensively with manipulators, and people take advantage of cream puffs.
+
+Let's put this all in perspective.
+
+First, in the age of the Internet and iPhone, managing your reputation is monumentally important.
+
+Second, you have a more favorable view of yourself than anyone, so it is important to seek unbiased feedback.
+
+Finally, you need to be proactive when at the negotiation table. Ask questions, ask for evidence, and suggest contingencies when the information you need is not available.
