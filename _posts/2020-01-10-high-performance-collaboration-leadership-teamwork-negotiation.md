@@ -619,6 +619,19 @@ Fourth, provide a rationale. Look, negotiation should not be like an auction wit
 
 ------------------------------
 
+If we never share our interests, we cannot reach win-win outcomes. If I don't tell you a dang thing, chances are we're not going to settle upon a win-win agreement.
+
+How do you reach win-win outcomes? We are going to introduce five key skills that you can use in personal and business negotiations.
+
+Number one, fractionate the negotiation into more than one issue. First rule of thumb, negotiations cannot have win-win potential unless there are two or more issues.
+
+Number two, prioritize your interests. Second rule of thumb is to prioritize your interests for each issue. Make your best guess about the opponent's priorities and interests.
+
+Number three, reveal your interests. Most negotiators are reluctant to share any information.
+
+Number four, ask questions about the other party's priorities. Asking questions is equally important. My favorite questions are what is more valuable to you, X or Y? What is your rank ordering of the issues? Would you rather I made a concession on issue Z or issue W? If I gave what you wanted on Z could you give me what I need on Y.
+
+Number five, devise multi-issue proposals that logroll parties' interests.
 
 ------------------------------
 
