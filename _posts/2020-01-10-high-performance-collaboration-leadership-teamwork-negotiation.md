@@ -577,3 +577,30 @@ Finally, once you determine your BATNA, then you can devise your RP, your reserv
 
 ------------------------------
 
+If you do these three things you can best position yourself to succeed in negotiation.
+
+Number one: set a target point.
+
+Number two. Estimate the ZOPA.
+
+Number three. Make an opening offer.
+
+Let's start with setting a target point. Your BATNA tells you when to walk. Not when to sign. What this means is that you don't settle for the first set of terms that is better than your BATNA.
+
+Your target point should be based on three things. Your interests, market conditions and information about the counter-party's BATNA.
+
+With regard to interests, you've gotta ask yourself what is really important to you. Your interests should drive your target.
+
+Market conditions, most people do not conduct sufficient research regarding their negotiations. You wanna have better data. Or at least as good a data as the counter party. If you knew what the Counter-Party's BATNA was, you have all of the leverage. Unfortunately, most people fail to do any research on the other party's BATNA, when information about market conditions and competitors is often available. Of course, you will never know the other party's BATNA. But even thinking about their BATNA can lead to a dramatic improvement in your own outcome.
+
+Two, estimate the ZOPA. The ZOPA or Zone Of Possible Agreement is the positive or negative overlap between your reservation price and that of the counter-party. Let's say, for example, that you would pay up to $190 for the sellers double triple bypass ticket, let's say that the seller is secretly willing to accept $150. This means that the ZOPA is any price north of 150 and south of 190, it's a $40 ZOPA.
+
+Third make the opening offer. In fact, the person who make the first offer has a strategic advantage. Why? First offers act as anchors. They have gravitational pull.
+
+If you are going to make the first offer, what should it be? The ideal opening offer should be on or near the other party's reservation point. Why? If you make a wild ass offer, that's a technical term, this results in the Chilling Effect. If you don't ask for enough this results in the winners curse. By making an offer on or near the other parties reservation point you don't insult them because they're secretly willing to pay that amount.
+
+Suppose they make the opening offer and not you. What to do? Best practice? Make sure you immediately counter offer with your opening offer. Do this in a relational fashion, not in a positional fashion.
+
+First, do as much research as you can to set a target. Open first but only if you are prepared. Immediately re-anchor if they open first. Plan your opening offer and carry it out. Finally, never ask, is this negotiable? Always negotiate.
+
+------------------------------
