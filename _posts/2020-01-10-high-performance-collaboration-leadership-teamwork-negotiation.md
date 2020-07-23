@@ -635,3 +635,47 @@ Number five, devise multi-issue proposals that logroll parties' interests.
 
 ------------------------------
 
+Sometimes negotiations break down because parties have fundamentally different views concerning future events that cannot be resolved with existing data, and therefore, need to be put to test. This type of negotiated agreement is known as a contingent contract because the parties involved will gain or lose as a result of an unknown outcome. A contingent contract is essentially a bet between parties who have different beliefs That can only be tested with more time, more data.
+
+First and foremost, check your over-confidence. Your data should be better than theirs.
+
+Second, make sure the incentives are aligned.
+
+Third, be clear about what data will be used. Decide this up front.
+
+Finally, remember, one party will win the bet and the other party will lose. Make sure you can pay off the bet if you lose.
+
+Let's talk about three more sophisticated win-win strategies. Each with their own cute acronym.
+
+First, MIOs, multi-issue offers. Often negotiators discuss each issue in a vacuum. It is far better to negotiate packages or bundles of issues using a strategy known as MIOs, multi issue offers.
+
+Two, MESOs, Multiple Equivalent Simultaneous Offers. Suppose you're preparing for a negotiation. You've identified several issues, in addition to price, and you have prioritized your interests. You are in an ideal position to prepare two or more multi-issue proposals that are of equal value to yourself. You can present these to the other party. Kind of like a dessert tray, and ask the other party to choose. By doing so you appear flexible. Warning do not tell the other party the monetary value of these proposals. Rather, explain that you are indifferent between these. If the other party rejects both or all of your options, ask him of her to rank order them. Set aside questions of accept and reject and instead focus on rank ordering. By analyzing what the counter-party says, you can start to discern their interests.
+
+Three, PSS, or post-settlement settlements. A post-settlement settlement works like this. After negotiators reach a deal both parties brainstorm for a mutually better outcome, with the understanding that the current deal is a commitment unless both parties are willing to change. Sounds strange, right? Explain to the counter-party that the process is mutual value creation. And neither party has unilateral veto power.
+
+What does your initial agreement with the counter-party represent when you go back to the negotiation table?
+
+New starting point. This is your new BATNA.
+
+Note, three considerations should guide your use of the post-settlement settlement strategy.
+
+First and foremost, there needs to be enough trust to have this post-deal conversation.
+
+Second, you need to consider your opportunity cost. What are you giving up by spending more time with this negotiation?
+
+Third, if you are dangerously close to your reservation price, a post-settlement settlement might create a lot more value.
+
+Okay, let's sum up.
+
+First, refusing to share any information severely reduces win-win potential.
+
+Second, make multi issue proposals.
+
+Third, invite counter proposals.
+
+Fourth, once you reach agreement, search for post settlement settlements.
+
+Finally, solve differences of belief. By crafting contingent contracts.
+
+------------------------------
+
