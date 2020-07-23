@@ -545,3 +545,34 @@ Finally, changing group composition by inviting outsiders can increase creativit
 
 ------------------------------
 
+No negotiator expects the counter party will accept their first offer. If the other party does accept your first offer. Then you've offered way to much. A very common negotiation debacle. That we call the winner's curse. The winner's curse occurs whenever your first offer is immediately accepted by the counter party.
+
+**BATNA** is an acronym, and it stands for your **best alternative to a negotiated agreement**. Your BATNA is your backup plan. The course of action you can take if all else fails.
+
+The stronger your BATNA, the more leverage you have in the negotiation.
+
+I am going to give you three pieces of advice when it comes to BATNAs. 
+
+Number one. Don't be passive about developing your BATNA. Be very proactive. You need to cultivate your BATNA. Treat it like a plant. Feed it, water it, grow it. BATNAs are dynamic. 
+
+Second, never reveal your BATNA to the counter-party. If you do, you give up all your leverage. Rather you want a signal that you have options without revealing their exact value.
+
+Third, never lie about your BATNA. Many people are tempted to misrepresent their alternates by claiming to have offers that they don’t have. This is unethical and can backfire if the other party calls your bluff.
+
+Your BATNA is a course of action that you are going to take, in the event that things don't work out with your negotiation. BATNAs may be uncertain.
+
+**Reservation price or RP**. If your BATNA is your best course of action outside of the negotiation. Your RP is the lowest amount you can agree to, or highest amount you can pay inside a negotiation.
+
+A reservation price represents the exact monetary equivalent of your BATNA.
+
+Number one, you always have a BATNA. Even if it means waiting and hoping.
+
+Two, you should always try to improve your BATNA. Don't be passive.
+
+Three, you should never directly reveal your BATNA to the counter-party, otherwise you lose your leverage.
+
+Four, signal to the other party that you have attractive options.
+
+Finally, once you determine your BATNA, then you can devise your RP, your reservation price.
+
+------------------------------
