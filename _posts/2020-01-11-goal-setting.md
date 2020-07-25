@@ -97,3 +97,16 @@ When creating priorities, it is helpful to pay attention to the organizational O
 
 One thing OKRs are not is a checklist. They are not intended to be a master task list of all the things the teams will work on in a quarter. If a team treats this as a shared to-do list it may result in getting overly prescriptive about what the team wants done, rather than what the team wants to achieve. Use OKRs to define the impact the team wants to see, and let the teams come up with the methods of achieving that impact.
 
+Things to consider when grading OKRs:
+
+- **The sweet spot for OKRs is somewhere in the 60-70% range.** Scoring lower may mean the organization is not achieving enough of what it could be. Scoring higher may mean the aspirational goals are not being set high enough. For organizations who are new to OKRs, this tolerance for "failure" to hit the uncomfortable goals is itself uncomfortable.
+
+- **OKRs are not synonymous with performance evaluation.** This means OKRs are not a comprehensive means to evaluate an individual (or an organization). Rather, they can be used as a summary of what an individual has worked on in the last period of time and can show contributions and impact to the larger organizational OKRs.
+
+- **Publicly grade organizational OKRs.** At Google, organizational OKRs are typically shared and graded annually and quarterly. At the start of the year, there is a company-wide meeting where the grades for the prior OKRs are shared and the new OKRs are shared both for the year and for the upcoming quarter. Then the company meets quarterly to review grades and set new OKRs. At these company meetings, the owner for each OKR (usually the leader from the relevant team) explains the grade and any adjustments for the upcoming quarter.
+
+- **Check in throughout the quarter.** Prior to assigning a final grade, it can be helpful to have a mid-quarter check-in for all levels of OKRs to give both individuals and teams a sense of where they are. An end of quarter check-in can be used to prepare ahead of the final grading.
+
+Some teams find that they are best revisited a few times a quarter. In this manner, they can serve as a calibration tool, giving everyone an opportunity to adjust to new information, abandon objectives that are clearly not going to happen, and increasing attention on borderline objectives that will benefit from additional resources.
+
+How often a team checks-in will depend on their own seasonal needs, how good the communication within the team already is, and how well the team is doing at predicting outcomes based on their ability to execute.
