@@ -40,3 +40,27 @@ Creating unachievable goals is tricky as it could be seen as setting a team up f
 
 - success -> achieving 70% of the objectives
 - extraordinary performance -> achieving 100% of the objectives
+
+**Alignment**. Once the organization knows what it’s focused on and how it will measure success, it can become easier for individuals to connect their projects with the organizational objectives.
+
+**Discipline & prioritization**. It can be hard for any one team in a company to say no to a good idea, a worthwhile project, or a needed improvement. Once everyone agrees what the most important objectives are, it can be easier to say no to the less important ideas. Saying no isn’t a political or emotional debate, it becomes a rational response to a commitment that the entire organization has already made.
+
+**Communication**. OKRs should be public within an organization so that every employee knows the organizational objectives and metrics for success.
+
+OKRs are a great way to help everyone in the company understand what’s important and how you’re going to measure what’s important.
+
+It’s essentially a great way to communicate strategy and how you’re going to measure strategy.
+
+As you grow a company, the single hardest thing to scale is communication. It’s remarkably difficult. OKRs are a great way to make sure everyone understands how you’re going to measure success and strategy.
+
+Tips for setting objectives:
+- Pick just three to five objectives - more can lead to over-extended teams and a diffusion of effort.
+- Avoid expressions that don’t push for new achievements, e.g., "keep hiring," "maintain market position," "continue doing X."
+- Use expressions that convey endpoints and states, e.g., "climb the mountain," "eat 5 pies," "ship feature Y."
+- Use tangible, objective, and unambiguous terms. It should be obvious to an observer whether or not an objective has been achieved.
+
+Tips for developing key results:
+- Determine around three key results per objective.
+- Key results express measurable milestones which, if achieved, will directly advance the objective.
+- Key results should describe outcomes, not activities. If the KRs include words like "consult," "help," "analyze," "participate," they’re describing activities. Instead, describe the impact of these activities, e.g., "publish customer service satisfaction levels by March 7th" rather than "assess customer service satisfaction."
+- Measurable milestones should include evidence of completion and this evidence should be available, credible, and easily discoverable.
