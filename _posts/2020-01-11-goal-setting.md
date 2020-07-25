@@ -81,3 +81,19 @@ When developing OKRs, try to avoid these traps:
 - Low-value objectives - OKRs should promise clear business value - otherwise, there's no reason to expend resources doing them. "Low-value objectives," even if fully achieved, won't make much of a difference to the organization. Ask, could the OKR get a 1.0 under reasonable circumstances without providing direct organizational benefit? If so, reword the OKR to focus on the tangible benefit.
 
 - Insufficient key results for objectives - If the key results for a given objective don't represent all that is needed to fully achieve that objective, an unexpected miss on that OKR can happen. That can cause delays of both the discovery of the resource requirements as well as the discovery that the objective will not be completed on schedule.
+
+Commit first to organizational objectives, so that teams and individuals can set their own objectives in service of those larger goals. This can help to create alignment throughout an org.
+
+Not every organizational OKR needs to be reflected in every team OKR. It's possible that a team's OKRs will focus on just one of the organizational OKRs. But there should be some connection between team OKRs and at least one of the organizational OKRs.
+
+One way to set these team OKRs is to have all of the team leaders meet to set goals.
+
+When creating priorities, it is helpful to pay attention to the organizational OKRs and check:
+
+- Do the team priorities connect to any of the organizational key results?
+- Do the team priorities make it more likely that the organization will successfully achieve the organizational OKRs?
+- Are there things missing that others think this team should be working on?
+- Are there more than three priorities?
+
+One thing OKRs are not is a checklist. They are not intended to be a master task list of all the things the teams will work on in a quarter. If a team treats this as a shared to-do list it may result in getting overly prescriptive about what the team wants done, rather than what the team wants to achieve. Use OKRs to define the impact the team wants to see, and let the teams come up with the methods of achieving that impact.
+
