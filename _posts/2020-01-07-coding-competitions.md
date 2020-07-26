@@ -19,13 +19,13 @@ Date | Competition | Round | Rank | Urls
 
 ### Upcoming Competitions  
 
-#### AtCoder
+#### [AtCoder](https://atcoder.jp){:target="_blank"}
 
 Date | Round
 ------------ | -------------
 25.07.2020 | M-SOLUTIONS Programming Contest 2020
 
-#### CodeChef
+#### [CodeChef](https://codechef.com){:target="_blank"}
 
 Date | Round
 ------------ | -------------
@@ -34,14 +34,14 @@ Date | Round
 31.07.2020 | IEM Coding Olympiad (IEMCO)
 07.08.2020 | August Challenge 2020
 
-#### Codeforces
+#### [Codeforces](https://codeforces.com){:target="_blank"}
 
 Date | Round
 ------------ | -------------
 21.07.2020 | Codeforces Round #658 (Div. 2)
 24.07.2020 | Codeforces Round #659 (Div. 2)
 
-#### Facebook Hacker Cup
+#### [Facebook Hacker Cup](https://facebook.com/codingcompetitions/hacker-cup){:target="_blank"}
 
 Date | Round
 ------------ | -------------
@@ -50,19 +50,19 @@ Date | Round
 29.08.2020 | Round 2
 12.09.2020 | Round 3
 
-#### Google Code Jam
+#### [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam){:target="_blank"}
 
 Date | Round
 ------------ | -------------
 n/a | n/a
 
-#### Google Hash Code
+#### [Google Hash Code](https://codingcompetitions.withgoogle.com/hashcode){:target="_blank"}
 
 Date | Round
 ------------ | -------------
 n/a | n/a
 
-#### Google Kick Start
+#### [Google Kick Start](https://codingcompetitions.withgoogle.com/kickstart){:target="_blank"}
 
 Date | Round
 ------------ | -------------
@@ -71,25 +71,25 @@ Date | Round
 18.10.2020 | Round G
 15.11.2020 | Round H
 
-#### HackerEarth
+#### [HackerEarth](https://hackerearth.com){:target="_blank"}
 
 Date | Round
 ------------ | -------------
 n/a | n/a
 
-#### HackerRank
+#### [HackerRank](https://hackerrank.com){:target="_blank"}
 
 Date | Round
 ------------ | -------------
 n/a | n/a
 
-#### LeetCode
+#### [LeetCode](https://leetcode.com){:target="_blank"}
 
 Date | Round
 ------------ | -------------
 n/a | n/a
 
-#### TopCoder
+#### [TopCoder](https://arena.topcoder.com){:target="_blank"}
 
 Date | Round
 ------------ | -------------
