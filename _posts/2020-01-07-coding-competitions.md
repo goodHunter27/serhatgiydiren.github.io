@@ -78,7 +78,7 @@ n/a | n/a
 
 Date | Round
 ------------ | -------------
-n/a | n/a
+31.07.2020 | Hack the Interview VI (U.S.)
 
 #### [LeetCode](https://leetcode.com){:target="_blank"}
 
