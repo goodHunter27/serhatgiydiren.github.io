@@ -7,6 +7,8 @@ published: true
 
 Date | Competition | Round | Rank | Urls
 ------------ | ------------- | ------------- | ------------- | -------------
+31.07.2020 | HackerRank | Hack the Interview VI (U.S.) | 26 / ? | [Scoreboard](.){:target="_blank"}<br />[Certificate](.){:target="_blank"}
+31.07.2020 | HackerRank | Hack the Interview VI (Asia Pacific) | 93 / ? | [Scoreboard](.){:target="_blank"}<br />[Certificate](.){:target="_blank"}
 24.07.2020 | Facebook Hacker Cup | Qualification Round | 2.466 / 32.699 (Qualified for Round 1) | [Scoreboard](https://www.facebook.com/codingcompetitions/hacker-cup/2020/qualification-round/scoreboard){:target="_blank"}
 18.07.2020 | TopCoder | TCO2020 Round 2B | 90 (qualified for Round 3) | ---
 04.06.2020 | Codeforces | Codeforces Round #647 | 1.300 / 12.044 | [Scoreboard](https://codeforces.com/contest/1362/standings){:target="_blank"}
@@ -25,19 +27,21 @@ Date | Competition | Round | Rank | Urls
 Date | Round
 ------------ | -------------
 02.08.2020 | AtCoder Beginner Contest 174
+09.08.2020 | AtCoder Grand Contest 047
 
 #### [CodeChef](https://codechef.com){:target="_blank"}
 
 Date | Round
 ------------ | -------------
-31.07.2020 | IEM Coding Olympiad (IEMCO)
 07.08.2020 | August Challenge 2020
 
 #### [Codeforces](https://codeforces.com){:target="_blank"}
 
 Date | Round
 ------------ | -------------
-30.07.2020 | Codeforces Round #660 (Div. 2)
+07.09.2020 | Codeforces Round #661 (Div. 2)
+09.09.2020 | Codeforces Round #662 (Div. 2)
+12.09.2020 | Codeforces Round #663 (Div. 2)
 
 #### [Facebook Hacker Cup](https://facebook.com/codingcompetitions/hacker-cup){:target="_blank"}
 
@@ -78,13 +82,14 @@ n/a | n/a
 
 Date | Round
 ------------ | -------------
-31.07.2020 | Hack the Interview VI (U.S.)
+n/a | n/a
 
 #### [LeetCode](https://leetcode.com){:target="_blank"}
 
 Date | Round
 ------------ | -------------
-02.08.2020 | Weekly Contest 200
+08.08.2020 | Biweekly Contest 32
+09.08.2020 | Weekly Contest 201
 
 #### [TopCoder](https://arena.topcoder.com){:target="_blank"}
 
