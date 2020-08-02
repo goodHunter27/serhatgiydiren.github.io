@@ -39,9 +39,9 @@ Date | Round
 
 Date | Round
 ------------ | -------------
-07.09.2020 | Codeforces Round #661 (Div. 2)
-09.09.2020 | Codeforces Round #662 (Div. 2)
-12.09.2020 | Codeforces Round #663 (Div. 2)
+07.08.2020 | Codeforces Round #661 (Div. 2)
+09.08.2020 | Codeforces Round #662 (Div. 2)
+12.08.2020 | Codeforces Round #663 (Div. 2)
 
 #### [Facebook Hacker Cup](https://facebook.com/codingcompetitions/hacker-cup){:target="_blank"}
 
