@@ -7,8 +7,8 @@ published: true
 
 Date | Competition | Round | Rank | Urls
 ------------ | ------------- | ------------- | ------------- | -------------
-31.07.2020 | HackerRank | Hack the Interview VI (U.S.) | 26 / ? | [Scoreboard](.){:target="_blank"}<br />[Certificate](.){:target="_blank"}
-31.07.2020 | HackerRank | Hack the Interview VI (Asia Pacific) | 93 / ? | [Scoreboard](.){:target="_blank"}<br />[Certificate](.){:target="_blank"}
+31.07.2020 | HackerRank | Hack the Interview VI (U.S.) | 27 / 708 | [Scoreboard](https://www.hackerrank.com/contests/hack-the-interview-vi/leaderboard){:target="_blank"}<br />[Certificate](https://www.hackerrank.com/results/hack-the-interview-vi/serhatgiydiren){:target="_blank"}
+31.07.2020 | HackerRank | Hack the Interview VI (Asia Pacific) | 95 / ? | [Scoreboard](https://www.hackerrank.com/contests/hack-the-interview-vi-apac/leaderboard){:target="_blank"}<br />[Certificate](https://www.hackerrank.com/results/hack-the-interview-vi-apac/serhatgiydiren){:target="_blank"}
 24.07.2020 | Facebook Hacker Cup | Qualification Round | 2.466 / 32.699 (Qualified for Round 1) | [Scoreboard](https://www.facebook.com/codingcompetitions/hacker-cup/2020/qualification-round/scoreboard){:target="_blank"}
 18.07.2020 | TopCoder | TCO2020 Round 2B | 90 (qualified for Round 3) | ---
 04.06.2020 | Codeforces | Codeforces Round #647 | 1.300 / 12.044 | [Scoreboard](https://codeforces.com/contest/1362/standings){:target="_blank"}
@@ -26,7 +26,6 @@ Date | Competition | Round | Rank | Urls
 
 Date | Round
 ------------ | -------------
-02.08.2020 | AtCoder Beginner Contest 174
 09.08.2020 | AtCoder Grand Contest 047
 
 #### [CodeChef](https://codechef.com){:target="_blank"}
