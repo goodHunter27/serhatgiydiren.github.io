@@ -7,6 +7,7 @@ published: true
 
 Date | Competition | Round | Rank | Urls
 ------------ | ------------- | ------------- | ------------- | -------------
+05.08.2020 | Codeforces | Codeforces Round #661 | 469 / 16.672 | [Scoreboard](https://codeforces.com/contest/1399/standings){:target="_blank"}
 31.07.2020 | HackerRank | Hack the Interview VI (U.S.) | 27 / 708 | [Scoreboard](https://www.hackerrank.com/contests/hack-the-interview-vi/leaderboard){:target="_blank"}<br />[Certificate](https://www.hackerrank.com/results/hack-the-interview-vi/serhatgiydiren){:target="_blank"}
 31.07.2020 | HackerRank | Hack the Interview VI (Asia Pacific) | 95 / 2.542 | [Scoreboard](https://www.hackerrank.com/contests/hack-the-interview-vi-asia-pacific/leaderboard){:target="_blank"}<br />[Certificate](https://www.hackerrank.com/results/hack-the-interview-vi-asia-pacific/serhatgiydiren){:target="_blank"}
 24.07.2020 | Facebook Hacker Cup | Qualification Round | 2.466 / 32.699 (Qualified for Round 1) | [Scoreboard](https://www.facebook.com/codingcompetitions/hacker-cup/2020/qualification-round/scoreboard){:target="_blank"}
