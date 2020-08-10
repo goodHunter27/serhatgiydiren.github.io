@@ -33,14 +33,12 @@ Date | Round
 
 Date | Round
 ------------ | -------------
-07.08.2020 | August Challenge 2020
+n/a | n/a
 
 #### [Codeforces](https://codeforces.com){:target="_blank"}
 
 Date | Round
 ------------ | -------------
-07.08.2020 | Codeforces Round #661 (Div. 2)
-09.08.2020 | Codeforces Round #662 (Div. 2)
 12.08.2020 | Codeforces Round #663 (Div. 2)
 
 #### [Facebook Hacker Cup](https://facebook.com/codingcompetitions/hacker-cup){:target="_blank"}
@@ -88,8 +86,8 @@ n/a | n/a
 
 Date | Round
 ------------ | -------------
-08.08.2020 | Biweekly Contest 32
-09.08.2020 | Weekly Contest 201
+16.08.2020 | Biweekly Contest 33
+22.08.2020 | Weekly Contest 202
 
 #### [TopCoder](https://arena.topcoder.com){:target="_blank"}
 
