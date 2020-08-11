@@ -27,7 +27,7 @@ Date | Competition | Round | Rank | Urls
 
 Date | Round
 ------------ | -------------
-09.08.2020 | AtCoder Grand Contest 047
+15.08.2020 | AtCoder Beginner Contest 175
 
 #### [CodeChef](https://codechef.com){:target="_blank"}
 
