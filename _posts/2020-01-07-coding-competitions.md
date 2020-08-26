@@ -27,7 +27,7 @@ Date | Competition | Round | Rank | Urls
 
 Date | Round
 ------------ | -------------
-15.08.2020 | AtCoder Beginner Contest 175
+n/a | n/a
 
 #### [CodeChef](https://codechef.com){:target="_blank"}
 
@@ -39,15 +39,13 @@ n/a | n/a
 
 Date | Round
 ------------ | -------------
-12.08.2020 | Codeforces Round #663 (Div. 2)
+30.08.2020 | Codeforces Round #666 (Div. 2)	
 
 #### [Facebook Hacker Cup](https://facebook.com/codingcompetitions/hacker-cup){:target="_blank"}
 
 Date | Round
 ------------ | -------------
-15.08.2020 | Round 1
-29.08.2020 | Round 2
-12.09.2020 | Round 3
+n/a | n/a
 
 #### [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam){:target="_blank"}
 
@@ -65,7 +63,6 @@ n/a | n/a
 
 Date | Round
 ------------ | -------------
-23.08.2020 | Round E
 27.09.2020 | Round F
 18.10.2020 | Round G
 15.11.2020 | Round H
@@ -86,8 +83,7 @@ n/a | n/a
 
 Date | Round
 ------------ | -------------
-16.08.2020 | Biweekly Contest 33
-22.08.2020 | Weekly Contest 202
+n/a | n/a
 
 #### [TopCoder](https://arena.topcoder.com){:target="_blank"}
 
