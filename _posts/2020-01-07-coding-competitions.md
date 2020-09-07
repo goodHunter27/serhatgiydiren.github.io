@@ -39,7 +39,7 @@ n/a | n/a
 
 Date | Round
 ------------ | -------------
-30.08.2020 | Codeforces Round #666 (Div. 2)	
+n/a | n/a
 
 #### [Facebook Hacker Cup](https://facebook.com/codingcompetitions/hacker-cup){:target="_blank"}
 
