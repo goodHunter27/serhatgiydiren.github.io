@@ -1,9 +1,9 @@
 ---
-title: Managers
+title: System Design Interview - Distributed Message Queue
 published: true
 ---
 
-#### Excerpted from [here](https://rework.withgoogle.com/subjects/managers){:target="_blank"}
+#### Excerpted from [here](https://youtu.be/iJLL-KPqBpM){:target="_blank"}
 
 -----------------------
 
