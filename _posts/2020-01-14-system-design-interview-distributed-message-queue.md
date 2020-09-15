@@ -137,127 +137,87 @@ handles the request.
 - And this component will be responsible for maintaining a mapping between queues and clusters.
 
 ### In-cluster Manager vs Out-cluster Manager
+
 - In-cluster manager manages queue assignment within the cluster, out-cluster manager manages queue assignment across clusters.
 - In-cluster manager needs to know about each and every instance in the cluster. Out-cluster manager may not know about each particular instance, but it needs to know about each cluster.
 - In-cluster manager listens to heartbeats from instances. Out-cluster manager monitors health of each independent cluster.
 - In-cluster manager deals with host failures and needs to adjust to the fact that instances may die and new instances may be added to the cluster, out-cluster manager is responsible for tracking each cluster utilization and deal with overheated clusters. Meaning that new queues may no longer be assigned to clusters that reached their capacity limits.
 - In-cluster manager splits queue into parts (partitions) and each partition gets a leader server. Out-cluster manager may split queue across several clusters. So that messages for the same queue are equally distributed between several clusters.
 
-So far we have covered all the main components of the high-level architecture.
-Let’s see what else is important to mention while discussing distributed message queues.
-Queue creation and deletion.
-Queue can be auto-created, for example when the first message for the queue hits FrontEnd
-service, or we can define API for queue creation.
-API is a better option, as we will have more control over queue configuration parameters.
-Delete queue operation is a bit controversial, as it may cause a lot of harm and must be
-executed with caution.
-For this reason, you may find examples of well-known distributed queues that do not
-expose deleteQueue API via public REST endpoint.
-Instead, this operation may be exposed through a command line utility, so that only experienced
-admin users may call it.
-As for a message deletion, there are several options at our disposal.
-One option is not to delete a message right after it was consumed.
-In this case consumers have to be responsible for what they already consumed.
-And it is not as easy as it sounds.
-As we need to maintain some kind of an order for messages in the queue and keep track of
-the offset, which is the position of a message within a queue.
-Messages can then be deleted several days later, by a job.
-This idea is used by Apache Kafka.
-The second option, is to do something similar to what Amazon SQS is doing.
-Messages are also not deleted immediately, but marked as invisible, so that other consumers
-may not get already retrieved message.
-Consumer that retrieved the message, needs to then call delete message API to delete
-the message from a backend host.
-And if the message was not explicitly deleted by a consumer, message becomes visible and
-may be delivered and processed twice.
-We know that messages need to be replicated to achieve high durability.
-Otherwise, if we only have one copy of data, it may be lost due to unexpected hardware
-failure.
-Messages can be replicated synchronously or asynchronously.
-Synchronously means that when backend host receives new message, it waits until data
-is replicated to other hosts.
-And only if replication is fully completed, successful response is returned to a producer.
-Asynchronous replication means that response is returned back to a producer as soon as
-message is stored on a single backend host.
+### Queue creation and deletion
+
+- Queue can be auto-created, for example when the first message for the queue hits FrontEnd service, or we can define API for queue creation.
+- API is a better option, as we will have more control over queue configuration parameters.
+- Delete queue operation is a bit controversial, as it may cause a lot of harm and must be executed with caution.
+- For this reason, you may find examples of well-known distributed queues that do not expose deleteQueue API via public REST endpoint.
+- Instead, this operation may be exposed through a command line utility, so that only experienced admin users may call it.
+
+### Message deletion
+
+- There are several options at our disposal.
+  - One option is not to delete a message right after it was consumed. In this case consumers have to be responsible for what they already consumed. And it is not as easy as it sounds. As we need to maintain some kind of an order for messages in the queue and keep track of the offset, which is the position of a message within a queue. Messages can then be deleted several days later, by a job. This idea is used by Apache Kafka.
+  - The second option, is to do something similar to what Amazon SQS is doing. Messages are also not deleted immediately, but marked as invisible, so that other consumers may not get already retrieved message. Consumer that retrieved the message, needs to then call delete message API to delete the message from a backend host. And if the message was not explicitly deleted by a consumer, message becomes visible and may be delivered and processed twice.
+
+### Message replication
+
+- Messages need to be replicated to achieve high durability. Otherwise, if we only have one copy of data, it may be lost due to unexpected hardware failure.
+- Messages can be replicated synchronously or asynchronously.
+  - Synchronously means that when backend host receives new message, it waits until data is replicated to other hosts. And only if replication is fully completed, successful response is returned to a producer.
+  - Asynchronous replication means that response is returned back to a producer as soon as message is stored on a single backend host.
 Message is later replicated to other hosts.
-Both options have pros and cons.
-Synchronous replication provides higher durability, but with a cost of higher latency for send
-message operation.
-Asynchronous replication is more performant, but does not guarantee that message will survive
-backend host failure.
-There are three main message delivery guarantees.
-At most once, when messages may be lost but are never redelivered.
-At least once, when messages are never lost but may be redelivered.
-And exactly once, when each message is delivered once and only once.
-And you probably have a question already, why do we need three?
-Will anyone ever want other than exactly once delivery?
-Great question, and the simple answer is that it is hard to achieve exactly once delivery
-in practice.
-In a distributed message queue system there are many potential points of failure.
-Producer may fail to deliver or deliver multiple times, data replication may fail, consumers
-may fail to retrieve or process the message.
-All this adds complexity and leads to the fact that most distributed queue solutions
-today support at-least-once delivery, as it provides a good balance between durability,
-availability and performance.
-With a pull model, consumer constantly sends retrieve message requests and when new message
-is available in the queue, it is sent back to a consumer.
-With a push model, consumer is not constantly bombarding FrontEnd service with receive calls.
-Instead, consumer is notified as soon as new message arrives to the queue.
-And as always, there are pros and cons.
-Here I will not enumerate all of them, will simply state that from a distributed message
-queue perspective pull is easier to implement than a push.
-But from a consumer perspective, we need to do more work if we pull.
-Many of us think of FIFO acronym when we hear about queues.
-FIFO stands for first-in, first-out, meaning that the oldest message in a queue is always
-processed first.
-But in distributed systems, it is hard to maintain a strict order.
-Message A may be produced prior to message B, but it is hard to guarantee that message
-A will be stored and consumed prior to message B.
-For these reasons many distributed queue solutions out there either does not guarantee a strict
-order.
-Or have limitations around throughput, as queue cannot be fast while it’s doing many
-additional validations and coordination to guarantee a strict order.
-With regards to security, we need to make sure that messages are securely transferred
-to and from a queue.
-Encryption using SSL over HTTPS helps to protect messages in transit.
-And we also may encrypt messages while storing them on backend hosts.
-We discussed this when talked about FrontEnd service responsibilities.
-Monitoring is critical for every system.
-With regards to distributed message queue, we need to monitor components (or microservices)
-that we built: fronted, metadata and backend services.
-As well as provide visibility into customer’s experience.
-In other words, we need to monitor health of our distributed queue system and give customers
-ability to track state of their queues.
-Each service we built has to emit metrics and write log data.
-As operators of these services we need to create dashboards for each microservice and
-setup alerts.
-And customers of our queue have to be able to create dashboards and set up alerts as
-well.
-For this purpose, integration with monitoring system is required.
-Do not forget to mention monitoring aspect to the interviewer.
-Many times this topic is omitted by candidates, but it is very important.
-Let's take one final look at the architecture we built.
-And evaluate whether non-functional requirements are fulfilled.
-Is our system scalable?
-Yes.
-As every component is scalable.
-When load increases, we just add more load balancers, more FrontEnd hosts, more Metadata
-service cache shards, more backend clusters and hosts.
-Is our system highly available?
-Yes.
-As there is no a single point of failure, each component is deployed across several
-data centers.
-Individual hosts may die, network partitions may happen, but with this redundancy in place
-our system will continue to operate.
-Is our system highly performant?
-It’s actually very well depends on the implementation, hardware and network setup.
-Each individual microservice needs to be fast.
-And we need to run our software in high-performance data centers.
-Is our system durable?
-Sure.
-We replicate data while storing and ensure messages are not lost during the transfer
-from a producer and to a consumer.
-And that is it for today’s system design interview question.
-Thank you for watching this video.
-If you have any questions please leave them in the comments below.
-And I will see you next time.
+- Both options have pros and cons.
+  - Synchronous replication provides higher durability, but with a cost of higher latency for send message operation.
+  - Asynchronous replication is more performant, but does not guarantee that message will survive backend host failure.
+
+### Message delivery semantics
+
+- There are three main message delivery guarantees.
+  - At most once, when messages may be lost but are never redelivered.
+  - At least once, when messages are never lost but may be redelivered.
+  - And exactly once, when each message is delivered once and only once.
+- Will anyone ever want other than exactly once delivery? The simple answer is that it is hard to achieve exactly once delivery in practice.
+- In a distributed message queue system there are many potential points of failure. Producer may fail to deliver or deliver multiple times, data replication may fail, consumers may fail to retrieve or process the message.
+- All this adds complexity and leads to the fact that most distributed queue solutions today support at-least-once delivery, as it provides a good balance between durability, availability and performance.
+
+### Push vs Pull
+
+- With a pull model, consumer constantly sends retrieve message requests and when new message is available in the queue, it is sent back to a consumer.
+- With a push model, consumer is not constantly bombarding FrontEnd service with receive calls. Instead, consumer is notified as soon as new message arrives to the queue.
+- And as always, there are pros and cons. From a distributed message queue perspective pull is easier to implement than a push. But from a consumer perspective, we need to do more work if we pull.
+
+### FIFO
+
+- FIFO stands for first-in, first-out, meaning that the oldest message in a queue is always processed first.
+- But in distributed systems, it is hard to maintain a strict order. Message A may be produced prior to message B, but it is hard to guarantee that message A will be stored and consumed prior to message B.
+- For these reasons many distributed queue solutions out there either does not guarantee a strict order. Or have limitations around throughput, as queue cannot be fast while it's doing many additional validations and coordination to guarantee a strict order.
+
+### Security
+
+- We need to make sure that messages are securely transferred to and from a queue.
+- Encryption using SSL over HTTPS helps to protect messages in transit.
+- And we also may encrypt messages while storing them on backend hosts.
+
+### Monitoring
+
+- Monitoring is critical for every system.
+- With regards to distributed message queue, we need to monitor components (or microservices) that we built: fronted, metadata and backend services.
+- As well as provide visibility into customer's experience.
+- In other words, we need to monitor health of our distributed queue system and give customers ability to track state of their queues.
+- Each service we built has to emit metrics and write log data.
+- As operators of these services we need to create dashboards for each microservice and setup alerts.
+- And customers of our queue have to be able to create dashboards and set up alerts as well.
+- For this purpose, integration with monitoring system is required.
+
+### Final Look
+
+- Is our system scalable?
+  - Yes. As every component is scalable.
+  - When load increases, we just add more load balancers, more FrontEnd hosts, more Metadata service cache shards, more backend clusters and hosts.
+- Is our system highly available?
+  - Yes. As there is no a single point of failure, each component is deployed across several data centers. Individual hosts may die, network partitions may happen, but with this redundancy in place our system will continue to operate.
+- Is our system highly performant?
+  - It's actually very well depends on the implementation, hardware and network setup.
+  - Each individual microservice needs to be fast.
+  - And we need to run our software in high-performance data centers.
+- Is our system durable?
+  - Sure. We replicate data while storing and ensure messages are not lost during the transfer from a producer and to a consumer.
