@@ -36,7 +36,7 @@ published: true
 
 ### High-level Architecture
 
-![High Level Architecture](https://github.com/serhatgiydiren/serhatgiydiren.github.io/raw/master/assets/dmq_hla.png)
+![High Level Architecture](../assets/dmq_hla.png)
 
 - VIP : Virtual IP : Refers to the symbolic hostname (myWebService.domain.com) that resolves to a load balancer system. 
 - Load Balancer : A device that routes client requests across a number of servers. 
