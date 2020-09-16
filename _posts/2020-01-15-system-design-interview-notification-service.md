@@ -49,3 +49,8 @@ published: true
 - And one more component we need is the one that retrieves messages from the message store and sends them to subscribers.
 - Sender also needs to call Metadata service to retrieve information about subscribers.
 - When create topic and subscribe APIs are called, we just need to store all this information in the database.
+- The pattern that consists of load balancer, frontend, metadata store and service is so common in the world of distributed systems, that you can apply it during many system design interview discussions.
+
+### FrontEnd Service
+
+- Look at the same service at [here](2020-01-14-system-design-interview-distributed-message-queue.md){:target="_blank"}
