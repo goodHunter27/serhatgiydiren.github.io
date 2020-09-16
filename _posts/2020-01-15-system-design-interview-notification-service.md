@@ -109,159 +109,61 @@ to the interviewer. For example, when we consider SQL or NoSQL for storing messa
 - One more option to consider - message queues. Distributed message queues have all the characteristics we require and also can be discussed in more details.
 - And if you want to further impress interviewer, you can talk about other options, for example stream-processing platforms. Discuss pros and cons and compare this option with a distributed queue solution. And of course, do not forget to mention some best-in-class solutions, for example Apache Kafka and Amazon Kinesis. Here we reference AWS solutions, but feel free to mention similar solutions from other public clouds. Whatever solution you feel comfortable with.
 
-After message is successfully published and stored in the Temporary Storage, we now can
-start sending this message to subscribers.
-Let’s take a look at the Sender component.
-You will see that ideas on which Sender service is built upon, can easily be applied to other
-distributed systems and not just the Notification service.
-If you design a solution that involves data retrieval, processing and sending results
-in a fan-out manner, meaning that messages are sent to multiple destinations in parallel,
-think of the ideas we will discuss next.
-The first thing that Sender does is message retrieval.
-This is achieved by having a pool of threads, where each thread tries to read data from
-the Temporary Storage.
-We can implement a naive approach and always start a predefined number of message retrieval
-threads.
-The problem with this approach is that some threads may be idle, as there may not be enough
-messages to retrieve.
-Or another extreme, when all threads may quickly become occupied and the only way to scale
-message retrieval would be adding more Sender hosts.
-A better approach is to keep track of idle threads and adjust number of message retrieval
-threads dynamically.
-If we have too many idle threads, no new threads should be created.
-If all threads are busy, more threads in the pool can start reading messages.
-This not only helps to better scale the Sender service, it also protects Temporary Storage
-service from being constantly bombarded by Sender service.
-This is especially useful when Temporary Storage service experiences performance degradation,
-and Sender service can lower the rate of message reads to help Temporary Storage service to
-recover faster.
-How can we implement this auto-scaling solution?
-Semaphores to the rescue.
-Conceptually, a semaphore maintains a set of permits.
-Before retrieving the next message, thread must acquire a permit from the semaphore.
-When the thread has finished reading the message a permit is returned to the semaphore, allowing
-another thread from the pool to start reading messages.
-What we can do is to adjust a number of these permits dynamically, based on the existing
-and desired message read rate.
-After message is retrieved, we need to call Metadata service to obtain information about
-subscribers.
-Probably, some of you are wondering why we need to call Metadata service here, if we
-already called it in FrontEnd service and could have passed information about subscribers
-along with the message.
-Good point to discuss with the interviewer.
-One of the main reasons not to pass this information along with the message itself, is that list
-of subscribers may be relatively big.
-For example, several thousands of HTTP endpoints, or a long list of email addresses.
-We will need to store all this information with every incoming message and our Temporary
+### Sender
+
+![FrontEnd Service Host](../assets/ns_sender.png)
+
+- After message is successfully published and stored in the Temporary Storage, we now can start sending this message to subscribers.
+- You will see that ideas on which Sender service is built upon, can easily be applied to other distributed systems and not just the Notification service.
+- If you design a solution that involves data retrieval, processing and sending results in a fan-out manner, meaning that messages are sent to multiple destinations in parallel, think of the ideas we will discuss next.
+- The first thing that Sender does is message retrieval. This is achieved by having a pool of threads, where each thread tries to read data from the Temporary Storage. We can implement a naive approach and always start a predefined number of message retrieval threads. The problem with this approach is that some threads may be idle, as there may not be enough messages to retrieve. Or another extreme, when all threads may quickly become occupied and the only way to scale message retrieval would be adding more Sender hosts.
+- A better approach is to keep track of idle threads and adjust number of message retrieval threads dynamically. If we have too many idle threads, no new threads should be created. If all threads are busy, more threads in the pool can start reading messages. This not only helps to better scale the Sender service, it also protects Temporary Storage
+service from being constantly bombarded by Sender service. This is especially useful when Temporary Storage service experiences performance degradation, and Sender service can lower the rate of message reads to help Temporary Storage service to recover faster.
+- How can we implement this auto-scaling solution? Semaphores to the rescue.
+- Conceptually, a semaphore maintains a set of permits. Before retrieving the next message, thread must acquire a permit from the semaphore. When the thread has finished reading the message a permit is returned to the semaphore, allowing another thread from the pool to start reading messages.
+- What we can do is to adjust a number of these permits dynamically, based on the existing and desired message read rate.
+- After message is retrieved, we need to call Metadata service to obtain information about subscribers.
+- Probably, some of you are wondering why we need to call Metadata service here, if we already called it in FrontEnd service and could have passed information about subscribers
+along with the message. Good point to discuss with the interviewer.
+- One of the main reasons not to pass this information along with the message itself, is that list of subscribers may be relatively big.
+- For example, several thousands of HTTP endpoints, or a long list of email addresses. We will need to store all this information with every incoming message and our Temporary
 Storage service will need to pay this price.
-Not all key-value and column storages can store big messages, which may require us to
-use document database instead.
-These all are very good consideration to mention to the interviewer.
-After we obtained a list of subscribers, we can start sending messages to all of them.
-Can you think of a good way to do this?
-Should we just iterate over a list of subscribers and make a remote call to each one of them?
-What should we do if message delivery failed to one subscriber from the list?
-What if one subscriber is slow and delivery to other subscribers is impacted due to this?
-If you think about all these questions or if interviewer makes you thinking about them,
-you will probably figure out that this option is far from optimal.
-The better option is to split message delivery into tasks.
-Where each task is responsible for delivery to a single subscriber.
-This way we can deliver all messages in parallel and isolate any bad subscriber.
-So, let's introduce two new components - Task Creator and Executor.
-These components are responsible for creating and scheduling a single message delivery task.
-How can we implement these components?
-Create a pool of threads, where each thread is responsible for executing a task.
-In Java for example, we can use a ThreadPoolExecutor class.
-And similar to the Message Retriever component, we can also use semaphores to keep track of
-available threads in the pool.
-If we have enough threads to process newly created tasks, we simply submit all tasks
-for processing.
-If we do not have enough treads available at the moment, we may postpone or stop message
-processing and return the message back to the Temporary Storage.
-In this case, a different Sender service host may pick up this message.
-And that host may have enough threads to process the message.
-This approach allows to better handle slow Sender service host issues.
-Each task is responsible for message delivery to a single subscriber.
-Tasks may delegate actual delivery to other microservices.
-For example, a microservice responsible for sending emails or SMS messages.
-So far we have discussed all the key components of the notification service.
-Let’s see what other topics may be brought up during the interview.
-How to make sure notifications will not be sent to users as spam?
-We need to register subscribers.
-All subscribers need to confirm they agree to get notification from our service.
-Every time new subscriber is registered, we may send a confirmation message to the HTTP
-endpoint or email.
-Endpoint and email owners need to confirm the subscription request.
-When publishers send messages to our notification service, FrontEnd service will make sure duplicate
-submissions are eliminated.
-This helps to avoid duplicates while accepting messages from publishers.
-But when the Sender service delivers messages to subscribers, retries caused by network
-issues or subscriber’s internal issues may cause duplicate messages at the subscriber
-end.
-So, subscribers also become responsible for avoiding duplicates.
-If retries cause duplicates, maybe we do not need to retry?
-Good question.
-Retry is one of the options to guarantee at least once message delivery.
-Our system may retry for hours or even days until messages is successfully delivered or
-maximum allowed number of retries have been reached.
-Other option may be to send undelivered messages to a different subscriber.
-Or store such messages in a system that can be monitored by subscribers and subscribers
-then decide what to do with undelivered messages.
-It would be great if our notification system provides a way for subscribers to define retry
-policy and what to do in cases when a message cannot be delivered after retries limit is
-reached.
-Does our system guarantee any specific message order, for example first-come-first-delivered?
-What do you think?
-Please stop this video and look at the architecture one more time.
-And the short answer is no, it does not guarantee any specific order.
-Even if messages are published with some attribute that preserves the order, for example sequence
-number or timestamps, delivery of messages does not honor this.
-Delivery tasks can be executed in any order, slower Sender hosts may fall behind, message
-delivery attempt may fail and retry will arrive in a wrong order.
-Security always has to be a top priority.
-We need to make sure only authenticated publishers can publish messages, only registered subscribers
-can receive them, messages are always delivered to the specified set of subscribers and never
-to anyone else.
-Encryption using SSL over HTTP helps to protect messages in transit.
-And we also need to encrypt messages while storing them.
-We need to setup monitoring for every microservice we discussed, as well as for the end-to-end
-customer experience.
-We also need to give customers ability to track state of their topics.
-For example, number of messages waiting for delivery, number of messages failed to deliver,
-etc.
-This usually means that integration with a monitoring system is required.
-We will have more videos explaining this topic.
-Let’s take one final look at our high-level architecture and evaluate whether all non-functional
-requirements are met.
-Did we design a scalable system?
-Yes.
-Every component is horizontally scalable.
-Sender service also has a great potential for vertical scaling, when more powerful hosts
-can execute more delivery tasks.
-Did we design a highly available system?
-Yes.
-There is no single point of failure, each component is deployed across several data
-centers.
-Did we design a highly performant system?
-To answer this question let’s take a more thorough look.
-FrontEnd service is fast.
-We made it responsible for several relatively small and cheap activities.
-We delegated several other activities to agents that run asynchronously and does not impact
-request processing.
-Metadata service is a distributed cache.
-It is fast as we store data for active topics in memory.
-We discussed several Temporary Storage design options and mentioned 3-rd party solutions
-that are fast.
-And our Sender service splits message delivery into granular tasks, so that each one of them
-can be optimally performed.
-Did we design a durable system?
-Yes.
-Whatever Temporary Storage solution we choose, data will be stored in the redundant manner,
-when several copies of a message is stored across several machines, and ideally across
-several data centers.
-We also retry messages for a period of time to make sure they are delivered to every subscriber
-at least once.
-And that is it for today’s system design interview question.
-Thank you for watching this video.
-If you have any questions please leave them in the comments below.
-And I will see you next time.
+- Not all key-value and column storages can store big messages, which may require us to use document database instead.
+- These all are very good consideration to mention to the interviewer.
+- After we obtained a list of subscribers, we can start sending messages to all of them.
+- Should we just iterate over a list of subscribers and make a remote call to each one of them?
+- What should we do if message delivery failed to one subscriber from the list?
+- What if one subscriber is slow and delivery to other subscribers is impacted due to this?
+- If you think about all these questions or if interviewer makes you thinking about them, you will probably figure out that this option is far from optimal.
+- The better option is to split message delivery into tasks. Where each task is responsible for delivery to a single subscriber. This way we can deliver all messages in parallel and isolate any bad subscriber.
+- So, let's introduce two new components - Task Creator and Executor.
+- These components are responsible for creating and scheduling a single message delivery task.
+- How can we implement these components? Create a pool of threads, where each thread is responsible for executing a task.
+- And similar to the Message Retriever component, we can also use semaphores to keep track of available threads in the pool.
+- If we have enough threads to process newly created tasks, we simply submit all tasks for processing.
+- If we do not have enough treads available at the moment, we may postpone or stop message processing and return the message back to the Temporary Storage.
+- In this case, a different Sender service host may pick up this message. And that host may have enough threads to process the message.
+- This approach allows to better handle slow Sender service host issues.
+- Each task is responsible for message delivery to a single subscriber.
+- Tasks may delegate actual delivery to other microservices.
+- For example, a microservice responsible for sending emails or SMS messages.
+
+### What else is important...
+
+- How to make sure notifications will not be sent to users as spam? We need to register subscribers. All subscribers need to confirm they agree to get notification from our service. Every time new subscriber is registered, we may send a confirmation message to the HTTP endpoint or email. Endpoint and email owners need to confirm the subscription request.
+- When publishers send messages to our notification service, FrontEnd service will make sure duplicate submissions are eliminated. This helps to avoid duplicates while accepting messages from publishers. But when the Sender service delivers messages to subscribers, retries caused by network issues or subscriber's internal issues may cause duplicate messages at the subscriber end. So, subscribers also become responsible for avoiding duplicates.
+- If retries cause duplicates, maybe we do not need to retry? Retry is one of the options to guarantee at least once message delivery. Our system may retry for hours or even days until messages is successfully delivered or maximum allowed number of retries have been reached. Other option may be to send undelivered messages to a different subscriber. Or store such messages in a system that can be monitored by subscribers and subscribers then decide what to do with undelivered messages. It would be great if our notification system provides a way for subscribers to define retry policy and what to do in cases when a message cannot be delivered after retries limit is reached.
+- Does our system guarantee any specific message order, for example first-come-first-delivered? And the short answer is no, it does not guarantee any specific order. Even if messages are published with some attribute that preserves the order, for example sequence number or timestamps, delivery of messages does not honor this. Delivery tasks can be executed in any order, slower Sender hosts may fall behind, message delivery attempt may fail and retry will arrive in a wrong order.
+- Security always has to be a top priority. We need to make sure only authenticated publishers can publish messages, only registered subscribers can receive them, messages are always delivered to the specified set of subscribers and never to anyone else. Encryption using SSL over HTTP helps to protect messages in transit. And we also need to encrypt messages while storing them.
+- We need to setup monitoring for every microservice we discussed, as well as for the end-to-end customer experience. We also need to give customers ability to track state of their topics. For example, number of messages waiting for delivery, number of messages failed to deliver, etc. This usually means that integration with a monitoring system is required.
+
+### Final Look
+
+- Did we design a scalable system?
+  - Yes. Every component is horizontally scalable. Sender service also has a great potential for vertical scaling, when more powerful hosts can execute more delivery tasks.
+- Did we design a highly available system?
+  - Yes. There is no single point of failure, each component is deployed across several data centers.
+- Did we design a highly performant system?
+  - FrontEnd service is fast. We made it responsible for several relatively small and cheap activities. We delegated several other activities to agents that run asynchronously and does not impact request processing. Metadata service is a distributed cache. It is fast as we store data for active topics in memory. We discussed several Temporary Storage design options and mentioned 3-rd party solutions that are fast. And our Sender service splits message delivery into granular tasks, so that each one of them can be optimally performed.
+- Did we design a durable system?
+  - Yes. Whatever Temporary Storage solution we choose, data will be stored in the redundant manner, when several copies of a message is stored across several machines, and ideally across several data centers. We also retry messages for a period of time to make sure they are delivered to every subscriber at least once.
