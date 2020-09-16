@@ -53,4 +53,4 @@ published: true
 
 ### FrontEnd Service
 
-- Look at the same service at [here](2020-01-14-system-design-interview-distributed-message-queue.md){:target="_blank"}
+- Look at the same service at [here](system-design-interview-distributed-message-queue){:target="_blank"}
