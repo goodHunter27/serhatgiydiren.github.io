@@ -133,133 +133,57 @@ power. Load balancer does not have knowledge about a cost of each operation. And
 - And then it passes this key to the cache and retrieves the bucket.
 - And the last step to do is to call allow request on the bucket.
 
+### Step into the distributed world
 
+- We have a cluster that consists of 3 hosts. And we want rate limiting solution to allow 4 requests per second for each client. How many tokens should we give to a bucket on every host?
+- Should we give 4 divided by 3? And the answer is 4.
+- Each bucket should have 4 tokens initially.
+- The reason for this is that all requests for the same bucket may in theory land on the same host.
+- Load balancers try to distributed requests evenly, but they do not know anything about keys, and requests for the same key will not be evenly distributed.
+- Let's add load balancer into the picture and run a very simple simulation.
+- The first request goes to host A, one token is consumed.
+- The second request goes to host C and one token is consumed there.
+- Two other requests, within the same 1 second interval, go to host B. And take two tokens from the bucket.
+- All 4 allowed requests hit the cluster; we should throttle all the remaining requests for this second.
+- But we still have tokens available. What should we do?
+- We must allow hosts to talk to each other and share how many tokens they consumed altogether.
+- In this case host A will see that other two hosts consumed 3 tokens. And host A will subtract this number from its bucket. Leaving it with 0 tokens available.
+- Host B will find out that A and C consumed two tokens already. Leaving host B with 0 tokens as well.
+- And the same logic applies to host C. Now everything looks correct.
+- 4 requests have been processed and no more requests allowed.
 
-- Now, let's step into the distributed world and see how we can make rate limiting work
-across many machines in a cluster.
-But let me ask you something first.
-We have a cluster that consists of 3 hosts.
-And we want rate limiting solution to allow 4 requests per second for each client.
-How many tokens should we give to a bucket on every host?
-Should we give 4 divided by 3?
-And the answer is 4.
-Each bucket should have 4 tokens initially.
-The reason for this is that all requests for the same bucket may in theory land on the
-same host.
-Load balancers try to distributed requests evenly, but they do not know anything about
-keys, and requests for the same key will not be evenly distributed.
-Let's add load balancer into the picture and run a very simple simulation.
-The first request goes to host A, one token is consumed.
-The second request goes to host C and one token is consumed there.
-Two other requests, within the same 1 second interval, go to host B. And take two tokens
-from the bucket.
-All 4 allowed requests hit the cluster; we should throttle all the remaining requests
-for this second.
-But we still have tokens available.
-What should we do?
-We must allow hosts to talk to each other and share how many tokens they consumed altogether.
-In this case host A will see that other two hosts consumed 3 tokens.
-And host A will subtract this number from its bucket.
-Leaving it with 0 tokens available.
-Host B will find out that A and C consumed two tokens already.
-Leaving host B with 0 tokens as well.
-And the same logic applies to host C. Now everything looks correct.
-4 requests have been processed and no more requests allowed.
-I bet you have a question.
-We gave each bucket 4 tokens.
-If many requests for the same bucket hit our cluster exactly at the same second.
-Does this mean that 12 requests may be processed, instead of only 4 allowed?
-Or may be a more realistic scenario.
-Because communication between hosts takes time, until all hosts agree on what that final
-number of tokens must be, may there be any requests that slip into the system at that
+- We gave each bucket 4 tokens. If many requests for the same bucket hit our cluster exactly at the same second. Does this mean that 12 requests may be processed, instead of only 4 allowed?
+- Or may be a more realistic scenario.
+- Because communication between hosts takes time, until all hosts agree on what that final number of tokens must be, may there be any requests that slip into the system at that
 time?
-Yes.
-Unfortunately, this is the case.
-We should expect that sometimes our system may be processing more requests than we expect
-and we need to scale out our cluster accordingly.
-By the way, the token bucket algorithm will still handle this use case well.
-We just need to slightly modify it to allow negative number of available tokens.
-When 12 requests hit the system, buckets will start sharing this information.
-After sharing, every bucket will have -8 tokens and for the duration of the next 2 seconds
-all requests will be throttled.
-So, on average we processed 12 requests within 3 seconds.
-Although in reality all 12 were processed within the first second.
-So, communication between hosts is the key.
-Let’s see how this communication can be implemented.
-By the way, ideas we will discuss next are applicable not only for rate limiting solution,
-but many other distributed systems that require data sharing between all hosts in a cluster
-in a real time.
-The first approach is to tell everyone everything.
-It means that every host in the cluster knows about every other host in the cluster and
-share messages with each one of them.
-You may also heard a term full mesh that describes this network topology.
-How do hosts discover each other?
-When a new host is added, how does everyone else know?
-And there are several approaches used for hosts discovery.
-One option is to use a 3-rd party service which will listen to heartbeats coming from
-every host.
-As long as heartbeats come, host is keep registered in the system.
-If heartbeats stop coming, the service unregister host that is no longer alive.
-And all hosts in our cluster ask this 3-rd party service for the full list of members.
-Another option is to resolve some user provided information.
-For example, user specifies a VIP and because VIP knows about all the hosts behind it, we
-can use this information to obtain all the members.
-Or we can rely on a less flexible but still a good option when user provides a list of
-hosts via some configuration file.
-We then need a way to deploy this file across all cluster nodes every time this list changes.
-Full mesh broadcasting is relatively straightforward to implement.
-But the main problem with this approach is that it is not scalable.
-Number of messages grows quadratically with respect to the number of hosts in a cluster.
-Approach works well for small clusters, but we will not be able to support big clusters.
-So, let’s investigate some other options that may require less messages to be broadcasted
-within the cluster.
-And one such option is to use a gossip protocol.
-This protocol is based on the way that epidemics spread.
-Computer systems typically implement this type of protocol with a form of random "peer
-selection": with a given frequency, each machine picks another machine at random and shares
-data.
-By the way, rate limiting solution at Yahoo uses this approach.
-Next option is to use distributed cache cluster.
-For example, Redis.
-Or we can implement custom distributed cache solution.
-The pros for this approach is that distributed cache cluster is relatively small and our
-service cluster can scale out independently.
-This cluster can be shared among many different service teams in the organization.
-Or each team can setup their own small cluster.
-Next approach also relies on a 3-rd party component.
-A coordination service that helps to choose a leader.
-Choosing a leader helps to decrease number of messages broadcasted within the cluster.
-Leader asks everyone to send it all the information.
-And then it calculates and sends back the final result.
-So, each host only needs to talk to a leader or a set of leaders, where each leader is
-responsible for its own range of keys.
-Consensus algorithms such as Paxos and Raft can be used to implement Coordination Service.
-Great option, but the main drawback is that we need to setup and maintain Coordination
-Service.
-Coordination service is typically a very sophisticated component that has to be very reliable and
-make sure one and only one leader is elected.
-But is this really a requirement for our system?
-Let’s say we use a simple algorithm to elect a leader.
-But because of the simplicity of the algorithm it may not guarantee one and only one leader.
-So that we may end up with multiple leaders being elected.
-Is this an issue?
-Actually, no.
-Each leader will calculate rate and share with everyone else.
-This will cause unnecessary messaging overhead, but each leader will have its own correct
-view of the overall rate.
-And to finish message broadcasting discussion, I want to talk about communication protocols,
-how hosts talk to each other.
-We have two options here: TCP and UDP.
-TCP protocol guarantees delivery of data and also guarantees that packets will be delivered
-in the same order in which they were sent.
-UDP protocol does not guarantee you are getting all the packets and order is not guaranteed.
-But because UDP throws all the error-checking stuff out, it is faster.
-So, which one is better?
-Both are good choices.
-If we want rate limiting solution to be more accurate, but with a little bit of performance
-overhead, we need to go with TCP.
-If we ok to have a bit less accurate solution, but the one that works faster, UDP should
-be our choice.
+- Yes. Unfortunately, this is the case.
+- We should expect that sometimes our system may be processing more requests than we expect and we need to scale out our cluster accordingly.
+- By the way, the token bucket algorithm will still handle this use case well.
+- We just need to slightly modify it to allow negative number of available tokens.
+- When 12 requests hit the system, buckets will start sharing this information.
+- After sharing, every bucket will have -8 tokens and for the duration of the next 2 seconds all requests will be throttled.
+- So, on average we processed 12 requests within 3 seconds.
+- Although in reality all 12 were processed within the first second.
+- So, communication between hosts is the key.
+- Let's see how this communication can be implemented.
+- By the way, ideas we will discuss next are applicable not only for rate limiting solution, but many other distributed systems that require data sharing between all hosts in a cluster in a real time.
+
+### Message Broadcasting
+
+![Message Broadcasting](../assets/rl_mb.png)
+
+- The first approach is to tell everyone everything. It means that every host in the cluster knows about every other host in the cluster and share messages with each one of them. You may also heard a term full mesh that describes this network topology. How do hosts discover each other? When a new host is added, how does everyone else know? And there are several approaches used for hosts discovery. One option is to use a 3-rd party service which will listen to heartbeats coming from every host. As long as heartbeats come, host is keep registered in the system. If heartbeats stop coming, the service unregister host that is no longer alive. And all hosts in our cluster ask this 3-rd party service for the full list of members. Another option is to resolve some user provided information. For example, user specifies a VIP and because VIP knows about all the hosts behind it, we can use this information to obtain all the members. Or we can rely on a less flexible but still a good option when user provides a list of hosts via some configuration file. We then need a way to deploy this file across all cluster nodes every time this list changes. Full mesh broadcasting is relatively straightforward to implement. But the main problem with this approach is that it is not scalable. Number of messages grows quadratically with respect to the number of hosts in a cluster. Approach works well for small clusters, but we will not be able to support big clusters.
+- So, let's investigate some other options that may require less messages to be broadcasted within the cluster. And one such option is to use a gossip protocol. This protocol is based on the way that epidemics spread. Computer systems typically implement this type of protocol with a form of random "peer selection": with a given frequency, each machine picks another machine at random and shares data. By the way, rate limiting solution at Yahoo uses this approach.
+- Next option is to use distributed cache cluster. For example, Redis. Or we can implement custom distributed cache solution. The pros for this approach is that distributed cache cluster is relatively small and our service cluster can scale out independently. This cluster can be shared among many different service teams in the organization. Or each team can setup their own small cluster.
+- Next approach also relies on a 3-rd party component. A coordination service that helps to choose a leader. Choosing a leader helps to decrease number of messages broadcasted within the cluster. Leader asks everyone to send it all the information. And then it calculates and sends back the final result. So, each host only needs to talk to a leader or a set of leaders, where each leader is responsible for its own range of keys. Consensus algorithms such as Paxos and Raft can be used to implement Coordination Service. Great option, but the main drawback is that we need to setup and maintain Coordination Service. Coordination service is typically a very sophisticated component that has to be very reliable and make sure one and only one leader is elected. But is this really a requirement for our system?
+- Let's say we use a simple algorithm to elect a leader. But because of the simplicity of the algorithm it may not guarantee one and only one leader. So that we may end up with multiple leaders being elected. Is this an issue? Actually, no. Each leader will calculate rate and share with everyone else. This will cause unnecessary messaging overhead, but each leader will have its own correct view of the overall rate.
+- And to finish message broadcasting discussion, I want to talk about communication protocols, how hosts talk to each other. We have two options here: TCP and UDP.
+- TCP protocol guarantees delivery of data and also guarantees that packets will be delivered in the same order in which they were sent.
+- UDP protocol does not guarantee you are getting all the packets and order is not guaranteed. But because UDP throws all the error-checking stuff out, it is faster.
+- So, which one is better? Both are good choices.
+- If we want rate limiting solution to be more accurate, but with a little bit of performance overhead, we need to go with TCP.
+- If we ok to have a bit less accurate solution, but the one that works faster, UDP should be our choice.
+
 Ok, we have implemented the algorithm, created a set of classes and interfaces, discussed
 message broadcasting.
 But how do we integrate all this cool solution with the service?
