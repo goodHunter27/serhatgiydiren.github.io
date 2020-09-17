@@ -46,111 +46,67 @@ power. Load balancer does not have knowledge about a cost of each operation. And
 
 -----------------------
 
-### High-level Architecture
+![Request Processing](../assets/rl_rp.png)
 
-**********************
+- Let's implement a rate limiting solution for a single server first. So, no communication between servers just yet.
+- The first citizen of the rate limiting solution on the service host is the rules retriever.
+- Each rule specifies a number of requests allowed for a particular client per second.
+- These rules are defined by service owners and stored in a database.
+- And there is a web service that manages all the operation with rules.
+- Rules retriever is a background process that polls Rules service periodically to check if there are any new or modified rules.
+- Rules retriever stores rules in memory on the host.
+- When request comes, the first thing we need to do is to build a client identifier.
+- Let's call it a key, for short.
+- This may be a login for registered clients or remote IP address or some combination of attributes that uniquely identify the client.
+- The key is then passed to the Rate Limiter component, that is responsible for making a decision.
+- Rate Limiter checks the key against rules in the cache.
+- And if match is found, Rate Limiter checks if number of requests made by the client for the last second is below a limit specified in the rule.
+- If threshold is not exceeded, request is passed further for processing.
+- If threshold is exceeded, the request is rejected.
+- And there are three possible options in this case.
+- Our service may return a specific response status code, for example service unavailable or too many requests.
+- Or we can queue this request and process it later.
+- Or we can simply drop this request on the floor.
+- We know we need a database to store the rules.
+- And we need a service on top of this database for all the so-called CRUD operations (create, read, update, delete).
+- We know we need a process to retrieve rules periodically.
+- And store rules in memory.
+- And we need a component that makes a decision.
+- You may argue whether we need the client identifier builder as a separate component or should it just be a part of the decision-making component.
+- It is up to you.
+- I wanted to present this builder as a separate component to stress the point that client identification is an important step of the whole process.
+- From here interview may go in several directions. Interviewer may be interested in the Rate Limiter algorithm and ask us to implement one.
+- Or interviewer may be interested in object-oriented design and ask us to define main classes and interfaces of the throttling library.
+- Or interviewer may ask us to focus on a distributed throttling solution and discuss how service hosts share data between each other.
+- Let's discuss each of these possible directions.
 
-With this in mind, let’s implement a rate limiting solution for a single server first.
-So, no communication between servers just yet.
-The first citizen of the rate limiting solution on the service host is the rules retriever.
-Each rule specifies a number of requests allowed for a particular client per second.
-These rules are defined by service owners and stored in a database.
-And there is a web service that manages all the operation with rules.
-Rules retriever is a background process that polls Rules service periodically to check
-if there are any new or modified rules.
-Rules retriever stores rules in memory on the host.
-When request comes, the first thing we need to do is to build a client identifier.
-Let’s call it a key, for short.
-This may be a login for registered clients or remote IP address or some combination of
-attributes that uniquely identify the client.
-The key is then passed to the Rate Limiter component, that is responsible for making
-a decision.
-Rate Limiter checks the key against rules in the cache.
-And if match is found, Rate Limiter checks if number of requests made by the client for
-the last second is below a limit specified in the rule.
-If threshold is not exceeded, request is passed further for processing.
-If threshold is exceeded, the request is rejected.
-And there are three possible options in this case.
-Our service may return a specific response status code, for example service unavailable
-or too many requests.
-Or we can queue this request and process it later.
-Or we can simply drop this request on the floor.
-Nothing scary so far, right?
-The thinking process has been pretty straightforward.
-We know we need a database to store the rules.
-And we need a service on top of this database for all the so-called CRUD operations (create,
-read, update, delete).
-We know we need a process to retrieve rules periodically.
-And store rules in memory.
-And we need a component that makes a decision.
-You may argue whether we need the client identifier builder as a separate component or should
-it just be a part of the decision-making component.
-It is up to you.
-I wanted to present this builder as a separate component to stress the point that client
-identification is an important step of the whole process.
-From here interview may go in several directions.
-Interviewer may be interested in the Rate Limiter algorithm and ask us to implement
-one.
-Or interviewer may be interested in object-oriented design and ask us to define main classes and
-interfaces of the throttling library.
-Or interviewer may ask us to focus on a distributed throttling solution and discuss how service
-hosts share data between each other.
-Let’s discuss each of these possible directions.
-And start with the algorithm.
-I will not tell you a secret if I say that there are many different algorithms to solve
-this problem.
-You may find inspiration by looking into Google Guava RateLimiter class.
-Or think about how fixed and sliding window paradigms can be applied.
-But probably the simplest algorithm out there is the Token Bucket algorithm.
-Let me describe the main idea.
-The token bucket algorithm is based on an analogy of a bucket filled with tokens.
-Each bucket has three characteristics: a maximum amount of tokens it can hold, amount of tokens
-currently available and a refill rate, the rate at which tokens are added to the bucket.
-Every time request comes, we take a token from the bucket.
-If there are no more tokens available in the bucket, request is rejected.
-And the bucket is refilled with a constant rate.
-The beauty of the Token Bucket algorithm is that it simple to understand and simple to
-implement.
-Let’s take a look at the code.
-There are 4 class fields: maximum bucket size, refill rate, number of currently available
-tokens and timestamp that indicates when bucket was last refilled.
-Constructor accepts two arguments: maximum bucket size and refill rate.
-Number of currently available tokens is set to the maximum bucket size.
-And timestamp is set to the current time in nanoseconds.
-Allow request method has one argument - number of tokens that represent a cost of the operation.
-Usually, the cost is equal to 1.
-Meaning that with every request we take a single token from the bucket.
-But it may be a larger value as well.
-For example, when we have a slow operation in the web service and each request to that
-operation may cost several tokens.
-The first thing we do is refilling the bucket.
-And right after that we check if there are enough tokens in the bucket.
-In case there are not enough tokens, method return false, indicating that request must
-be throttled.
-Otherwise, we need to decrease number of available tokens by the cost of the request.
-And the last piece is the refill method.
-It calculates how many tokens accumulated since the last refill and increases currently
-available tokens in the bucket by this number.
-Let’s make sure you understand the implementation.
-Because if you do, it will be easy to implement token bucket algorithm during a real interview.
-Let’s say in time T0 bucket was created.
-Maximum capacity is set to 10 and refill rate is set to 10 tokens per second.
-So, the bucket currently has 10 tokens available.
-In time T1, which is 300 milliseconds later, allow request method call was initiated and
-the cost of that request is 6 tokens.
-How many tokens have remained in the bucket after allow request method completed?
-And the answer is 4.
-Bucket was full all this time, no new tokens have been added to the bucket.
-So, we simply subtract 6 tokens.
-200 milliseconds later one more allow request call was initiated.
-With the 5 tokens cost.
-How many tokens have remained after this call?
-And the answer is 1.
-First, two more tokens have been added to the bucket by the refill method.
-And then 5 tokens have been subtracted.
-Easy, right?
-And 1 second later, actually 900 milliseconds, bucket is full again.
-So far we have covered the algorithmic part of the rate limiting solution.
+### Token Bucket Algorithm
+
+![Token Bucket Algorithm](../assets/rl_tb.png)
+
+- There are many different algorithms to solve this problem. You may find inspiration by looking into Google Guava RateLimiter class. Or think about how fixed and sliding window paradigms can be applied. But probably the simplest algorithm out there is the Token Bucket algorithm.
+- The token bucket algorithm is based on an analogy of a bucket filled with tokens.
+- Each bucket has three characteristics: a maximum amount of tokens it can hold, amount of tokens currently available and a refill rate, the rate at which tokens are added to the bucket.
+- Every time request comes, we take a token from the bucket.
+- If there are no more tokens available in the bucket, request is rejected.
+- And the bucket is refilled with a constant rate.
+- The beauty of the Token Bucket algorithm is that it simple to understand and simple to implement.
+- There are 4 class fields: maximum bucket size, refill rate, number of currently available tokens and timestamp that indicates when bucket was last refilled.
+- Constructor accepts two arguments: maximum bucket size and refill rate.
+- Number of currently available tokens is set to the maximum bucket size.
+- And timestamp is set to the current time in nanoseconds.
+- Allow request method has one argument - number of tokens that represent a cost of the operation.
+- Usually, the cost is equal to 1.
+- Meaning that with every request we take a single token from the bucket.
+- But it may be a larger value as well.
+- For example, when we have a slow operation in the web service and each request to that operation may cost several tokens.
+- The first thing we do is refilling the bucket.
+- And right after that we check if there are enough tokens in the bucket.
+- In case there are not enough tokens, method return false, indicating that request must be throttled.
+- Otherwise, we need to decrease number of available tokens by the cost of the request.
+- And the last piece is the refill method.
+- It calculates how many tokens accumulated since the last refill and increases currently available tokens in the bucket by this number.
+
 Let’s take a look at another facet of the problem, which is object-oriented design.
 Let’s define key classes and interfaces.
 Job Scheduler interface is responsible for scheduling a job that runs every several seconds
