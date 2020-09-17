@@ -1,6 +1,6 @@
 ---
 title: System Design Interview - Rate Limiting (local and distributed)
-published: false
+published: true
 ---
 
 #### Excerpted from [here](https://youtu.be/FU4WlwfS3G0){:target="_blank"}
@@ -184,140 +184,55 @@ time?
 - If we want rate limiting solution to be more accurate, but with a little bit of performance overhead, we need to go with TCP.
 - If we ok to have a bit less accurate solution, but the one that works faster, UDP should be our choice.
 
-Ok, we have implemented the algorithm, created a set of classes and interfaces, discussed
-message broadcasting.
-But how do we integrate all this cool solution with the service?
-Let’s see what options we have.
-There are two options.
-And they are pretty standard.
-We can run Rate Limiter as a part of the service process or as its own process (daemon).
-In the first option, Rate Limiter is distributed as a collection of classes, a library that
-should be integrated with the service code.
-In the second option we have two libraries: the daemon itself and the client, that is
-responsible for inter-process communication between the service process and the daemon.
-Client is integrated with the service code.
-What are the pros for the first approach?
-It is faster, as we do not need to do any inter-process call.
-It is also resilient to the inter-process call failures, because there are no such calls.
-The second approach is programming language agnostic.
-It means that Rate Limiter daemon can be written on a programming language that may be different
-from the language we use for the service implementation.
-As we do not need to do integration on the code level.
-Yes, we need to have Rate Limiter client compatible with the service code language.
-But not the daemon itself.
-Also, Rate Limiter process uses its own memory space.
-This isolation helps to better control behavior for both the service and the daemon.
-For example, daemon my store many buckets in memory, but because the service process
-has its own memory space, the service memory does not need to allocate space for these
-buckets.
-Which makes service memory allocation more predictable.
-Another good reason, and you may see it happening a lot in practice, service teams tend to be
-very cautious when you come to them and ask to integrate their service with your super
-cool library.
-You will hear tons of questions.
-Like how much memory and CPU your library consumes?
-What will happen in case of a network partition or any other exceptional scenario?
-Can we see results of the load testing for your library?
-What are your mom’s favorite flowers?
-And many many other questions.
-These questions are also applicable to the daemon solution.
-But it is easier to guarantee that the service itself will not be impacted by any bugs that
-may be in the Rate Limiter library.
-As you may see, strengths of the first approach become weaknesses of the second approach.
-And vice versa.
-So, which option is better?
-Both are good options and it really depends on the use cases and needs of a particular
-service team.
-By the way, the second approach, when we have a daemon that communicates with other hosts
-in the cluster is a quite popular pattern in distributed systems.
-For example, it is widely used to implement auto discovery of service hosts, when hosts
-in a cluster identify each other.
-Now let’s see what else an interviewer may want to discuss with us.
-In theory, it is possible that many token buckets will be created and stored in memory.
-For example, when millions of clients send requests at the same second.
-In practice though, we do not need to keep buckets in memory if there are no requests
-coming from the client for some period of time.
-For example, client made its first request and we created a bucket.
-As long as this client continues to send requests and interval between these requests is less
-than a second or couple of seconds, we keep the bucket in memory.
-If there are no requests coming for this bucket for several seconds, we can remove the bucket
-from memory.
-And bucket will be re-created again when client makes a new request.
-As for failure modes, there may be several of them.
-Daemon can fail, causing other hosts in the cluster lose visibility of this failed daemon.
-In the result, the host with a failed daemon leaves the group and continues to throttle
-requests without talking to other hosts in the cluster.
-Nothing really bad happens.
-Just less requests will be throttled in total.
-And we will have similar results in case of a network partition, when several hosts in
-the cluster may not be able to broadcast messages to the rest of the group.
-Just less requests throttled in total.
-And if you wonder why, just remember our previous example with 3 hosts and 4 tokens.
-If hosts talk to each other, only 4 requests are allowed across all of them.
-If hosts do not talk to each other due to let’s say network issues, each host will
-allow 4 requests, 12 in total.
-So, in case of failures in our rate limiter solution, more requests are allowed and less
-requests are throttled.
-With regards to rule management, we may need to introduce a self-service tool, so that
-service teams may create, update and delete their rules when needed.
-As for synchronization, there may be several places where we need it.
-First, we have synchronization in the token bucket.
-There is a better way to implement thread-safety in that class, using for example atomic references.
-Another place that may require synchronization is the token bucket cache.
-As we mentioned before, if there are too many buckets stored in the cache and we want to
-delete unused buckets and re-create them when needed, we will end up with synchronization.
-So, we may need to use concurrent hash map, which is a thread safe equivalent of the hash
-map in Java.
-In general, no need to be afraid of the synchronization in both those places.
-It may become a bottleneck eventually, but only for services with insanely large requests
-per second rate.
-For most services out there even the simplest synchronization implementation does not add
-to much overhead.
-Hopefully, this is the last question from the interviewer.
-So, what clients of our service should do with throttled calls?
-There are several options, as always.
-Clients may queue such requests and re-send them later.
-Or they can retry throttled requests.
-But do it in a smart way, and this smart way is called exponential backoff and jitter.
-Probably too smart.
-But do not worry, ideas are quite simple.
-An exponential backoff algorithm retries requests exponentially, increasing the waiting time
-between retries up to a maximum backoff time.
-In other words, we retry requests several times, but wait a bit longer with every retry
-attempt.
-And jitter adds randomness to retry intervals to spread out the load.
-If we do not add jitter, backoff algorithm will retry requests at the same time.
-And jitter helps to separate retries.
-Now let’s summarize what we have discussed so far.
-Service owners can use a self-service tools for rules management.
-Rules are stored in the database.
-On the service host we have rules retriever that stores retrieved rules in the local cache.
-When request comes, rate limiter client builds client identifier and passes it to the rate
-limiter to make a decision.
-Rate limiter communicates with a message broadcaster, that talks to other hosts in the cluster.
-Let’s recall non-functional requirements.
-We wanted to build a solution that is highly scalable, fast and accurate.
-And at this point I would really like to say that the solution we have built meets all
-the requirements.
-But this is not completely true.
-And the correct answer is “it depends”.
-Depends on the number of hosts in the cluster, depends on the number of rules, depends on
-the request rate.
-For majority of clusters out there, where cluster size is less then several thousands
-of nodes and number of active buckets per second is less then tens of thousands, gossip
-communication over UDP will work really fast and is quite accurate.
-In case of a rally large clusters, like tens of thousands of hosts, we may no longer rely
-on host-to-host communication in the service cluster as it becomes costly.
-And we need a separate cluster for making a throttling decision.
-This is a distributed cache option we discussed above.
-But the drawback of this approach is that it increases latency and operational cost.
-It would be good to have these tradeoff discussions with your interviewer.
-As it demonstrates both breadth and depth of your knowledge and critical thinking.
-But do not worry if you are not at the point yet where you feel comfortable discussing
-all these details.
-Keep watching video on this channel and I really hope that together we will be able
-to improve your system design skills.
-That is it for today’s interview question.
-As always, if you have any questions please leave them in the comments below.
-In the next video we will design a distributed cache.
-So, I will see you soon.
+### How do we integrate all
+
+![How do we integrate all](../assets/rl_i.png)
+
+- There are two options. And they are pretty standard. We can run Rate Limiter as a part of the service process or as its own process (daemon).
+- In the first option, Rate Limiter is distributed as a collection of classes, a library that should be integrated with the service code.
+- In the second option we have two libraries: the daemon itself and the client, that is responsible for inter-process communication between the service process and the daemon. Client is integrated with the service code.
+- What are the pros for the first approach?
+  - It is faster, as we do not need to do any inter-process call.
+  - It is also resilient to the inter-process call failures, because there are no such calls.
+-The second approach is programming language agnostic. It means that Rate Limiter daemon can be written on a programming language that may be different from the language we use for the service implementation. As we do not need to do integration on the code level. Yes, we need to have Rate Limiter client compatible with the service code language. But not the daemon itself.
+- Also, Rate Limiter process uses its own memory space. This isolation helps to better control behavior for both the service and the daemon. For example, daemon my store many buckets in memory, but because the service process has its own memory space, the service memory does not need to allocate space for these buckets. Which makes service memory allocation more predictable.
+- Another good reason, and you may see it happening a lot in practice, service teams tend to be very cautious when you come to them and ask to integrate their service with your super cool library.
+- You will hear tons of questions.
+  - Like how much memory and CPU your library consumes?
+  - What will happen in case of a network partition or any other exceptional scenario?
+  - Can we see results of the load testing for your library?
+- These questions are also applicable to the daemon solution.
+- But it is easier to guarantee that the service itself will not be impacted by any bugs that may be in the Rate Limiter library.
+- As you may see, strengths of the first approach become weaknesses of the second approach. And vice versa.
+- So, which option is better?
+- Both are good options and it really depends on the use cases and needs of a particular service team.
+- By the way, the second approach, when we have a daemon that communicates with other hosts in the cluster is a quite popular pattern in distributed systems.
+- For example, it is widely used to implement auto discovery of service hosts, when hosts in a cluster identify each other.
+
+### What else?
+
+- In theory, it is possible that many token buckets will be created and stored in memory. For example, when millions of clients send requests at the same second. In practice though, we do not need to keep buckets in memory if there are no requests coming from the client for some period of time. For example, client made its first request and we created a bucket. As long as this client continues to send requests and interval between these requests is less than a second or couple of seconds, we keep the bucket in memory. If there are no requests coming for this bucket for several seconds, we can remove the bucket from memory. And bucket will be re-created again when client makes a new request.
+- As for failure modes, there may be several of them. Daemon can fail, causing other hosts in the cluster lose visibility of this failed daemon. In the result, the host with a failed daemon leaves the group and continues to throttle requests without talking to other hosts in the cluster. Nothing really bad happens. Just less requests will be throttled in total. And we will have similar results in case of a network partition, when several hosts in the cluster may not be able to broadcast messages to the rest of the group. Just less requests throttled in total. And if you wonder why, just remember our previous example with 3 hosts and 4 tokens. If hosts talk to each other, only 4 requests are allowed across all of them. If hosts do not talk to each other due to let's say network issues, each host will allow 4 requests, 12 in total. So, in case of failures in our rate limiter solution, more requests are allowed and less requests are throttled.
+- With regards to rule management, we may need to introduce a self-service tool, so that service teams may create, update and delete their rules when needed.
+- As for synchronization, there may be several places where we need it. First, we have synchronization in the token bucket. There is a better way to implement thread-safety in that class, using for example atomic references. Another place that may require synchronization is the token bucket cache. As we mentioned before, if there are too many buckets stored in the cache and we want to delete unused buckets and re-create them when needed, we will end up with synchronization. So, we may need to use concurrent hash map, which is a thread safe equivalent of the hash map in Java. In general, no need to be afraid of the synchronization in both those places. It may become a bottleneck eventually, but only for services with insanely large requests per second rate. For most services out there even the simplest synchronization implementation does not add to much overhead.
+- So, what clients of our service should do with throttled calls? There are several options, as always. Clients may queue such requests and re-send them later. Or they can retry throttled requests. But do it in a smart way, and this smart way is called exponential backoff and jitter. Probably too smart. But do not worry, ideas are quite simple. An exponential backoff algorithm retries requests exponentially, increasing the waiting time between retries up to a maximum backoff time. In other words, we retry requests several times, but wait a bit longer with every retry attempt. And jitter adds randomness to retry intervals to spread out the load. If we do not add jitter, backoff algorithm will retry requests at the same time. And jitter helps to separate retries.
+
+### Final look
+
+![Final Look](../assets/rl_fl.png)
+
+- Service owners can use a self-service tools for rules management.
+- Rules are stored in the database.
+- On the service host we have rules retriever that stores retrieved rules in the local cache.
+- When request comes, rate limiter client builds client identifier and passes it to the rate limiter to make a decision.
+- Rate limiter communicates with a message broadcaster, that talks to other hosts in the cluster.
+- We wanted to build a solution that is highly scalable, fast and accurate.
+- And at this point I would really like to say that the solution we have built meets all the requirements. But this is not completely true. And the correct answer is "it depends".
+- Depends on the number of hosts in the cluster, depends on the number of rules, depends on the request rate.
+- For majority of clusters out there, where cluster size is less then several thousands of nodes and number of active buckets per second is less then tens of thousands, gossip communication over UDP will work really fast and is quite accurate.
+- In case of a rally large clusters, like tens of thousands of hosts, we may no longer rely on host-to-host communication in the service cluster as it becomes costly.
+- And we need a separate cluster for making a throttling decision.
+- This is a distributed cache option we discussed above.
+- But the drawback of this approach is that it increases latency and operational cost.
+- It would be good to have these tradeoff discussions with your interviewer.
+- As it demonstrates both breadth and depth of your knowledge and critical thinking.
