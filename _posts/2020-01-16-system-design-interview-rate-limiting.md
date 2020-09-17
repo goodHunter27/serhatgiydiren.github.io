@@ -107,36 +107,35 @@ power. Load balancer does not have knowledge about a cost of each operation. And
 - And the last piece is the refill method.
 - It calculates how many tokens accumulated since the last refill and increases currently available tokens in the bucket by this number.
 
-Let’s take a look at another facet of the problem, which is object-oriented design.
-Let’s define key classes and interfaces.
-Job Scheduler interface is responsible for scheduling a job that runs every several seconds
-and retrieves rules from Rules service.
-RulesCache interface is responsible for storing rules in memory.
-ClientIdentifier builds a key that uniquely identifies a client.
-And RateLimiter is responsible for decision making.
-RetrieveJobScheduler class implements JobScheduler interface.
-Its responsibility is to instantiate, start and stop the scheduler.
-And to run retrieve rules task.
-In Java, for example, we can utilize ScheduledExecutorService interface as a scheduler.
-TokenBucketCache stores token buckets.
-We can use something simple, for example Map to store buckets.
-Or utilize 3-rd party cache implementation, like Google Guava cache.
-ClientIdentifierBuilder is responsible for building a key based on user identity information
-(for example login).
-There can be other implementations as well, for example based on IP address.
-And for the RateLimiter interface lets introduce a TokenBucketRateLimiter class, which is responsible
-for calling allow request on the correspondent bucket for that client.
-And the last important piece is the RetrieveRulesTask, which is responsible for retrieving all the
-rules for this service.
-Let’s look at how these components interact with each other.
-Hopefully, it will help you to better remember all the components.
-RetrieveJobScheduler runs RetrieveRulesTask, which makes a remote call to the Rules service.
-It then creates token buckets and puts them into the cache.
-When client request comes to the host, RateLimiter first makes a call to the ClientIdentifierBuilder
-to build a unique identifier for the client.
-And then it passes this key to the cache and retrieves the bucket.
-And the last step to do is to call allow request on the bucket.
-Now, let’s step into the distributed world and see how we can make rate limiting work
+### Interfaces & Classes
+
+![Interfaces and Classes](../assets/rl_ic.png)
+
+- Job Scheduler interface is responsible for scheduling a job that runs every several seconds and retrieves rules from Rules service.
+- RulesCache interface is responsible for storing rules in memory.
+- ClientIdentifier builds a key that uniquely identifies a client.
+- And RateLimiter is responsible for decision making.
+- RetrieveJobScheduler class implements JobScheduler interface.
+- Its responsibility is to instantiate, start and stop the scheduler.
+- And to run retrieve rules task.
+- TokenBucketCache stores token buckets.
+- We can use something simple, for example Map to store buckets.
+- Or utilize 3-rd party cache implementation, like Google Guava cache.
+- ClientIdentifierBuilder is responsible for building a key based on user identity information (for example login).
+- There can be other implementations as well, for example based on IP address.
+- And for the RateLimiter interface lets introduce a TokenBucketRateLimiter class, which is responsible for calling allow request on the correspondent bucket for that client.
+- And the last important piece is the RetrieveRulesTask, which is responsible for retrieving all the rules for this service.
+- Let's look at how these components interact with each other.
+- Hopefully, it will help you to better remember all the components.
+- RetrieveJobScheduler runs RetrieveRulesTask, which makes a remote call to the Rules service.
+- It then creates token buckets and puts them into the cache.
+- When client request comes to the host, RateLimiter first makes a call to the ClientIdentifierBuilder to build a unique identifier for the client.
+- And then it passes this key to the cache and retrieves the bucket.
+- And the last step to do is to call allow request on the bucket.
+
+
+
+- Now, let's step into the distributed world and see how we can make rate limiting work
 across many machines in a cluster.
 But let me ask you something first.
 We have a cluster that consists of 3 hosts.
