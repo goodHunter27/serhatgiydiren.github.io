@@ -29,3 +29,6 @@ published: true
 * [Raft : In Search of an Understandable Consensus Algorithm](https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14){:target="_blank"}
 * [Cassandra - A Decentralized Structured Storage System](https://research.cs.cornell.edu/ladis2009/papers/lakshman-ladis2009.pdf){:target="_blank"}
 * [Kafka: a Distributed Messaging System for Log Processing](https://cs.uwaterloo.ca/~ssalihog/courses/papers/netdb11-final12.pdf){:target="_blank"}
+* [Dynamo: Amazon's Highly Available Key-value Store ](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf){:target="_blank"}
+* [Practical Byzantine Fault Tolerance](http://pmg.csail.mit.edu/papers/osdi99.pdf){:target="_blank"}
+* [ZooKeeper: Wait-free coordination for Internet-scale systems](https://www.usenix.org/legacy/events/atc10/tech/full_papers/Hunt.pdf){:target="_blank"}
