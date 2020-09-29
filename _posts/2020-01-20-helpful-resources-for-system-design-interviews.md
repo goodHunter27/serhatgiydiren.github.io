@@ -17,6 +17,7 @@ published: true
 * [Google SRE Classroom: Distributed PubSub Slides](https://static.googleusercontent.com/media/landing.google.com/en//sre/static/pdf/nalsd-pubsub-slides.pdf){:target="_blank"}
 * [The Google File System](https://research.google/pubs/pub51/){:target="_blank"}
 * [Large-scale cluster management at Google with Borg](https://research.google/pubs/pub43438/){:target="_blank"}
+* [The Google File System](https://research.google/pubs/pub51/){:target="_blank"}
 * [Spanner: Google's Globally Distributed Database](https://research.google/pubs/pub44915/){:target="_blank"}
 * [Spanner: Becoming a SQL System](https://research.google/pubs/pub46103/){:target="_blank"}
 * [Spanner, TrueTime and the CAP Theorem](https://research.google/pubs/pub45855/){:target="_blank"}
