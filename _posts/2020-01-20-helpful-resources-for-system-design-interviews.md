@@ -47,3 +47,4 @@ published: true
 * [Bitcoin: A Peer-to-Peer Electronic Cash System](https://pdos.csail.mit.edu/6.824/papers/bitcoin.pdf){:target="_blank"}
 * [Blockstack: A New Internet for Decentralized Applications](https://pdos.csail.mit.edu/6.824/papers/blockstack-2017.pdf){:target="_blank"}
 * [Experiences with a Distributed, Scalable, Methodological File System: AnalogicFS](https://pdos.csail.mit.edu/6.824/papers/katabi-analogicfs.pdf){:target="_blank"}
+* [The Go Memory Model](https://golang.org/ref/mem){:target="_blank"}
