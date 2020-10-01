@@ -38,3 +38,12 @@ published: true
 * [Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications](https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf){:target="_blank"}
 * [Frangipani: A Scalable Distributed File System](https://pdos.csail.mit.edu/6.824/papers/thekkath-frangipani.pdf){:target="_blank"}
 * [The design of a practical system for fault-tolerant virtual machines](https://pdos.csail.mit.edu/6.824/papers/vm-ft.pdf){:target="_blank"}
+* [Object Storage on CRAQ](https://pdos.csail.mit.edu/6.824/papers/craq.pdf){:target="_blank"}
+* [Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases](https://pdos.csail.mit.edu/6.824/papers/aurora.pdf){:target="_blank"}
+* [Principles of Computer System Design: An Introduction](https://ocw.mit.edu/resources/res-6-004-principles-of-computer-system-design-an-introduction-spring-2009/){:target="_blank"}
+* [Don’t Settle for Eventual: Scalable Causal Consistency for Wide-Area Storage with COPS](https://pdos.csail.mit.edu/6.824/papers/cops.pdf){:target="_blank"}
+* [Certificate Transparency](https://www.certificate-transparency.org/){:target="_blank"}
+* [Transparent Logs for Skeptical Clients](https://research.swtch.com/tlog){:target="_blank"}
+* [Bitcoin: A Peer-to-Peer Electronic Cash System](https://pdos.csail.mit.edu/6.824/papers/bitcoin.pdf){:target="_blank"}
+* [Blockstack: A New Internet for Decentralized Applications](https://pdos.csail.mit.edu/6.824/papers/blockstack-2017.pdf){:target="_blank"}
+* [Experiences with a Distributed, Scalable, Methodological File System: AnalogicFS](https://pdos.csail.mit.edu/6.824/papers/katabi-analogicfs.pdf){:target="_blank"}
