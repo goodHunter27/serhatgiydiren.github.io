@@ -37,3 +37,4 @@ published: true
 * [Scaling Memcache at Facebook](https://research.fb.com/wp-content/uploads/2016/11/scaling-memcache-at-facebook.pdf){:target="_blank"}
 * [Chord: A Scalable Peer-to-peer Lookup Service for Internet Applications](https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf){:target="_blank"}
 * [Frangipani: A Scalable Distributed File System](https://pdos.csail.mit.edu/6.824/papers/thekkath-frangipani.pdf){:target="_blank"}
+* [The design of a practical system for fault-tolerant virtual machines](https://pdos.csail.mit.edu/6.824/papers/vm-ft.pdf){:target="_blank"}
