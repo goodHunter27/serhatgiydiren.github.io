@@ -52,3 +52,4 @@ published: true
 * [The Hadoop Distributed File System](https://storageconference.us/2010/Papers/MSST/Shvachko.pdf){:target="_blank"}
 * [Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google/pubs/pub36356/){:target="_blank"}
 * [Mastering Chaos - A Netflix Guide to Microservices](https://youtu.be/CZ3wIuvmHeM){:target="_blank"}
+* [Ephemeral Volatile Caching in the cloud](https://netflixtechblog.com/ephemeral-volatile-caching-in-the-cloud-8eba7b124589){:target="_blank"}
