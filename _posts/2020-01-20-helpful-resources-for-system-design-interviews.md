@@ -5,6 +5,11 @@ published: true
 
 * [MIT 6.824 Distributed Systems Lectures](https://www.youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB){:target="_blank"}
 * [CSE138 Distributed Systems Lectures](https://www.youtube.com/playlist?list=PLNPUF5QyWU8O0Wd8QDh9KaM1ggsxspJ31){:target="_blank"}
+* [Princeton COS418 Distributed Systems Lectures](https://www.cs.princeton.edu/courses/archive/fall19/cos418/schedule.html){:target="_blank"}
+* [Stanford CS244b Distributed Systems Lectures](http://www.scs.stanford.edu/20sp-cs244b/notes){:target="_blank"}
+* [Illinois CS425 Distributed Systems Lectures](https://courses.engr.illinois.edu/cs425/fa2020/lectures.html){:target="_blank"}
+* [University of Washington CSE452 Distributed Systems Lectures](https://courses.cs.washington.edu/courses/cse452/20wi/calendar/lecturelist.html){:target="_blank"}
+* [University of Washington CSEP552 PMP Distributed Systems Lectures](https://courses.cs.washington.edu/courses/csep552/16wi){:target="_blank"}
 * [Distributed Systems Course from Chris Colohan](https://www.youtube.com/playlist?list=PLOE1GTZ5ouRPbpTnrZ3Wqjamfwn_Q5Y9A){:target="_blank"}
 * [System Design Interview from Mikhail Smarshchok](https://www.youtube.com/channel/UC9vLsnF6QPYuH51njmIooCQ){:target="_blank"}
 * [System Design from Gaurav Sen](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX){:target="_blank"}
