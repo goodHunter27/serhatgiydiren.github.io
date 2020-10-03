@@ -54,3 +54,5 @@ published: true
 * [Mastering Chaos - A Netflix Guide to Microservices](https://youtu.be/CZ3wIuvmHeM){:target="_blank"}
 * [Ephemeral Volatile Caching in the cloud](https://netflixtechblog.com/ephemeral-volatile-caching-in-the-cloud-8eba7b124589){:target="_blank"}
 * [The Netflix Tech Blog](https://netflixtechblog.com/){:target="_blank"}
+* [ETL Is Dead, Long Live Streams: real-time streams w/ Apache Kafka](https://youtu.be/I32hmY4diFY){:target="_blank"}
+* [Scaling Instagram Infrastructure](https://youtu.be/hnpzNAPiC0E){:target="_blank"}
