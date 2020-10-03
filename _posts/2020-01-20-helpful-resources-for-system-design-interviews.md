@@ -48,3 +48,6 @@ published: true
 * [Blockstack: A New Internet for Decentralized Applications](https://pdos.csail.mit.edu/6.824/papers/blockstack-2017.pdf){:target="_blank"}
 * [Experiences with a Distributed, Scalable, Methodological File System: AnalogicFS](https://pdos.csail.mit.edu/6.824/papers/katabi-analogicfs.pdf){:target="_blank"}
 * [The Go Memory Model](https://golang.org/ref/mem){:target="_blank"}
+* [Storm @Twitter](https://cs.brown.edu/courses/csci2270/archives/2015/papers/ss-storm.pdf){:target="_blank"}
+* [The Hadoop Distributed File System](https://storageconference.us/2010/Papers/MSST/Shvachko.pdf){:target="_blank"}
+* [Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google/pubs/pub36356/){:target="_blank"}
