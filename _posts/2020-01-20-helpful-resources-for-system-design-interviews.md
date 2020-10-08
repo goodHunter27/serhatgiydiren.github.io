@@ -76,6 +76,6 @@ published: true
 * [Zoom System Design](https://medium.com/@himanishaik48/zoom-system-design-most-frequently-asked-question-in-interview-f60f6fe8d198){:target="_blank"}
 * [System Design Template](https://leetcode.com/discuss/career/229177/my-system-design-template){:target="_blank"}
 * [System Design](https://www.interviewbit.com/courses/system-design){:target="_blank"}
-* [Zoom System Design | WhatsApp / FB Video Calling System Design and Architecture - JioMeet/GoogleMeet](https://youtu.be/G32ThJakeHk){:target="_blank"}
+* [Zoom System Design](https://youtu.be/G32ThJakeHk){:target="_blank"}
 * [System Design Primer](https://github.com/donnemartin/system-design-primer){:target="_blank"}
 * [Introduction to architecting systems for scale](https://lethain.com/introduction-to-architecting-systems-for-scale){:target="_blank"}
