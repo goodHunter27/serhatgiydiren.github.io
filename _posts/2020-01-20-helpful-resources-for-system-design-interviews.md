@@ -92,5 +92,6 @@ published: true
 * [Distributing Software in a Massively Parallel Environment](https://www.usenix.org/sites/default/files/conference/protected-files/lisa_2014_talk.pdf){:target="_blank"}
 * [Photon: Fault-tolerant and Scalable Joining of Continuous Data Streams](https://research.google/pubs/pub41318){:target="_blank"}
 * [Maglev: A Fast and Reliable Software Network Load Balancer](https://research.google/pubs/pub44824){:target="_blank"}
-* [Jupiter Rising: A Decade of Clos Topologies and Centralized Control in Google’s Datacenter Network](https://research.google/pubs/pub43837){:target="_blank"}
-* [BwE: Flexible, Hierarchical Bandwidth Allocation for WAN Distributed Computing ](https://research.google/pubs/pub43838){:target="_blank"}
+* [Jupiter Rising: A Decade of Clos Topologies and Centralized Control in Google's Datacenter Network](https://research.google/pubs/pub43837){:target="_blank"}
+* [BwE: Flexible, Hierarchical Bandwidth Allocation for WAN Distributed Computing](https://research.google/pubs/pub43838){:target="_blank"}
+* [Linearizability versus Serializability](http://www.bailis.org/blog/linearizability-versus-serializability){:target="_blank"}
