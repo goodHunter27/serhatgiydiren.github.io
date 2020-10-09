@@ -32,6 +32,7 @@ published: true
 * [The Chubby lock service for loosely-coupled distributed systems](https://research.google/pubs/pub27897/){:target="_blank"}
 * [Web Search for a Planet: The Google Cluster Architecture](https://research.google/pubs/pub49/){:target="_blank"}
 * [Raft : In Search of an Understandable Consensus Algorithm](https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14){:target="_blank"}
+* [Raft : In Search of an Understandable Consensus Algorithm (Extended Version)](https://raft.github.io/raft.pdf){:target="_blank"}
 * [Cassandra - A Decentralized Structured Storage System](https://research.cs.cornell.edu/ladis2009/papers/lakshman-ladis2009.pdf){:target="_blank"}
 * [Kafka: a Distributed Messaging System for Log Processing](https://cs.uwaterloo.ca/~ssalihog/courses/papers/netdb11-final12.pdf){:target="_blank"}
 * [Dynamo: Amazon's Highly Available Key-value Store ](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf){:target="_blank"}
@@ -79,3 +80,17 @@ published: true
 * [Zoom System Design](https://youtu.be/G32ThJakeHk){:target="_blank"}
 * [System Design Primer](https://github.com/donnemartin/system-design-primer){:target="_blank"}
 * [Introduction to architecting systems for scale](https://lethain.com/introduction-to-architecting-systems-for-scale){:target="_blank"}
+* [The Hidden Dividends of Microservices](https://queue.acm.org/detail.cfm?id=2956643){:target="_blank"}
+* [Building Secure & Reliable Systems](https://static.googleusercontent.com/media/landing.google.com/en//sre/static/pdf/Building_Secure_and_Reliable_Systems.pdf){:target="_blank"}
+* [The Site Reliability Workbook](https://landing.google.com/sre/workbook/toc){:target="_blank"}
+* [Site Reliability Engineering](https://landing.google.com/sre/sre-book/toc/index.html){:target="_blank"}
+* [Thrift:Scalable Cross-Language Services Implementation](https://thrift.apache.org/static/files/thrift-20070401.pdf){:target="_blank"}
+* [Cap'n Proto](https://capnproto.org){:target="_blank"}
+* [JSON-RPC](https://www.jsonrpc.org){:target="_blank"}
+* [Impossibility of Distributed Consensus with One Faulty Process](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf){:target="_blank"}
+* [Paxos Made Live - An Engineering Perspective (2006 Invited Talk)](https://research.google/pubs/pub33002){:target="_blank"}
+* [Distributing Software in a Massively Parallel Environment](https://www.usenix.org/sites/default/files/conference/protected-files/lisa_2014_talk.pdf){:target="_blank"}
+* [Photon: Fault-tolerant and Scalable Joining of Continuous Data Streams](https://research.google/pubs/pub41318){:target="_blank"}
+* [Maglev: A Fast and Reliable Software Network Load Balancer](https://research.google/pubs/pub44824){:target="_blank"}
+* [Jupiter Rising: A Decade of Clos Topologies and Centralized Control in Google’s Datacenter Network](https://research.google/pubs/pub43837){:target="_blank"}
+* [BwE: Flexible, Hierarchical Bandwidth Allocation for WAN Distributed Computing ](https://research.google/pubs/pub43838){:target="_blank"}
