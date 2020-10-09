@@ -95,3 +95,4 @@ published: true
 * [Jupiter Rising: A Decade of Clos Topologies and Centralized Control in Google's Datacenter Network](https://research.google/pubs/pub43837){:target="_blank"}
 * [BwE: Flexible, Hierarchical Bandwidth Allocation for WAN Distributed Computing](https://research.google/pubs/pub43838){:target="_blank"}
 * [Linearizability versus Serializability](http://www.bailis.org/blog/linearizability-versus-serializability){:target="_blank"}
+* [Consistency Models](https://jepsen.io/consistency){:target="_blank"}
