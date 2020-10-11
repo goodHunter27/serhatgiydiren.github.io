@@ -96,3 +96,5 @@ published: true
 * [BwE: Flexible, Hierarchical Bandwidth Allocation for WAN Distributed Computing](https://research.google/pubs/pub43838){:target="_blank"}
 * [Linearizability versus Serializability](http://www.bailis.org/blog/linearizability-versus-serializability){:target="_blank"}
 * [Consistency Models](https://jepsen.io/consistency){:target="_blank"}
+* [A Fast, Minimal Memory, Consistent Hash Algorithm](https://arxiv.org/pdf/1406.2294.pdf){:target="_blank"}
+* [Semantics of Caching with SPOCA: A Stateless, Proportional,Optimally-Consistent Addressing Algorithm](https://www.usenix.org/legacy/event/atc11/tech/final_files/Chawla.pdf){:target="_blank"}
