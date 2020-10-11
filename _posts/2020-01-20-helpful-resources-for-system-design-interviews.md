@@ -100,3 +100,6 @@ published: true
 * [Semantics of Caching with SPOCA: A Stateless, Proportional,Optimally-Consistent Addressing Algorithm](https://www.usenix.org/legacy/event/atc11/tech/final_files/Chawla.pdf){:target="_blank"}
 * [How to beat the CAP theorem](http://nathanmarz.com/blog/how-to-beat-the-cap-theorem.html){:target="_blank"}
 * [Questioning the Lambda Architecture](https://www.oreilly.com/radar/questioning-the-lambda-architecture){:target="_blank"}
+* [A database clustering system for horizontal scaling of MySQL](https://vitess.io/){:target="_blank"}
+* [Massively Scaling MySQL Using Vitess](https://www.infoq.com/presentations/vitess/){:target="_blank"}
+* [Vitess: Scaling MySQL at YouTube Using Go](https://www.usenix.org/conference/lisa12/vitess-scaling-mysql-youtube-using-go){:target="_blank"}
