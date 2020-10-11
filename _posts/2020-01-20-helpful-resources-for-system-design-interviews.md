@@ -98,3 +98,4 @@ published: true
 * [Consistency Models](https://jepsen.io/consistency){:target="_blank"}
 * [A Fast, Minimal Memory, Consistent Hash Algorithm](https://arxiv.org/pdf/1406.2294.pdf){:target="_blank"}
 * [Semantics of Caching with SPOCA: A Stateless, Proportional,Optimally-Consistent Addressing Algorithm](https://www.usenix.org/legacy/event/atc11/tech/final_files/Chawla.pdf){:target="_blank"}
+* [How to beat the CAP theorem](http://nathanmarz.com/blog/how-to-beat-the-cap-theorem.html){:target="_blank"}
