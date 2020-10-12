@@ -5,6 +5,8 @@ published: true
 
 #### Excerpted from [here](https://www.coursera.org/learn/leadership-collaboration){:target="_blank"}
 
+### Introduction to the Organizational Leadership
+
 Leaders who can thrive while building strong organizations and creating lasting value. Now the topic of leadership has never been more important. We live in a time of profound change, when the scale and complexity of organizations is greater than ever before. And we need people who are equipped to lead these organizations. 
 
 **Great leadership's all about the people who know how to build effective, resilient organizations. Organizations that don't lose their edge.**
@@ -19,6 +21,8 @@ The second theme, **Effective Collaboration**. The rarest skill is the ability t
 
 ------------------------------
 
+### Perspectives on Leadership
+
 Leadership requires the ability to look at complex problems and to uncover root causes. To see the central idea in a sea of issues. However, leadership is more than chasing and solving problems. To either see new possibilities where others are not looking. And recognize when new ideas can have broad implications.
 
 These two core skills, problem solving and imagining the future, can be addressed through one process, design innovation. At it's core, most basic level, **design innovation starts with a clear understanding of the end user**. It uses as systematic process to uncover the real problem behind the perceived problem. In design, the majority of the time is spent on building understanding, because there is no big price for solving correctly what turns out to be the wrong question. Through the design process we build, test and iterate, all while keeping the end user in mind. Design innovation empowers leaders to develop meaningful solutions, create value, and envision new possibilities. At the very highest level, design unlocks creativity and the ability to imagine a new future. Design also serves as an important counterbalance to an overly analytical mindset. It is not an either or proposition. You need both analysis and creativity. But combining these two will empower the development of transformative ideas. It is something that we call whole brain thinking.
@@ -28,6 +32,8 @@ We need accurate information to make decisions, and we need to communicate well 
 I'm acutely aware of the connection between well-executed communication and effective leadership. As a leader you need to be able to articulate an effective vision for your organization, and help others adopt and implement it. And while these days a leader has many possible ways of sharing ideas with others in his or her organization. In the end a leader's effectiveness will turn on the ability to influence others through persuasion.
 
 ------------------------------
+
+### Introduction to Leadership Module
 
 **There are three key cornerstones to leadership, and it starts with you. The first one is all about you becoming a leader. The second is collaboration and teams ultimately we take a deep dive into negotiations and conflict management.**
 
@@ -42,6 +48,8 @@ An enduring question when it comes to leadership is, are leaders born? Or are th
 The firm belief that anyone who is intent upon improving their leadership can improve dramatically.
 
 ------------------------------
+
+### Mindset and Growth
 
 According to Carol Dweck, there are two fundamental mindsets that people have when it comes to looking at themselves and others. She calls these Fixed and Growth mindsets.
 
@@ -65,6 +73,8 @@ Let's talk about failure for a moment. Failures are unpleasant, but they grab ou
 **As leaders, we can cultivate growth mindsets in our teams by how we describe challenges as a test of DNA or as an opportunity to learn. Knowing how to fail is a key leadership skill.**
 
 ------------------------------
+
+### Leadership Style
 
 According to McGregor there are two fundamentally different kinds of leadership styles, Theory X and Theory Y.
 
@@ -103,6 +113,8 @@ When team members are moderately ready when it comes to the task, leaders can do
 
 ------------------------------
 
+### Intrinsic and Extrinsic Motivation
+
 **Intrinsic motivation** refers to motivation and desire that is driven by internal rewards which can be a sense of satisfaction, accomplishment, or making the world a better place.
 
 **Extrinsic motivation** refers to motivation and desire that is driven by the promise of external rewards including money, resources, or material gain.
@@ -118,6 +130,8 @@ Third, failing to affirm intrinsic interest can undermine motivation.
 Finally, affirming intrinsic motivation can lead to greater insight and better performance.
 
 ------------------------------
+
+### The How of Happiness
 
 It's important to realize that happiness is not a state that we fall into. Rather, evidence indicates that happiness can be a cultivated activity.
 
@@ -157,6 +171,8 @@ Okay, so what to do? Treat happiness like your exercise routine. Commit to it, a
 
 ------------------------------
 
+### Decision Making
+
 Human overconfidence, a type of egocentric bias. The unwarranted belief in one's own decision prowess.
 
 The fact is, most people are wildly overconfident about their decision-making abilities.
@@ -186,6 +202,8 @@ Finally, turn off the email inbox so you're not tempted to divert your attention
 
 ------------------------------
 
+### Emotional Intelligence
+
 I want you to think about the best boss, leader, or mentor you've ever had, past or present, okay? Do you have that person in mind? Good, what key quality did this leader possess that was so important for you? I've asked this question in many of my executive courses, and no one has ever said my best boss was really intelligent, or my boss had a perfect GMAT score. Instead, they mention people skills.
 
 Leaders are judged, not just by how smart they are, but how they handle themselves and others. The skill that involves how to work with other people and how to manage yourself is known as emotional intelligence.
@@ -201,6 +219,8 @@ Successful leaders have self implemented their own way to deal with frustration,
 What are the implications for leadership? First, emotional intelligence starts with self-awareness. Second, people who are high in self-awareness are more empathic. Finally, you can improve your ability to self-regulate with rehearsal and practice.
 
 ------------------------------
+
+### Organizational Intelligence
 
 Jim McNerney, CEO of Boeing, states that the biggest jump into the CEO job is learning to manage what you can't control having been trained to manage what you can control.
  
@@ -240,6 +260,8 @@ Finally, where are the structural holes in your organization? How can you act as
 
 ------------------------------
 
+### Cultural Intelligence
+
 What is culture? Culture is the personality of a group. Cultural intelligence according to Professor Chris Earley, is a persons capability to adapt effectively to new cultural contexts. The risk of talking about culture is that we may fall prey to stereotyping people.
 
 A stereotype is a faulty belief that everyone from a given group or given culture is the same. No one wants to be stereotyped. Instead, let’s talk about prototypes when it comes to culture. A prototype is a central tendency. In other words, a prototype acknowledges that there may be a norm in a given culture, but there is variation and dispersion around that norm.
@@ -257,6 +279,8 @@ Honor cultures are primarily in the Middle East, South Asia, North Africa, and L
 There are three primary cultural personalities, learn to recognize them. Some of us are multicultural. It is vital to realize that your own cultural beliefs may not be embraced by others. Decide how much you are willing to change when communicating globally.
 
 ------------------------------
+
+### Goal-Setting
 
 We're going to raise three questions about building teams.
 
@@ -279,6 +303,8 @@ A third type of work that teams do is creative teamwork. Examples might be a new
 **Bottom line, as a team leader, know the goal of your team so you can set the stage for optimal performance.**
 
 ------------------------------
+
+### Size and Diversity
 
 It's not enough to put your most talented people on the same team and just hope that magic happens.
 
@@ -316,6 +342,8 @@ Finally, truth in disclosure. Diverse teams do have potential for more conflict.
 
 ------------------------------
 
+### Roles and Rules
+
 Have you ever been on a team in which there is a free rider? That's an expression used to refer to the fact that some team members contribute a lot less than others on a team. And in my own research, I've discovered that a lack of engagement or free riding is the number one issue that keeps leaders up at night.
 
 The question is how to prevent it from happening. The team charter is my favorite tool to combat free riders. The team charter is a living document that is written by all team members. There are three ingredients in the team charter, **goals**, **responsibilities**, and **norms**. By the way, it's not going to work if the leader, or heaven forbid, senior management writes the team charter and voiced it on the team. The charter needs to be collectively authored by the team. Don't let it exceed one page, and don't put it in a file drawer. It should be in clear sight each time the team meets.
@@ -350,6 +378,8 @@ Well designed teams with poor leaders outperform poorly designed teams with good
 Let's sum up, it is never too late to develop a team charter. Treat the charter like a live plant, revisit it, adjust. What's working? What's not working? What should be added?
 
 ------------------------------
+
+### Evidence-Based Management
 
 Teams should make decisions like scientists. Namely they should develop hypothesis, devise critical tests, and be data-driven rather than outcome driven.
 
@@ -387,6 +417,8 @@ The problem with most learning organizations is that everybody wants to learn by
 
 ------------------------------
 
+### Optimizing Conflict
+
 Debate, conflict, and confrontation are necessary to make optimal decisions.
 
 Foster positive debate.
@@ -419,6 +451,8 @@ Finally, as a leader you need to role model the kind of debate you want to have.
 
 ------------------------------
 
+### Virtual Teams
+
 First, let's distinguish three types of teams. **Traditional**, **hybrid**, and **virtual teams*.
 
 **Traditional teams** are physically close and spend much time together.
@@ -448,6 +482,8 @@ Third, socialize before getting down to business. In our research, we found that
 **Adjourning**. When the project ends, have a debrief session. My favorite government agency refers to these meetings as a hot wash. This is a time to focus on three things. What worked well? What did not work so well? And what should be different next time?
 
 ------------------------------
+
+### Creativity and Innovation
 
 **Creativity** is the production of novel and useful ideas. Creativity is also known as ideation.
 
@@ -503,6 +539,8 @@ In other words, allow the team to generate a high volume of ideas and set aside 
 
 ------------------------------
 
+### Who's More Creative, Groups or Individuals?
+
 Who is more creative, individuals or teams? When I've asked this question to companies and leaders, nearly everyone votes for the team.
 
 As it turns out, there's over 50 years of research bearing on this question, and without exception the evidence is that individuals are more creative than teams.
@@ -520,6 +558,8 @@ Four, **performance matching**. This refers to the fact that people in groups qu
 As leaders, I want you to take charge of your creative team by introducing hybrid strategies and techniques. 
 
 ------------------------------
+
+### Best Practices for Creativity
 
 Brainwriting is not brainstorming. If brainstorming is the simultaneous verbal generation of ideas in a group, then brainwriting is the simultaneous written generation of ideas in a group.
 
@@ -544,6 +584,8 @@ Second, the simplest strategy is to stand up and bifurcate the creative session 
 Finally, changing group composition by inviting outsiders can increase creativity. 
 
 ------------------------------
+
+### Develop Your BATNA
 
 No negotiator expects the counter party will accept their first offer. If the other party does accept your first offer. Then you've offered way to much. A very common negotiation debacle. That we call the winner's curse. The winner's curse occurs whenever your first offer is immediately accepted by the counter party.
 
@@ -577,6 +619,8 @@ Finally, once you determine your BATNA, then you can devise your RP, your reserv
 
 ------------------------------
 
+### Target Points and Anchoring
+
 If you do these three things you can best position yourself to succeed in negotiation.
 
 Number one: set a target point.
@@ -605,6 +649,8 @@ First, do as much research as you can to set a target. Open first but only if yo
 
 ------------------------------
 
+### The Art of Concessions
+
 The key to remember is that we negotiate in long-term relationships with people who have short-term memories.
 
 As far as how to play the game of negotiation, I have four pieces of advice.
@@ -618,6 +664,8 @@ Three, be precise. People habitually use round numbers as first offers and for t
 Fourth, provide a rationale. Look, negotiation should not be like an auction with numbers flying back and forth over the table. It's a conversation. You have far more leverage with your offers if you provide a rationale.
 
 ------------------------------
+
+### Win-Win Negotiation
 
 If we never share our interests, we cannot reach win-win outcomes. If I don't tell you a dang thing, chances are we're not going to settle upon a win-win agreement.
 
@@ -634,6 +682,8 @@ Number four, ask questions about the other party's priorities. Asking questions 
 Number five, devise multi-issue proposals that logroll parties' interests.
 
 ------------------------------
+
+### Creating Value
 
 Sometimes negotiations break down because parties have fundamentally different views concerning future events that cannot be resolved with existing data, and therefore, need to be put to test. This type of negotiated agreement is known as a contingent contract because the parties involved will gain or lose as a result of an unknown outcome. A contingent contract is essentially a bet between parties who have different beliefs That can only be tested with more time, more data.
 
@@ -679,6 +729,8 @@ Finally, solve differences of belief. By crafting contingent contracts.
 
 ------------------------------
 
+### Interests, Rights and Power
+
 Conflict occurs whenever people believe they have opposing interests or beliefs regarding an outcome or a process. A dispute is a specific type of conflict. According to Ury, Brett & Goldberg, a dispute exists whenever a claim has been made by one party and rejected by the other party.
 
 We're going to use the **interests**, **rights**, and **power** model of disputes to analyze our own and the others' behavior.
@@ -698,6 +750,8 @@ Second, don't focus on a single option. Attempt to generate multiple options or 
 Finally, most important, reward and reciprocate the use of interest by the other party.
 
 ------------------------------
+
+### Conflict Escalation and Irrational People
 
 The key predictor of divorce was anger combined with a personal attack. Something called contempt.
 
@@ -728,6 +782,8 @@ Third, when the other party is not taking you seriously. Sometimes you need to f
 Okay, let's sum up. When we're in conflict, we get emotional and we're likely to use power or rights. This can quickly escalate. There is a time to use rights and power, and a way to use power. When using power, be clear about what actions are needed. But, find a way to help parties save face. Remember, the whole idea is to de-escalate conflict.
 
 ------------------------------
+
+### Reputation and Ethics
 
 According to Robinson, Lewicki and Donahue, there are at least five types of ethically questionable behavior in negotiations.
 
