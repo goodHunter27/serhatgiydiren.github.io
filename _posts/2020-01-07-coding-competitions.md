@@ -7,6 +7,7 @@ published: true
 
 Date | Competition | Round | Rank | Urls
 ------------ | ------------- | ------------- | ------------- | -------------
+18.10.2020 | Google Kick Start | Round G | 261 / 8.098 | [Scoreboard](https://codingcompetitions.withgoogle.com/kickstart/round/00000000001a0069){:target="_blank"}<br />[Certificate](https://codingcompetitions.withgoogle.com/kickstart/certificate/round/00000000001a0069){:target="_blank"}
 05.08.2020 | Codeforces | Codeforces Round #661 | 469 / 16.672 | [Scoreboard](https://codeforces.com/contest/1399/standings){:target="_blank"}
 31.07.2020 | HackerRank | Hack the Interview VI (U.S.) | 27 / 708 | [Scoreboard](https://www.hackerrank.com/contests/hack-the-interview-vi/leaderboard){:target="_blank"}<br />[Certificate](https://www.hackerrank.com/results/hack-the-interview-vi/serhatgiydiren){:target="_blank"}
 31.07.2020 | HackerRank | Hack the Interview VI (Asia Pacific) | 95 / 2.542 | [Scoreboard](https://www.hackerrank.com/contests/hack-the-interview-vi-asia-pacific/leaderboard){:target="_blank"}<br />[Certificate](https://www.hackerrank.com/results/hack-the-interview-vi-asia-pacific/serhatgiydiren){:target="_blank"}
@@ -63,8 +64,6 @@ n/a | n/a
 
 Date | Round
 ------------ | -------------
-27.09.2020 | Round F
-18.10.2020 | Round G
 15.11.2020 | Round H
 
 #### [HackerEarth](https://hackerearth.com){:target="_blank"}
