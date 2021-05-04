@@ -7,6 +7,8 @@ published: true
 
 Date | Competition | Round | Rank | Urls
 ------------ | ------------- | ------------- | ------------- | -------------
+18.04.2021 | Google Kick Start | Round B | 709 / 7.395 | [Scoreboard](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000436140){:target="_blank"}<br />[Certificate](https://codingcompetitions.withgoogle.com/kickstart/certificate/summary/0000000000435bad){:target="_blank"}
+21.03.2021 | Google Kick Start | Round A | 2.042 / 19.842 | [Scoreboard](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435a5b){:target="_blank"}<br />[Certificate](https://codingcompetitions.withgoogle.com/kickstart/certificate/summary/0000000000435bad){:target="_blank"}
 17.11.2020 | Codeforces | Codeforces Round #684 | 619 / 10.261 | [Scoreboard](https://codeforces.com/contest/1440/standings){:target="_blank"}
 18.10.2020 | Google Kick Start | Round G | 261 / 8.098 | [Scoreboard](https://codingcompetitions.withgoogle.com/kickstart/round/00000000001a0069){:target="_blank"}<br />[Certificate](https://codingcompetitions.withgoogle.com/kickstart/certificate/round/00000000001a0069){:target="_blank"}
 05.08.2020 | Codeforces | Codeforces Round #661 | 469 / 16.672 | [Scoreboard](https://codeforces.com/contest/1399/standings){:target="_blank"}
