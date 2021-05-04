@@ -7,7 +7,7 @@ published: true
 
 Date | Competition | Round | Rank | Urls
 ------------ | ------------- | ------------- | ------------- | -------------
-17.11.2020 | Codeforces | Codeforces Round #684 | 626 / 10.333 | [Scoreboard](https://codeforces.com/contest/1440/standings){:target="_blank"}
+17.11.2020 | Codeforces | Codeforces Round #684 | 619 / 10.261 | [Scoreboard](https://codeforces.com/contest/1440/standings){:target="_blank"}
 18.10.2020 | Google Kick Start | Round G | 261 / 8.098 | [Scoreboard](https://codingcompetitions.withgoogle.com/kickstart/round/00000000001a0069){:target="_blank"}<br />[Certificate](https://codingcompetitions.withgoogle.com/kickstart/certificate/round/00000000001a0069){:target="_blank"}
 05.08.2020 | Codeforces | Codeforces Round #661 | 469 / 16.672 | [Scoreboard](https://codeforces.com/contest/1399/standings){:target="_blank"}
 31.07.2020 | HackerRank | Hack the Interview VI (U.S.) | 27 / 708 | [Scoreboard](https://www.hackerrank.com/contests/hack-the-interview-vi/leaderboard){:target="_blank"}<br />[Certificate](https://www.hackerrank.com/results/hack-the-interview-vi/serhatgiydiren){:target="_blank"}
