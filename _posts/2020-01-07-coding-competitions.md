@@ -7,7 +7,8 @@ published: true
 
 Date | Competition | Round | Rank | Urls
 ------------ | ------------- | ------------- | ------------- | -------------
-10.07.2021 | Codeforces | Codeforces Round #731 | 700 / 10.413 | [Scoreboard](https://atcoder.jp/contests/abc203/standings){:target="_blank"}
+11.07.2021 | Codeforces | Codeforces Round #732 | 290 / 10.831 | [Scoreboard](https://codeforces.com/contest/1546/standings){:target="_blank"}
+10.07.2021 | Codeforces | Codeforces Round #731 | 700 / 10.413 | [Scoreboard](https://codeforces.com/contest/1547/standings){:target="_blank"}
 30.05.2021 | AtCoder | Beginner Contest 205 | 555 / 10.715 | [Scoreboard](https://atcoder.jp/contests/abc199/standings){:target="_blank"}
 29.05.2021 | LeetCode | Biweekly Contest 53 | 334 / 12.291 | [Scoreboard](https://leetcode.com/contest/biweekly-contest-53/ranking){:target="_blank"}
 23.05.2021 | Google Kick Start | Round C | 269 / 12.175 | [Scoreboard](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435c44){:target="_blank"}<br />[Certificate](https://codingcompetitions.withgoogle.com/kickstart/certificate/summary/0000000000435bad){:target="_blank"}
