@@ -7,6 +7,7 @@ published: true
 
 Date | Competition | Round | Rank | Urls
 ------------ | ------------- | ------------- | ------------- | -------------
+11.07.2021 | Google Kick Start | Round D | 596 / 10.933 | [Scoreboard](https://codingcompetitions.withgoogle.com/kickstart/round/00000000004361e3){:target="_blank"}<br />[Certificate](https://codingcompetitions.withgoogle.com/kickstart/certificate/summary/0000000000435bad){:target="_blank"}
 11.07.2021 | Codeforces | Codeforces Round #732 | 285 / 10.664 | [Scoreboard](https://codeforces.com/contest/1546/standings){:target="_blank"}
 10.07.2021 | Codeforces | Codeforces Round #731 | 700 / 10.413 | [Scoreboard](https://codeforces.com/contest/1547/standings){:target="_blank"}
 30.05.2021 | AtCoder | Beginner Contest 205 | 555 / 10.715 | [Scoreboard](https://atcoder.jp/contests/abc199/standings){:target="_blank"}
