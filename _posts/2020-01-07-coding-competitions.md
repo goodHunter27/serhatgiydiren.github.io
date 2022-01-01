@@ -7,8 +7,8 @@ published: true
 
 Date | Competition | Round | Rank | Urls
 ------------ | ------------- | ------------- | ------------- | -------------
-11.07.2021 | Google Kick Start | Round G | 477 / 9.448 | [Scoreboard](https://codingcompetitions.withgoogle.com/kickstart/round/00000000004362d6){:target="_blank"}<br />
-11.07.2021 | Google Kick Start | Round E | 337 / 6.936 | [Scoreboard](https://codingcompetitions.withgoogle.com/kickstart/round/000000000043585c){:target="_blank"}<br />
+16.10.2021 | Google Kick Start | Round G | 477 / 9.448 | [Scoreboard](https://codingcompetitions.withgoogle.com/kickstart/round/00000000004362d6){:target="_blank"}<br />
+22.08.2021 | Google Kick Start | Round E | 337 / 6.936 | [Scoreboard](https://codingcompetitions.withgoogle.com/kickstart/round/000000000043585c){:target="_blank"}<br />
 11.07.2021 | Google Kick Start | Round D | 596 / 10.933 | [Scoreboard](https://codingcompetitions.withgoogle.com/kickstart/round/00000000004361e3){:target="_blank"}<br />
 11.07.2021 | Codeforces | Codeforces Round #732 | 285 / 10.664 | [Scoreboard](https://codeforces.com/contest/1546/standings){:target="_blank"}
 10.07.2021 | Codeforces | Codeforces Round #731 | 700 / 10.413 | [Scoreboard](https://codeforces.com/contest/1547/standings){:target="_blank"}
