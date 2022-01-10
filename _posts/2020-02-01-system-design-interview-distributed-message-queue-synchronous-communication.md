@@ -2,6 +2,18 @@
 layout: default
 ---
 
+<details><summary>CLICK ME</summary>
+<p>
+
+#### We can hide anything, even code!
+
+    ```ruby
+      puts "Hello World"
+    ```
+
+</p>
+</details>
+
 <details><summary>Index</summary>  
   <p>  
 1. [Synchronous Communication](system-design-interview-distributed-message-queue-synchronous-communication)  
