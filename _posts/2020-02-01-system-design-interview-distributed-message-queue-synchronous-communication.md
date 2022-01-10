@@ -4,9 +4,8 @@ layout: default
 
 <details><summary>Index</summary>  
   <p>  
-      
-  [Synchronous Communication](system-design-interview-distributed-message-queue-synchronous-communication)  
-  [2 - Asynchronous Communication](system-design-interview-distributed-message-queue-asynchronous-communication)  
+1. [Synchronous Communication](system-design-interview-distributed-message-queue-synchronous-communication)  
+2. [Asynchronous Communication](system-design-interview-distributed-message-queue-asynchronous-communication)  
   [3 - Functional Requirements](system-design-interview-distributed-message-queue-functional-requirements)  
   [4 - Non-Functional Requirements](system-design-interview-distributed-message-queue-non-functional-requirements)  
   [5 - High-level Architecture](system-design-interview-distributed-message-queue-high-level-architecture)  
