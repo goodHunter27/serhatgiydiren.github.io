@@ -3,7 +3,8 @@ title: System Design Interview - Distributed Message Queue - Synchronous Communi
 published: true
 ---
 
-[1 - Synchronous Communication](https://youtu.be/iJLL-KPqBpM)
+[1 - Synchronous Communication](system-design-interview-distributed-message-queue-synchronous-communication) 
+[2 - Synchronous Communication](system-design-interview-distributed-message-queue-synchronous-communication) 
 
 ### Synchronous Communication
 - When producer makes a call to a consumer, waits for a response. 
