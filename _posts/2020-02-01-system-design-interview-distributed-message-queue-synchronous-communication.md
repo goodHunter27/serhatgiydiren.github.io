@@ -1,6 +1,5 @@
 ---
-title: System Design Interview - Distributed Message Queue - Synchronous Communication
-published: false
+layout: default
 ---
 
 [1 - Synchronous Communication](system-design-interview-distributed-message-queue-synchronous-communication)  
