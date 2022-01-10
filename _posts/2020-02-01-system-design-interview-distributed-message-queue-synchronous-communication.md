@@ -2,12 +2,6 @@
 layout: default
 ---
 
-<details><summary>Index</summary>  
-
-[Synchronous Communication](system-design-interview-distributed-message-queue-synchronous-communication)   
-
-</details>  
-
 ### Synchronous Communication
 - When producer makes a call to a consumer, waits for a response. 
 - Easier and faster to implement. 
@@ -15,3 +9,7 @@ layout: default
   - When and how to properly retry failed requests? 
   - How not to overwhelm consumer service with too many requests?
   - How to deal with a slow consumer service host? 
+
+[Prev - Index](2020-02-02-system-design-interview-distributed-message-queue-asynchronous-communication.md) 
+  
+[Next - Asynchronous Communication](2020-02-02-system-design-interview-distributed-message-queue-asynchronous-communication.md)
