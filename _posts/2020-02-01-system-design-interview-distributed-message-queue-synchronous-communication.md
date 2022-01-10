@@ -3,6 +3,8 @@ layout: default
 ---
 
 <details><summary>Index</summary>
+  <p>  
+  
 [1 - Synchronous Communication](system-design-interview-distributed-message-queue-synchronous-communication)  
 [2 - Asynchronous Communication](system-design-interview-distributed-message-queue-asynchronous-communication)  
 [3 - Functional Requirements](system-design-interview-distributed-message-queue-functional-requirements)  
@@ -24,6 +26,8 @@ layout: default
 [19 - Security](system-design-interview-distributed-message-queue-security)  
 [20 - Monitoring](system-design-interview-distributed-message-queue-monitoring)  
 [21 - Final Look](system-design-interview-distributed-message-queue-final-look)  
+ 
+  </p>
 </details>
 
 
