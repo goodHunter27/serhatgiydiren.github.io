@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<details><summary>CLICK ME</summary>
-
 <details><summary>Index</summary>  
     1.  [Synchronous Communication](system-design-interview-distributed-message-queue-synchronous-communication)  
     2.  [Asynchronous Communication](system-design-interview-distributed-message-queue-asynchronous-communication)  
