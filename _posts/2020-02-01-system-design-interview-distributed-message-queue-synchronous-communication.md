@@ -3,7 +3,9 @@ layout: default
 ---
 
 <details><summary>Index</summary>  
-Visit here [Synchronous Communication](system-design-interview-distributed-message-queue-synchronous-communication)  
+
+  Visit here [Synchronous Communication](system-design-interview-distributed-message-queue-synchronous-communication)   
+
 </details>  
 
 ### Synchronous Communication
