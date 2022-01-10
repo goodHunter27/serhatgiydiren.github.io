@@ -10,6 +10,6 @@ layout: default
   - How not to overwhelm consumer service with too many requests?
   - How to deal with a slow consumer service host? 
 
-[Prev - Index](2020-01-14-system-design-interview-distributed-message-queue) 
+[Prev - Index](system-design-interview-distributed-message-queue) 
   
-[Next - Asynchronous Communication](2020-02-02-system-design-interview-distributed-message-queue-asynchronous-communication)
+[Next - Asynchronous Communication](system-design-interview-distributed-message-queue-asynchronous-communication)
