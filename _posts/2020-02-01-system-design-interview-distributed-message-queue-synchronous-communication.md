@@ -3,7 +3,6 @@ layout: default
 ---
 
 <details><summary>CLICK ME</summary>
-<p>
 
 #### We can hide anything, even code!
 
@@ -12,7 +11,6 @@ layout: default
     ```  
     [Synchronous Communication](system-design-interview-distributed-message-queue-synchronous-communication)  
 
-</p>
 </details>
 
 <details><summary>Index</summary>  
