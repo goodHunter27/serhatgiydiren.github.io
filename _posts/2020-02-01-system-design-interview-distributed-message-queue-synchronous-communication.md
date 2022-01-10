@@ -9,7 +9,7 @@ layout: default
 
     ```ruby
       puts "Hello World"
-    ```
+    ```  
     [Synchronous Communication](system-design-interview-distributed-message-queue-synchronous-communication)  
 
 </p>
