@@ -48,9 +48,9 @@ The STAR method is a structured manner of responding to a behavioral-based inter
 
 **Task:** What goal were you working toward?  
 
-**Action:** Describe the actions you took to address the situation with an appropriate amount of detail and keep the focus on YOU. What specific steps did you take and what was your particular contribution? Be careful that you don’t describe what the team or group did when talking about a project, but what you actually did. Use the word “I,” not “we” when describing actions.  
+**Action:** Describe the actions you took to address the situation with an appropriate amount of detail and keep the focus on YOU. What specific steps did you take and what was your particular contribution? Be careful that you don't describe what the team or group did when talking about a project, but what you actually did. Use the word “I,” not “we” when describing actions.  
 
-**Result:** Describe the outcome of your actions and don’t be shy about taking credit for your behavior. What happened? How did the event end? What did you accomplish? What did you learn? Make sure your answer contains multiple positive results.  
+**Result:** Describe the outcome of your actions and don't be shy about taking credit for your behavior. What happened? How did the event end? What did you accomplish? What did you learn? Make sure your answer contains multiple positive results.  
 
 Make sure that you follow all parts of the STAR method. Be as specific as possible at all times, without rambling or including too much information. Oftentimes students have to be prompted to include their results, so try to include that without being asked. Also, eliminate any examples that do not paint you in a positive light. However, keep in mind that some examples that have a negative result (such as "lost the game") can highlight your strengths in the face of adversity.  
 
@@ -109,6 +109,8 @@ Practice using the STAR Method on these common behavioral interviewing questions
 
 # Coding & Algorithm Interviews
 
+Just like preparing for a tech screen, the most important thing you can do to prepare for your onsite interview is to practice coding. Even the most experienced engineers need to prepare and practice to do well in an interview. For example, if you haven't practiced solving new problems under time constraints, interviewers may think you're unqualified when you're simply unprepared.  
+
 **Coding** - You should know at least one programming language really well, preferably C++, Java, Python, Go, or C. You will be expected to know APIs, Object Oriented Design and Programming, how to test your code, as well as come up with corner cases and edge cases for code. Note that we focus on conceptual understanding rather than memorization.  
 
 **Algorithms** - Approach the problem with both bottom-up and top-down algorithms. You will be expected to know the complexity of an algorithm and how you can improve / change it. Algorithms that are used to solve Google problems include sorting (plus searching and binary search), divide-and-conquer, dynamic programming / memoization, greediness, recursion or algorithms linked to a specific data structure. Know Big-O notations (e.g. run time) and be ready to discuss complex algorithms like Dijkstra and A*. We recommend discussing or outlining the algorithm you have in mind before writing code.  
@@ -122,6 +124,64 @@ Practice using the STAR Method on these common behavioral interviewing questions
 **Graphs** - Consider if a problem can be applied with graph algorithms like distance, search, connectivity, cycle-detection, etc. There are three basic ways to represent a graph in memory (objects and pointers, matrix, and adjacency list) — familiarize yourself with each representation and its pros and cons. You should know the basic graph traversal algorithms, breadth-first search and depth-first search. Know their computational complexity, their tradeoffs and how to implement them in real code.  
 
 **Recursion** - Many coding problems involve thinking recursively and potentially coding a recursive solution. Use recursion to find more elegant solutions to problems that can be solved iteratively.  
+
+## What the interviewer is looking for:
+
+Your interviewer will be thinking about how your skills and experience might help their teams. Help them understand the value you could bring by focusing on these traits and abilities: 
+
+**Communication.** Are you asking for requirements and clarity when necessary, or are you just diving into the code? Your initial tech screen should be a conversation, so don't forget to ask questions. 
+
+**Problem solving.** We're evaluating how you comprehend and explain complex ideas. Are you providing the reasoning behind a particular solution? Developing and comparing multiple solutions? Using appropriate data structures? Speaking about space and time complexity? Optimizing your solution?
+
+**Coding.** Can you convert solutions to executable code? Is the code organized and does it capture the right logical structure? 
+
+Verification. Are you considering a reasonable number of test cases or coming up with a good argument for why your code is correct? If your solution has bugs, are you able to walk through your own logic to find them and explain what the code is doing? 
+
+## How to Prepare 
+
+Interviewers can only assess your skills and abilities based on what you show them during your interview, so it's important to plan and prepare to best showcase your strengths.  
+1. Before you practice, plan! 
+Be honest with yourself—only you know how much prep time you'll need. Make the most of your prep time by following these steps to plan your approach before you start practicing. 
+
+**Schedule time to study and practice.** Block out time every day to write code. Target medium and hard problems.
+**Prioritize breadth over depth.** It's much better to practice solving fewer example problems of many problem types than to become very familiar with one type at the expense of the others.
+**Set aside time to review what you've practiced.** As you solve problems, make cheat sheets or flash cards to review later. Revision and repetition will strengthen your understanding of core concepts.
+
+2. Review core areas 
+
+Everyone could use a refresher in at least one area. 
+
+**Algorithm design/analysis.** Consider different algorithms and algorithmic techniques, such as sorting, divide-and-conquer, recursion, etc. 
+
+**Data structures.** Make sure you're using the right tool for the right job. Keep in mind how and when certain data structures should be used and leveraged, and why some are preferred over others. 
+
+**Other CS fundamentals.** Review foundational techniques, including recursion, graph theory, tree traversal, combinatorial problems, and so on. 
+
+3. Focus on key practice strategies
+
+Reading through sample questions, recognizing concepts, and having a vague understanding of these concepts won’t be enough to help you shine. You need to practice! Make sure you’re setting your practice sessions up for success by following these tips from engineers who’ve been through the process. 
+
+**Practice coding the way you’ll code during your interview.** You’ll most likely be coding at a whiteboard, but check with your recruiter. 
+
+**Code in your strongest language.** Avoid trying to learn a new language in a few weeks. 
+
+**Practice talking through the problem space and possible solutions before you dive into code, and practice talking through your decisions out loud as you code.** This can be unnatural in an interview setting, especially if you’re used to coding alone. But your interviewers will be evaluating your thought process as well as your coding abilities, so explaining your decisions as you code is crucial to helping them understand your choices. 
+
+4. Understand the types of problems you may encounter 
+
+Practice a variety of different problems—and understand why we ask them—so you’re prepared to solve them during your onsite interview. 
+
+**Don’t be surprised if the questions sound contrived.** Problems may be different than what you’re probably tackling in a day-to-day job. We won’t ask a “puzzle” question, but questions may be different than real-world questions because they need to be described and solved in 10-20 minutes. 
+
+**Problems may assess the depth of your knowledge and your versatility.** For example, your interviewer might ask you to solve a problem any way you want. Then, they could add constraints on the running or space characteristics and ask you to solve it again. 
+
+**Problems may focus on edge cases.** You might be asked to parse some data format or mini language. Your answers demonstrate your ability to handle multiple states in your head. 
+
+**Problems may test how well you know how things work under the hood.** For example, you might be asked to implement well-known library functions. 
+
+5. Decide what resources you’ll use to prepare  
+
+It’s easy to be overwhelmed by the number of online resources or the detail in an entire theoretical algorithms book. For example, CLRS has excellent info—but it may not be the right resource for your study needs and timeline. Pick two or three resources and focus on those. 
 
 ## Resources 
 
