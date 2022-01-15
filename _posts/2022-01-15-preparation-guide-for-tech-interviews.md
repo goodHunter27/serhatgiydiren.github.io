@@ -115,7 +115,7 @@ Practice using the STAR Method on these common behavioral interviewing questions
 
 **Sorting** - Be familiar with common sorting functions and on what kind of input data they're efficient or ineffcient. Think about efficiency means in terms of runtime and space used. For example, in exceptional cases insertion-sort or radix-sort are much better than the generic QuickSort / MergeSort / HeapSort answers.  
 
-**Data structures** - You should study up on as many data structures as possible. Data structures most frequently used are arrays, linked lists, stacks, queues, hash-sets, hash-maps, hash-tables, dictionary, trees and binary trees, heaps and graphs. You should know the data structure inside out, and what algorithms tend to go along with each data structure.  
+**Data structures** - You should study up on as many data structures as possible. Data structures most frequently used are arrays, linked lists, stacks, queues, hash-sets, hash-maps, hash-tables, dictionary, trees and binary trees, heaps, bloom filter and graphs. You should know the data structure inside out, and what algorithms tend to go along with each data structure.  
 
 **Mathematics** - Some interviewers ask basic discrete math questions. This is more prevalent at Google than at other companies because counting problems, probability problems and other Discrete Math 101 situations surround us. Spend some time before the interview refreshing your memory on (or teaching yourself) the essentials of elementary probability theory and combinatorics. You should be familiar with n-choose-k problems and their ilk.  
 
@@ -133,6 +133,55 @@ Practice using the STAR Method on these common behavioral interviewing questions
 ## What is a system design question and why is it important?  
 
 System design questions are used to assess a candidate's ability to combine knowledge, theory, experience and judgement toward solving a real-world engineering problem. Sample topics include feature sets, interfaces, class hierarchies, constraints, simplicity, robustness and tradeoffs. The interview will assess your deep understanding of how the internet works and familiarity with the various pieces (routers, domain name servers, load balancers, firewalls, etc.).  
+
+## Important topics you should be familiar with:  
+
+Note that we're not looking for you to be an expert in ALL of these, but you should know enough of them to weigh design considerations and know when to consult an expert  
+
+* Concurrency (threads, deadlock, starvation, consistency, coherence)
+* Networking (IPC, TCP/IP)
+* Abstraction (understanding how OS, filesystem, and database works)
+* Real-world performance (relative performance RAM, disk, your network, SSD)
+* Availability and Reliability (durability, understanding how things can fail)
+* Data storage (RAM vs. durable storage, compression, byte sizes)
+* CAP Theorem
+* Kernel
+* File Systems
+* Byte Math
+
+## What the interviewer is looking for:
+
+* Can you arrive at an answer in the face of unusual constraints?
+* Can you visualize the entire problem and solution space?
+* Can you make trade-offs like consistency, availability, partitioning, performance?
+* Can you give ballpark numbers on throughput / capacity for RAM, hard drive, network, etc using a modern computer?
+
+## A good design shows that you:
+
+* Clearly understand the problem
+* Propose a design for a product / system that breaks the problem down into components, that can be built independently and you can drill into the any piece of the design and talk about it in detail
+* Identify the bottlenecks as the system scales and understand the limitations in your design
+* Understand how to adapt the solution when the requirements change
+* Draw diagrams that clearly describe the relationship between the different components in the system
+* Calculate (back-of-the-envelope) the physical resources necessary to make this system work
+
+## How to Practice:
+
+* The design interview is often the hardest interview to study for.
+* Work with a fellow engineer on mock design sessions.
+* Dig into the implementation and performance of an open source system, understand things like how the system stores data on disk and how it compacts data
+* Be familiar with how databases and operating systems work
+* Practice on a whiteboard
+* To practice, take any well-known app and imagine you work for a competitor. Your job is to figure out where most of their money is spent (compute? people? bandwidth? storage?) and the fundamental bottleneck of their system. Answering those two questions will necessarily force you to think about how  a system is actually implemented. Answering only cost and bottlenecks forces you to focus on important  areas and not nerdy details of the design. 
+* For example, YouTube spends a ton of money on bandwidth, and secondarily on storage and compute. On the other hand, their long;tail traffic pattern means that their fundamental bottleneck is random disk seeks. Netflix also is a bandwidth hog but most of their traffic is at night (when it's cheap) and their library of videos is much much smaller, so disk;seeks are probably not an issue at all.
+* Work out the above problems on a paper and just think about the ways to break them down.  It also helps to read up on common large scale systems, like watch the public videos about  and learn how search engines work.  But during the interview, don’t parrot back what you read; make sure your solution actually answers the question being asked.
+
+## Some example questions:
+
+* Design a key-value store
+* Design Google search
+* Architect a world-wide video distribution system
+* Build Facebook chat
 
 ## Interview Tips and Expectations:  
 
