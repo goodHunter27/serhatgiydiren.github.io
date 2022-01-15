@@ -62,4 +62,12 @@ Beyond the technical preparation, you'll also be asked questions on leading team
 
 # System Design Interviews
 
+## What is a system design question and why is it important?  
+
+System design questions are used to assess a candidate's ability to combine knowledge, theory, experience and judgement toward solving a real-world engineering problem. Sample topics include feature sets, interfaces, class hierarchies, constraints, simplicity, robustness and tradeoffs. The interview will assess your deep understanding of how the internet works and familiarity with the various pieces (routers, domain name servers, load balancers, firewalls, etc.).  
+
+## Interview Tips and Expectations:  
+
+
+
 * [Prepare for Your Google Interview: Systems Design](https://youtu.be/Gg318hR5JY0){:target="_blank"}
