@@ -86,4 +86,22 @@ System design questions are used to assess a candidate's ability to combine know
 
 7.  Listen: Design questions are typically open-ended and the problem may be ambiguous. If the interviewer gives a hint or asks a question while you are solving the problem, listen intently and do not ignore. They are most likely trying to guide you or looking for a particular awareness.  
 
+## Role-related design questions  
+
+Due to the wide variety of projects we offer at Google, it is important our design questions are relevant to both your background and the role you will be exploring. Be sure to discuss with your recruiter the role you're pursuing and which system design question is best suited to assess your skills. Depending on your area of expertise, one of the following types of design questions will be asked:
+
+### Distributed System Design 
+
+System design is a general category which means "big enough systems that you have to operate on a high level of abstraction to get the basic architecture down." A distributed system question is related to problems of coordination between autonomous systems while system design can include problems constrained to a single execution. Distributed systems questions focus on cross-task coordination, communication, synchronization, and failure modes. System design questions are more weighted toward managing the complexity of large bodies of software. You can find some of the Google research around distributed systems here.
+
+**Example Distributed System Design:** Design a distributed unique ID service.
+
+### Low Level System Design
+
+### Machine Learning Design 
+
+### Mobile Application System Design 
+
+### Front End UI Web Design 
+
 * [Prepare for Your Google Interview: Systems Design](https://youtu.be/Gg318hR5JY0){:target="_blank"}
