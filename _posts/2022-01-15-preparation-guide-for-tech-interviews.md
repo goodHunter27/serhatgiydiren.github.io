@@ -42,7 +42,7 @@ Beyond the technical preparation, you'll also be asked questions on leading team
 
 ## STAR Method  
 
-The STAR method is a structured manner of responding to a behavioral-based interview question by discussing the specific situation, task, action, and result of the situation you are describing.  
+The STAR method is a structured manner of responding to a behavioral-based interview question by discussing the specific situation, task, action, and result of the situation you are describing. Write out five to seven examples of your successes using the STAR format outlined below. Writing these out before your interview will help you recall all the details and stay on track when you tell your story in the interview, and the STAR approach will help you frame each story you share with a beginning, middle, and end. You can use these stories to answer almost any question in this portion of your interview.  
 
 **Situation:** Describe the situation that you were in or the task that you needed to accomplish. You must describe a specific event or situation, not a generalized description  of what you have done in the past. Be sure to give enough detail for the interviewer to understand. This situation can be from a previous job, from a volunteer experience, or any relevant event.  
 
@@ -134,6 +134,10 @@ Practice using the STAR Method on these common behavioral interviewing questions
 
 System design questions are used to assess a candidate's ability to combine knowledge, theory, experience and judgement toward solving a real-world engineering problem. Sample topics include feature sets, interfaces, class hierarchies, constraints, simplicity, robustness and tradeoffs. The interview will assess your deep understanding of how the internet works and familiarity with the various pieces (routers, domain name servers, load balancers, firewalls, etc.).  
 
+This is an interview where the interviewer will assess your ability to design at scale. The interviewer will give you a design challenge, and would like you over the next 35-40 minutes to come up with a design, and would like you to work under the assumption that right after this meeting, he / she and colleagues will implement your design as you describe it. At the end of the interview, the interviewer will ask you to explain what key components they will need to build, and at a high-level, what hardware they'll need to run the system. For you to be successful in this interview, the interviewer will need to believe that your design is fleshed out enough that what he / she builds will work at scale.  
+
+The question may seem open ended, but part of this interview is also clarifying the problem and so the interviewer will expect you to translate his/her request into something that is solvable by a technical system.
+
 ## Important topics you should be familiar with:  
 
 Note that we're not looking for you to be an expert in ALL of these, but you should know enough of them to weigh design considerations and know when to consult an expert  
@@ -182,6 +186,9 @@ Note that we're not looking for you to be an expert in ALL of these, but you sho
 * Design Google search
 * Architect a world-wide video distribution system
 * Build Facebook chat
+* You've had experience working in Fraud Systems. Please design a system to reduce fraud from compromised accounts
+* You've had experience building a system that takes payments. Please design a system to support "Facebook Credits"
+* You've had experience building a music sharing service. Please design this feature in Facebook.
 
 ## Interview Tips and Expectations:  
 
