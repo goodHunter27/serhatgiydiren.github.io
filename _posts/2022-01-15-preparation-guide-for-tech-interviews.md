@@ -5,6 +5,8 @@ published: false
 
 # Resume Preparation
 
+## Resources 
+
 * [Create Your Resume for Google: Tips and Advice](https://youtu.be/BYUy1yvjHxE){:target="_blank"}
 
 # General Interview Tips
@@ -16,6 +18,8 @@ published: false
 **Improve** - Think about ways to improve the solution you present. It's worthwhile to think out loud about your initial thoughts to a question. In many cases, your first answer may need some refining and further explanation. If necessary, start with the brute force solution and improve on it - just let the interviewer know that's what you're doing and why. 
 
 **Practice** - You won't have access to an IDE or compiler during the interview so practice writing code on paper or a whiteboard. Be sure to test your code and ensure it's easily readable without bugs. Don't stress about small syntactical errors like which substring to use for a given method (e.g. start, end or start, length) — just pick one and let your interviewer know. 
+
+## Resources 
 
 * [How We Hire at Google](https://youtu.be/zhUgaKb0s5A){:target="_blank"}
 * [Interview tips from Google Software Engineers](https://youtu.be/XOtrOSatBoY){:target="_blank"}
@@ -37,9 +41,72 @@ Beyond the technical preparation, you'll also be asked questions on leading team
 
 **Delivering results** - Give examples of projects where you were the end-to-end owner. How do you evaluate the success or failure of a project? What are some strategies for handling competing visions on how to execute a project? Be prepared to discuss how to use data effectively to move critical decisions forward and how to measure impact.  
 
+## STAR Method  
+
+The STAR method is a structured manner of responding to a behavioral-based interview question by discussing the specific situation, task, action, and result of the situation you are describing.  
+
+**Situation:** Describe the situation that you were in or the task that you needed to accomplish. You must describe a specific event or situation, not a generalized description  of what you have done in the past. Be sure to give enough detail for the interviewer to understand. This situation can be from a previous job, from a volunteer experience, or any relevant event.  
+
+**Task:** What goal were you working toward?  
+
+**Action:** Describe the actions you took to address the situation with an appropriate amount of detail and keep the focus on YOU. What specific steps did you take and what was your particular contribution? Be careful that you don’t describe what the team or group did when talking about a project, but what you actually did. Use the word “I,” not “we” when describing actions.  
+
+**Result:** Describe the outcome of your actions and don’t be shy about taking credit for your behavior. What happened? How did the event end? What did you accomplish? What did you learn? Make sure your answer contains multiple positive results.  
+
+Make sure that you follow all parts of the STAR method. Be as specific as possible at all times, without rambling or including too much information. Oftentimes students have to be prompted to include their results, so try to include that without being asked. Also, eliminate any examples that do not paint you in a positive light. However, keep in mind that some examples that have a negative result (such as "lost the game") can highlight your strengths in the face of adversity.  
+
+### Sample STAR Response: 
+
+**Situation (S):** Advertising revenue was falling off for my college newspaper, The Review, and large numbers of long-term advertisers were not renewing contracts. 
+
+**Task (T):** My goal was to generate new ideas, materials and incentives that would result in at least a 15% increase in advertisers from the year before. 
+
+**Action (A):** I designed a new promotional packet to go with the rate sheet and compared the benefits of The Review circulation with other ad media in the area. I also set-up a special training session for the account executives with a School of Business Administration professor who discussed competitive selling strategies.  
+
+**Result (R):** We signed contracts with 15 former advertisers for daily ads and five for special supplements. We increased our new advertisers by 20 percent over the same period last year. 
+
+## How to prepare for a behavioral interview 
+
+*   Recall recent situations that show favorable behaviors or actions, especially involving course work, work experience, leadership, teamwork, initiative, planning, and customer service.
+*   Prepare short descriptions of each situation; be ready to give details if asked.
+*   Be sure each story has a beginning, middle, and an end, i.e., be ready to describe the situation, including the task at hand, your action, and the outcome or result.
+*   Be sure the outcome or result reflects positively on you (even if the result itself was not favorable).
+*   Be honest. Don't embellish or omit any part of the story. The interviewer will find out if your story is built on a weak foundation.
+*   Be specific. Don't generalize about several events; give a detailed accounting of one event.
+*   Vary your examples; don't take them all from just one area of your life.
+
+## Resources 
 
 * [Prepare for your Google Interview: Leadership](https://youtu.be/2Cr3-et4xkI){:target="_blank"}
 
+## Sample behavioral interview questions 
+
+Practice using the STAR Method on these common behavioral interviewing questions:  
+
+* Describe a situation in which you were able to use persuasion to successfully convince someone to see things your way.
+* Describe a time when you were faced with a stressful situation that demonstrated your coping skills.
+* Give me a specific example of a time when you used good judgment and logic in solving a problem.
+* Give me an example of a time when you set a goal and were able to meet or achieve it.
+* Tell me about a time when you had to use your presentation skills to influence someone's opinion.
+* Give me a specific example of a time when you had to conform to a policy with which you did not agree.
+* Please discuss an important written document you were required to complete.
+* Tell me about a time when you had to go above and beyond the call of duty in order to get a job done.
+* Tell me about a time when you had too many things to do and you were required to prioritize your tasks.
+* Give me an example of a time when you had to make a split second decision.
+* What is your typical way of dealing with conflict? Give me an example.
+* Tell me about a time you were able to successfully deal with another person even when that individual may not have personally liked you (or vice versa).
+* Tell me about a difficult decision you've made in the last year.
+* Give me an example of a time when something you tried to accomplish and failed.
+* Give me an example of when you showed initiative and took the lead.
+* Tell me about a recent situation in which you had to deal with a very upset customer or co-worker.
+* Give me an example of a time when you motivated others.
+* Tell me about a time when you delegated a project effectively.
+* Give me an example of a time when you used your fact-finding skills to solve a problem.
+* Tell me about a time when you missed an obvious solution to a problem.
+* Describe a time when you anticipated potential problems and developed preventive measures.
+* Tell me about a time when you were forced to make an unpopular decision.
+* Please tell me about a time you had to fire a friend.
+* Describe a time when you set your sights too high (or too low).
 
 # Coding & Algorithm Interviews
 
@@ -56,6 +123,8 @@ Beyond the technical preparation, you'll also be asked questions on leading team
 **Graphs** - Consider if a problem can be applied with graph algorithms like distance, search, connectivity, cycle-detection, etc. There are three basic ways to represent a graph in memory (objects and pointers, matrix, and adjacency list) — familiarize yourself with each representation and its pros and cons. You should know the basic graph traversal algorithms, breadth-first search and depth-first search. Know their computational complexity, their tradeoffs and how to implement them in real code.  
 
 **Recursion** - Many coding problems involve thinking recursively and potentially coding a recursive solution. Use recursion to find more elegant solutions to problems that can be solved iteratively.  
+
+## RESOURCES 
 
 * [Prepare for Your Google Interview: Coding](https://youtu.be/6ZZX9iIgFoo){:target="_blank"}
 * [How to: Work at Google — Example Coding/Engineering Interview](https://youtu.be/XKu_SEDAykw){:target="_blank"}
@@ -82,7 +151,7 @@ System design questions are used to assess a candidate's ability to combine know
 
 5.  Approach the problem with an open mind: Be mindful that your familiarity (if any) with the problem may make you take shortcuts (even verbal ones when explaining your approach); the interviewer may not share the same context as you. If there is a more succinct approach, feel free to explain to the interviewer the route you’re taking and the context behind why.  
 
-6.  Problem Solve: The interviewers are looking for problem solving and approach as much as they are assessing your solution. So, ask clarifying questions about the problem, express ideas verbally, and think out loud. Constantly challenge your own design. Be prepared to justify every decision you make. Practice going through problems with a friend.  
+6.  Problem Solve: The interviewers are looking for problem solving and approach as much as they are assessing your solution. So, ask clarifying questions about the problem, express ideas verbally, and think out loud. Constantly challenge your own design. Be prepared to justify every decision you make. Practice going through problems with a friend. 
 
 7.  Listen: Design questions are typically open-ended and the problem may be ambiguous. If the interviewer gives a hint or asks a question while you are solving the problem, listen intently and do not ignore. They are most likely trying to guide you or looking for a particular awareness.  
 
@@ -127,5 +196,7 @@ A front end design interview will typically involve problems that require an und
 The problem analysis could involve a break-down into sub-problems, identification of areas of risk, or a discussion of requirements and goals. The solution could involve (but not limited to!) system diagrams, state diagrams, data-structures, or algorithms. Explaining the solution crisply is as important as coming up with the solution, and informs us how well candidates are able to collaborate. Code may be involved to describe a solution, but this may not be the objective. In some cases, a portion of a design problem may translate into a coding a problem.  
 
 **Example Front End UI Web Design:** Design a web system to sell concert tickets.
+
+## Resources 
 
 * [Prepare for Your Google Interview: Systems Design](https://youtu.be/Gg318hR5JY0){:target="_blank"}
