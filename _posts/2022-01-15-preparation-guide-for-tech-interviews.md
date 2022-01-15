@@ -69,10 +69,10 @@ System design questions are used to assess a candidate's ability to combine know
 ## Interview Tips and Expectations:  
 
 1.  The system design question will ask you to take an abstract question in a formerly unseen problem and present a high level framework to solve the presented problem. In doing so, follow these steps:
-*   Gather key requirements 
-*   Identify key design elements 
-*   Identify tradeoffs of different decisions 
-*   Dive deep into a specific sub-problem AND/OR demonstrate what process to use to arrive at a solution 
+     *   Gather key requirements 
+     *   Identify key design elements 
+     *   Identify tradeoffs of different decisions 
+     *   Dive deep into a specific sub-problem AND/OR demonstrate what process to use to arrive at a solution 
 
 2.  Identify the major components of an overall system design and deeply describe at least two of them. Suggest which technologies and systems should be used to solve a relatively common problem (i.e. relational database, document-based database, etc.), and if relevant, share a story about a time you have solved a problem using these technologies.  
 
