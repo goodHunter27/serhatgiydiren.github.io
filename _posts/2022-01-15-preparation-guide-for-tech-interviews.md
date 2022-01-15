@@ -143,9 +143,9 @@ Interviewers can only assess your skills and abilities based on what you show th
 1. Before you practice, plan! 
 Be honest with yourself—only you know how much prep time you'll need. Make the most of your prep time by following these steps to plan your approach before you start practicing. 
 
-**Schedule time to study and practice.** Block out time every day to write code. Target medium and hard problems.
-**Prioritize breadth over depth.** It's much better to practice solving fewer example problems of many problem types than to become very familiar with one type at the expense of the others.
-**Set aside time to review what you've practiced.** As you solve problems, make cheat sheets or flash cards to review later. Revision and repetition will strengthen your understanding of core concepts.
+**Schedule time to study and practice.** Block out time every day to write code. Target medium and hard problems. 
+**Prioritize breadth over depth.** It's much better to practice solving fewer example problems of many problem types than to become very familiar with one type at the expense of the others. 
+**Set aside time to review what you've practiced.** As you solve problems, make cheat sheets or flash cards to review later. Revision and repetition will strengthen your understanding of core concepts. 
 
 2. Review core areas 
 
@@ -182,6 +182,81 @@ Practice a variety of different problems—and understand why we ask them—so y
 5. Decide what resources you’ll use to prepare  
 
 It’s easy to be overwhelmed by the number of online resources or the detail in an entire theoretical algorithms book. For example, CLRS has excellent info—but it may not be the right resource for your study needs and timeline. Pick two or three resources and focus on those. 
+
+## How to Approach Problems During Your Interview 
+
+Your interview is a conversation, not a test! Your interviewer wants to find out what it would feel like to work with you and solve a problem together, so approach problems like you’re working on a team together and collaborating to build the solution. 
+
+1. Analyze the problem 
+
+Before you jump into building a solution, be sure you’ve taken the time to fully understand and talk through the problem. 
+
+**Ask clarifying questions.** Talk through the problem and ask follow-up questions to make sure you understand the exact problem you’re trying to solve. 
+
+**Let us know if you’ve seen the problem previously.** That will help us understand your context. 
+
+**Talk through the problem and your approach, and frame both like you’re working with your interviewer.** Try using words like “we” and “our” instead of “I” and “my” when you walk through the problem and solution to make the interview feel more collaborative. 
+
+2. Code up your solution 
+
+Get your thoughts down in code and explain your decisions and actions as you go. 
+
+**Don’t forget to talk while you code!** It’s crucial to help the interviewer understand your choices and thought process. 
+
+**Iterate.** Don’t always try to jump immediately to the most clever solution. Talk through multiple possible solutions, then decide which will work best and explain your decision. 
+
+**Leave yourself plenty of room.** You may need to add code or notes between lines later. 
+
+**Consider different algorithms and algorithmic techniques,** such as sorting, divide-and-conquer, recursion, etc. 
+
+**Think about data structures, particularly those used most often** (array, stack/queue, hashset/hashmap/hashtable/dictionary, tree/binary tree, heap, graph, etc.) 
+
+**Be prepared to talk about O memory constraints** on the complexity of the algorithm you’re writing and its running time as expressed by big-O notation. 
+
+**Avoid solutions with lots of edge cases or huge if/else if/else blocks, in most cases.** Deciding between iteration and recursion can be an important step. 
+
+**Use descriptive variable names.** This will take time, but it will prevent you from losing track of what your code is doing. 
+
+**Simplify.** If you can’t explain your concept clearly in five minutes, it’s probably too complex. 
+
+**Draw out a sample input.** Draw a picture or write out the variable values to see how the variables change as your code executes. You’ll see insights and bugs faster and be less likely to lose track when you’re thinking through edge cases in your head! 
+
+3. Stuck? Try these approaches!
+
+Everyone, even engineers with years of experience, will get stuck at some point. Relax—it doesn’t mean you’ve failed! The interviewer will be assessing your ability to methodically approach the problem from several angles and ask the right questions to get unstuck. 
+
+**Draw pictures.** It’s easy to lose track when you’re thinking through an edge case or how variables change as your code executes, so use the board! Writing everything out helps you see insights and bugs faster and make fewer mistakes. Draw several different test inputs. Capture how you would get the desired output by hand, then talk through your approach and translate it into code. 
+
+**Ask questions.** For example, if you don’t know the exact syntax, you can ask the interviewer for help. 
+
+**Think out loud as a way to slow yourself down.** Use phrases like “Let’s try doing it this way” or “We need to consider all the possibilities” to give yourself time to think while still making progress. Talk through what you know. 
+
+**Talk through what you first thought might work and explain why it won’t.** You might think of a way to modify your original solution so it works or another question to ask to help you decide on your next steps.
+
+**Talk through the bounds on space and runtime.** For example, say: 
+“We have to at least look at all of the items, so we can’t do better than X.” 
+“The brute force approach is to test all possibilities, which is X.” 
+“The answer will contain X items, so we must at least spend that amount of time.” 
+
+**Call a helper function and keep moving.** If you can’t immediately think of how to implement some part of your algorithm, big or small, just skip over it. Write a call to a reasonably named helper function, say what it will do, and keep going. If the helper function is trivial, save it for the end. You can even ask your interviewer if they’d like to help implement it. 
+
+**Solve a simpler version of the problem.** Not sure how to find the 4th-largest item in the set? Think about how to find the largest item and see if you can adapt that approach. 
+
+**Propose a solution that’s naive and potentially inefficient. **Consider optimizations later. Use brute force. Do whatever it takes to get some kind of answer. 
+
+**Remember that it’s ok if you don’t know!** No one who works at Facebook is perfect, and we on’t look for perfection in people we interview. If you aren’t sure if something is true or if it’s the best solution, then say that. Explain what you do know, and your interviewer will ask you follow-up questions. 
+
+4. Verify your solution 
+ 
+You don’t get more credit for doing this in your head! Testing your solution on the board, out loud will help you find bugs and clear up any confusion your interviewer may have. 
+
+**Walk through your solution by hand, out loud, with an example input.** Write down what values the variables hold as the program is running. 
+
+**Look for off-by-one errors.** Should your for loop use a “<” instead of a “<=”? 
+
+**Test edge cases.** These might include empty sets, single item sets, or negative numbers. Don’t forget about software verification—formal or otherwise! 
+
+**Ask yourself if you would approve your solution as part of your codebase.** Explain your answer to your interviewer. Make sure your solution is correct and efficient, and that it clearly reflects the ideas you’re trying to express. 
 
 ## Resources 
 
