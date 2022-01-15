@@ -242,7 +242,7 @@ Everyone, even engineers with years of experience, will get stuck at some point.
 
 **Solve a simpler version of the problem.** Not sure how to find the 4th-largest item in the set? Think about how to find the largest item and see if you can adapt that approach. 
 
-**Propose a solution that’s naive and potentially inefficient. **Consider optimizations later. Use brute force. Do whatever it takes to get some kind of answer. 
+**Propose a solution that’s naive and potentially inefficient.** Consider optimizations later. Use brute force. Do whatever it takes to get some kind of answer. 
 
 **Remember that it’s ok if you don’t know!** No one who works at Facebook is perfect, and we on’t look for perfection in people we interview. If you aren’t sure if something is true or if it’s the best solution, then say that. Explain what you do know, and your interviewer will ask you follow-up questions. 
 
@@ -265,6 +265,12 @@ You don’t get more credit for doing this in your head! Testing your solution o
 
 # System Design Interviews
 
+There are two types of design interviews: systems design and product design. Interviewers will evaluate your ability to determine what you should build and to solve large problems. Your interviewer will ask you a very broad design problem and evaluate your solution. We aim to match people interviewing with engineers who have related experience, so your conversation will be based in an area you’re at least slightly familiar with. 
+
+This portion of the interview will consist of one or two conversations, 45 minutes each. You will only need to practice these skills if you are interviewing for a position which requires these competencies. Your interviewer will let you know whether you need to prepare for this portion of the interview. 
+
+If you have deep, specialized knowledge, we may ask something specific to that area. More often, we’ll ask you to design something you’ve never built before. And the scope will be large enough that you won’t be able to cover everything in detail.  
+
 ## What is a system design question and why is it important?  
 
 System design questions are used to assess a candidate's ability to combine knowledge, theory, experience and judgement toward solving a real-world engineering problem. Sample topics include feature sets, interfaces, class hierarchies, constraints, simplicity, robustness and tradeoffs. The interview will assess your deep understanding of how the internet works and familiarity with the various pieces (routers, domain name servers, load balancers, firewalls, etc.).  
@@ -275,18 +281,22 @@ The question may seem open ended, but part of this interview is also clarifying 
 
 ## Important topics you should be familiar with:  
 
-Note that we're not looking for you to be an expert in ALL of these, but you should know enough of them to weigh design considerations and know when to consult an expert  
+Interviewers will focus on your familiarity with complex products or systems and assess your ability to arrive at answers in the face of unusual constraints. 
+
+You should be familiar with the areas below—but we’re not looking for you to be an expert in all of them. You should know enough to weigh design considerations (and understand when to consult an expert) for: 
 
 * Concurrency (threads, deadlock, starvation, consistency, coherence)
+* Caching
 * Networking (IPC, TCP/IP)
 * Abstraction (understanding how OS, filesystem, and database works)
 * Real-world performance (relative performance RAM, disk, your network, SSD)
-* Availability and Reliability (durability, understanding how things can fail)
-* Data storage (RAM vs. durable storage, compression, byte sizes)
-* CAP Theorem
+* Availability and Reliability (durability, understanding how things can fail, types of failures, failure units, how failures may manifest, mitigations, etc.)
+* Data storage and data aggregation (RAM vs. durable storage, compression, byte sizes)
+* Database partitioning, replication, sharding, CAP Theorem
 * Kernel
 * File Systems
 * Byte Math
+* QPS capacity / machine estimation (back of the envelope estimates), byte size estimation 
 
 ## What the interviewer is looking for:
 
@@ -314,6 +324,15 @@ Note that we're not looking for you to be an expert in ALL of these, but you sho
 * To practice, take any well-known app and imagine you work for a competitor. Your job is to figure out where most of their money is spent (compute? people? bandwidth? storage?) and the fundamental bottleneck of their system. Answering those two questions will necessarily force you to think about how  a system is actually implemented. Answering only cost and bottlenecks forces you to focus on important  areas and not nerdy details of the design. 
 * For example, YouTube spends a ton of money on bandwidth, and secondarily on storage and compute. On the other hand, their long;tail traffic pattern means that their fundamental bottleneck is random disk seeks. Netflix also is a bandwidth hog but most of their traffic is at night (when it's cheap) and their library of videos is much much smaller, so disk;seeks are probably not an issue at all.
 * Work out the above problems on a paper and just think about the ways to break them down.  It also helps to read up on common large scale systems, like watch the public videos about  and learn how search engines work.  But during the interview, don’t parrot back what you read; make sure your solution actually answers the question being asked.
+* Review the complex systems you’ve already designed. What would you change about your approach if you did it all over again? What worked well?
+* Think about how you’d design one of Facebook’s (or any other large tech company’s) existing systems. It’s a good practice to think through the complicated, high-scale systems you already use every day. How would you design one from the ground up?
+* Weigh multiple approaches and reflect on the tradeoffs in your design: Performance vs. scalability, Latency vs. throughput, Availability vs. consistency
+* Take any well-known app and imagine you’re going to build the primary feature. For example, imagine you’re going to build video distribution for Facebook Video, or group chat for WhatsApp. Now figure out how you would build the various pieces out:
+  * How would you build your backend storage? How does that scale to Facebook’s size?
+  * How would you lay out the application server layer? What are the responsibilities of the various services?
+  * How would you design your mobile API? What are the hard problems in representing the data being sent from server to client?
+  * How would you structure your mobile client? How do low-end devices and poor network conditions affect your design?
+  * As you’re designing these systems, run through the list of things we’re looking for and make sure you’re able to answer them all for each piece of each app.
 
 ## Some example questions:
 
