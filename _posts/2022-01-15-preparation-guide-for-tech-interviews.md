@@ -197,6 +197,7 @@ Before you jump into building a solution, be sure you’ve taken the time to ful
 
 **Talk through the problem and your approach, and frame both like you’re working with your interviewer.** Try using words like “we” and “our” instead of “I” and “my” when you walk through the problem and solution to make the interview feel more collaborative. 
 
+
 2. Code up your solution 
 
 Get your thoughts down in code and explain your decisions and actions as you go. 
@@ -220,6 +221,7 @@ Get your thoughts down in code and explain your decisions and actions as you go.
 **Simplify.** If you can’t explain your concept clearly in five minutes, it’s probably too complex. 
 
 **Draw out a sample input.** Draw a picture or write out the variable values to see how the variables change as your code executes. You’ll see insights and bugs faster and be less likely to lose track when you’re thinking through edge cases in your head! 
+
 
 3. Stuck? Try these approaches!
 
@@ -245,6 +247,7 @@ Everyone, even engineers with years of experience, will get stuck at some point.
 **Propose a solution that’s naive and potentially inefficient.** Consider optimizations later. Use brute force. Do whatever it takes to get some kind of answer. 
 
 **Remember that it’s ok if you don’t know!** No one who works at Facebook is perfect, and we on’t look for perfection in people we interview. If you aren’t sure if something is true or if it’s the best solution, then say that. Explain what you do know, and your interviewer will ask you follow-up questions. 
+
 
 4. Verify your solution 
  
