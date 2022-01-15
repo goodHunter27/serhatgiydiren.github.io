@@ -68,6 +68,22 @@ System design questions are used to assess a candidate's ability to combine know
 
 ## Interview Tips and Expectations:  
 
+1.  The system design question will ask you to take an abstract question in a formerly unseen problem and present a high level framework to solve the presented problem. In doing so, follow these steps:
+*   Gather key requirements 
+*   Identify key design elements 
+*   Identify tradeoffs of different decisions 
+*   Dive deep into a specific sub-problem AND/OR demonstrate what process to use to arrive at a solution 
 
+2.  Identify the major components of an overall system design and deeply describe at least two of them. Suggest which technologies and systems should be used to solve a relatively common problem (i.e. relational database, document-based database, etc.), and if relevant, share a story about a time you have solved a problem using these technologies.  
+
+3.  When defining a system, include as many non-functional requirements as possible. For example: performance, latency, legal, privacy, maintainability, capacity, security, geographic, and cross-DC consideration.  
+
+4.  Develop a framework you can use to answer most questions.  
+
+5.  Approach the problem with an open mind: Be mindful that your familiarity (if any) with the problem may make you take shortcuts (even verbal ones when explaining your approach); the interviewer may not share the same context as you. If there is a more succinct approach, feel free to explain to the interviewer the route you’re taking and the context behind why.  
+
+6.  Problem Solve: The interviewers are looking for problem solving and approach as much as they are assessing your solution. So, ask clarifying questions about the problem, express ideas verbally, and think out loud. Constantly challenge your own design. Be prepared to justify every decision you make. Practice going through problems with a friend.  
+
+7.  Listen: Design questions are typically open-ended and the problem may be ambiguous. If the interviewer gives a hint or asks a question while you are solving the problem, listen intently and do not ignore. They are most likely trying to guide you or looking for a particular awareness.  
 
 * [Prepare for Your Google Interview: Systems Design](https://youtu.be/Gg318hR5JY0){:target="_blank"}
