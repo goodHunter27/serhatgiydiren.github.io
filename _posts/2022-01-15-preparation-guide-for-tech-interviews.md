@@ -24,7 +24,6 @@ published: false
 * [How We Hire at Google](https://youtu.be/zhUgaKb0s5A){:target="_blank"}
 * [Interview tips from Google Software Engineers](https://youtu.be/XOtrOSatBoY){:target="_blank"}
 
-
 # Leadership Interviews
 
 Beyond the technical preparation, you'll also be asked questions on leading teams and projects. People management interviews dive into how you would support and grow your teams, covering: 
@@ -75,10 +74,6 @@ Make sure that you follow all parts of the STAR method. Be as specific as possib
 *   Be specific. Don't generalize about several events; give a detailed accounting of one event.
 *   Vary your examples; don't take them all from just one area of your life.
 
-## Resources 
-
-* [Prepare for your Google Interview: Leadership](https://youtu.be/2Cr3-et4xkI){:target="_blank"}
-
 ## Sample behavioral interview questions 
 
 Practice using the STAR Method on these common behavioral interviewing questions:  
@@ -108,6 +103,10 @@ Practice using the STAR Method on these common behavioral interviewing questions
 * Please tell me about a time you had to fire a friend.
 * Describe a time when you set your sights too high (or too low).
 
+## Resources 
+
+* [Prepare for your Google Interview: Leadership](https://youtu.be/2Cr3-et4xkI){:target="_blank"}
+
 # Coding & Algorithm Interviews
 
 **Coding** - You should know at least one programming language really well, preferably C++, Java, Python, Go, or C. You will be expected to know APIs, Object Oriented Design and Programming, how to test your code, as well as come up with corner cases and edge cases for code. Note that we focus on conceptual understanding rather than memorization.  
@@ -124,7 +123,7 @@ Practice using the STAR Method on these common behavioral interviewing questions
 
 **Recursion** - Many coding problems involve thinking recursively and potentially coding a recursive solution. Use recursion to find more elegant solutions to problems that can be solved iteratively.  
 
-## RESOURCES 
+## Resources 
 
 * [Prepare for Your Google Interview: Coding](https://youtu.be/6ZZX9iIgFoo){:target="_blank"}
 * [How to: Work at Google — Example Coding/Engineering Interview](https://youtu.be/XKu_SEDAykw){:target="_blank"}
