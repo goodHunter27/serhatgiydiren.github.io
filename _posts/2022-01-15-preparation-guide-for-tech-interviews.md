@@ -1,6 +1,6 @@
 ---
 title: Preparation Guide for Tech Interviews - Ace Your Google & Facebook (Meta) Interviews
-published: false
+published: true
 ---
 
 # Resume Preparation
