@@ -13,6 +13,10 @@ Event Website : [g.co/hashcode](https://g.co/hashcode){:target="_blank"}
 
 ### Past Competition Questions
 
+* 2021 Final Round : [Software engineering at scale](https://storage.googleapis.com/coding-competitions.appspot.com/HC/2021/world_finals_2021.pdf){:target="_blank"}
+* 2021 Qualification Round : [Traffic signaling](https://storage.googleapis.com/coding-competitions.appspot.com/HC/2021/hashcode_2021_online_qualification_round.pdf){:target="_blank"}
+* 2020 Final Round : [Assembling smartphones](https://storage.googleapis.com/coding-competitions.appspot.com/HC/2020/hashcode2020_final_round.pdf){:target="_blank"}
+* 2020 Qualification Round : [Google Books](https://storage.googleapis.com/coding-competitions.appspot.com/HC/2020/hashcode_2020_online_qualification_round.pdf){:target="_blank"}
 * 2019 Final Round : [Compiling Google](https://storage.googleapis.com/coding-competitions.appspot.com/HC/2019/hashcode2019_final_task.pdf){:target="_blank"}
 * 2019 Qualification Round : [Photo slideshow](https://storage.googleapis.com/coding-competitions.appspot.com/HC/2019/hashcode2019_qualification_task.pdf){:target="_blank"}
 * 2018 Final Round : [City Plan](https://storage.googleapis.com/coding-competitions.appspot.com/HC/2018/hashcode2018_final_task.pdf){:target="_blank"}
