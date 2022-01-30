@@ -13,9 +13,11 @@ published: true
 
 #### Load Balancing  
 * [Load Balancing](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/load-balancing.html){:target="_blank"}
+* [Load Balancer](https://github.com/donnemartin/system-design-primer#load-balancer){:target="_blank"}
 
 #### Caching  
 * [Caching](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/caching.html){:target="_blank"}
+* [Cache](https://github.com/donnemartin/system-design-primer#cache){:target="_blank"}
 
 #### Data Partitioning  
 * [Data Partitioning](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/data-partitioning.html){:target="_blank"}
@@ -25,6 +27,7 @@ published: true
 
 #### Proxies  
 * [Proxies](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/proxies.html){:target="_blank"}
+* [Reverse Proxy - Web Server](https://github.com/donnemartin/system-design-primer#reverse-proxy-web-server){:target="_blank"}
 
 #### Redundancy and Replication  
 * [Redundancy and Replication](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/redundancy-and-replication.html){:target="_blank"}
@@ -40,6 +43,42 @@ published: true
 
 #### Long-Polling vs WebSockets vs Server-Sent Events  
 * [Long-Polling vs WebSockets vs Server-Sent Events](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/long-polling.html){:target="_blank"}
+
+#### Performance vs scalability  
+* [Performance vs scalability](https://github.com/donnemartin/system-design-primer#performance-vs-scalability){:target="_blank"}
+
+#### Latency vs throughput  
+* [Latency vs throughput](https://github.com/donnemartin/system-design-primer#latency-vs-throughput){:target="_blank"}
+
+#### Availability vs consistency  
+* [Availability vs consistency](https://github.com/donnemartin/system-design-primer#availability-vs-consistency){:target="_blank"}
+
+#### Consistency Patterns  
+* [Consistency Patterns](https://github.com/donnemartin/system-design-primer#consistency-patterns){:target="_blank"}
+
+#### Availability Patterns  
+* [Availability Patterns](https://github.com/donnemartin/system-design-primer#availability-patterns){:target="_blank"}
+
+#### Domain Name System  
+* [Domain Name System](https://github.com/donnemartin/system-design-primer#domain-name-system){:target="_blank"}
+
+#### Content Delivery Network  
+* [Content Delivery Network](https://github.com/donnemartin/system-design-primer#content-delivery-network){:target="_blank"}
+
+#### Application Layer  
+* [Application Layer](https://github.com/donnemartin/system-design-primer#application-layer){:target="_blank"}
+
+#### Database  
+* [Database](https://github.com/donnemartin/system-design-primer#database){:target="_blank"}
+
+#### Asynchronism  
+* [Asynchronism](https://github.com/donnemartin/system-design-primer#asynchronism){:target="_blank"}
+
+#### Communication  
+* [Communication](https://github.com/donnemartin/system-design-primer#communication){:target="_blank"}
+
+#### Security  
+* [Security](https://github.com/donnemartin/system-design-primer#security){:target="_blank"}
 
 ### SYSTEM DESIGN PROBLEMS  
 
