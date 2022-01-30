@@ -91,6 +91,7 @@ published: true
 
 #### Pastebin  
 * [Designing Pastebin](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/pastebin.html){:target="_blank"}
+* [Design Pastebin.com (or Bit.ly)](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/pastebin/README.md){:target="_blank"}
 
 #### Instagram  
 * [Designing Instagram](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/instagram.html){:target="_blank"}
@@ -107,6 +108,7 @@ published: true
 
 #### Twitter  
 * [Designing Twitter](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/twitter.html){:target="_blank"}
+* [Design the Twitter timeline and search (or Facebook feed and search)](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/twitter/README.md){:target="_blank"}
 
 #### Youtube or Netflix  
 * [Designing Youtube or Netflix](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/youtube-or-netflix.html){:target="_blank"}
@@ -124,6 +126,7 @@ published: true
 
 #### Web Crawler  
 * [Designing a Web Crawler](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/web-crwaler.html){:target="_blank"}
+* [Design a Web Crawler](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/web_crawler/README.md){:target="_blank"}
 
 #### Facebook's Newsfeed  
 * [Designing Facebook’s Newsfeed](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/facebook-newsfeed.html){:target="_blank"}
@@ -143,6 +146,7 @@ published: true
 
 #### Distributed Cache  
 * [System Design Interview - Distributed Cache](https://serhatgiydiren.github.io/system-design-interview-distributed-cache){:target="_blank"}
+* [Design a key-value store for a search engine	](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/query_cache/README.md){:target="_blank"}
 
 #### Distributed Message Queue  
 * [System Design Interview - Distributed Message Queue](https://serhatgiydiren.github.io/system-design-interview-distributed-message-queue){:target="_blank"}
@@ -152,6 +156,18 @@ published: true
 
 #### Top K Problem - Heavy Hitters
 * [System Design Interview - Top K Problem - Heavy Hitters](https://serhatgiydiren.github.io/system-design-interview-top-k-problem-heavy-hitters){:target="_blank"}
+
+#### Mint  
+* [Design Mint](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/mint/README.md){:target="_blank"}
+
+#### Design the data structures for a social network  
+* [Design the data structures for a social network](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/social_graph/README.md){:target="_blank"}
+
+#### Design Amazon's sales ranking by category feature  
+* [Design Amazon's sales ranking by category feature](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/sales_rank/README.md){:target="_blank"}
+
+#### Design a system that scales to millions of users on AWS  
+* [Design a system that scales to millions of users on AWS](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/scaling_aws/README.md){:target="_blank"}
 
 #### Additional Resources  
 * [Additional Resources](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/additional-resources.html){:target="_blank"}
