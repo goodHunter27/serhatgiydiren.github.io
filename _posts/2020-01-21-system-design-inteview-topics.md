@@ -106,3 +106,4 @@ published: true
 
 #### Additional Resources  
 * [Additional Resources](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/additional-resources.html){:target="_blank"}
+* [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f){:target="_blank"}
