@@ -14,10 +14,12 @@ published: true
 #### Load Balancing  
 * [Load Balancing](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/load-balancing.html){:target="_blank"}
 * [Load Balancer](https://github.com/donnemartin/system-design-primer#load-balancer){:target="_blank"}
+* Alex Yu - Load balancer
 
 #### Caching  
 * [Caching](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/caching.html){:target="_blank"}
 * [Cache](https://github.com/donnemartin/system-design-primer#cache){:target="_blank"}
+* Alex Yu - Cache
 
 #### Data Partitioning  
 * [Data Partitioning](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/data-partitioning.html){:target="_blank"}
@@ -31,6 +33,7 @@ published: true
 
 #### Redundancy and Replication  
 * [Redundancy and Replication](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/redundancy-and-replication.html){:target="_blank"}
+* Alex Yu - Database Replication
 
 #### SQL vs. NoSQL  
 * [SQL vs. NoSQL](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/sql-vs-nosql.html){:target="_blank"}
@@ -40,6 +43,7 @@ published: true
 
 #### Consistent Hashing  
 * [Consistent Hashing](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/consistent-hashing.html){:target="_blank"}
+* Alex Yu - Design Consistent Hashing
 
 #### Long-Polling vs WebSockets vs Server-Sent Events  
 * [Long-Polling vs WebSockets vs Server-Sent Events](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/long-polling.html){:target="_blank"}
@@ -64,15 +68,31 @@ published: true
 
 #### Content Delivery Network  
 * [Content Delivery Network](https://github.com/donnemartin/system-design-primer#content-delivery-network){:target="_blank"}
+* Alex Yu - Content delivery network (CDN)
 
 #### Application Layer  
 * [Application Layer](https://github.com/donnemartin/system-design-primer#application-layer){:target="_blank"}
 
 #### Database  
 * [Database](https://github.com/donnemartin/system-design-primer#database){:target="_blank"}
+* Alex Yu - Which databases to use?
+* Alex Yu - Database Scaling
+
+#### Vertical scaling vs horizontal scaling  
+* Alex Yu - Vertical scaling vs horizontal scaling
+
+#### Stateless web tier & Stateful architecture & Stateless architecture  
+* Alex Yu - Stateless web tier & Stateful architecture & Stateless architecture
+
+#### Data centers  
+* Alex Yu - Data centers
+
+#### Logging, metrics, automation  
+* Alex Yu - Logging, metrics, automation
 
 #### Asynchronism  
 * [Asynchronism](https://github.com/donnemartin/system-design-primer#asynchronism){:target="_blank"}
+* Alex Yu - Message Queue
 
 #### Communication  
 * [Communication](https://github.com/donnemartin/system-design-primer#communication){:target="_blank"}
@@ -85,9 +105,13 @@ published: true
 #### System Design Interviews: A step by step guide  
 * [System Design Interviews: A step by step guide](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/system-design-interviews.html){:target="_blank"}
 
-#### a URL Shortening service like TinyURL  
+#### A URL Shortening service like TinyURL  
 * [Designing a URL Shortening service like TinyURL](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/url-shortening-service-like-tiny-url.html){:target="_blank"}
 * [Bitly: Lessons Learned Building A Distributed System That Handles 6 Billion Clicks A Month](http://highscalability.com/blog/2014/7/14/bitly-lessons-learned-building-a-distributed-system-that-han.html){:target="_blank"}
+* Alex Yu - Design A Url Shortener
+
+#### A Unique ID Generator
+* Alex Yu - Design A Unique ID Generator in Distributed Systems
 
 #### Pastebin  
 * [Designing Pastebin](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/pastebin.html){:target="_blank"}
@@ -99,12 +123,14 @@ published: true
 
 #### Dropbox  
 * [Designing Dropbox](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/dropbox.html){:target="_blank"}
+* Alex Yu - Design Google Drive
 
 #### Facebook Messenger  
 * [Designing Facebook Messenger](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/facebook-messenger.html){:target="_blank"}
 
 #### WhatsApp  
 * [Designing WhatsApp](http://highscalability.com/blog/2022/1/3/designing-whatsapp.html){:target="_blank"}
+* Alex Yu - Design A Chat System  
 
 #### Twitter  
 * [Designing Twitter](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/twitter.html){:target="_blank"}
@@ -113,13 +139,16 @@ published: true
 #### Youtube or Netflix  
 * [Designing Youtube or Netflix](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/youtube-or-netflix.html){:target="_blank"}
 * [Designing Netflix](http://highscalability.com/blog/2021/12/13/designing-netflix.html){:target="_blank"}
+* Alex Yu - Design Youtube
 
 #### Typeahead Suggestion  
 * [Designing Typeahead Suggestio](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/typehead-suggestion.html){:target="_blank"}
+* Alex Yu - Design A Search Autocomplete System  
 
 #### API Rate Limiter  
 * [Designing an API Rate Limiter](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/api-rate-limiter.html){:target="_blank"}
 * [System Design Interview - Rate Limiting (local and distributed)](https://serhatgiydiren.github.io/system-design-interview-rate-limiting){:target="_blank"}
+* Alex Yu - Design a Rate Limiter
 
 #### Twitter Search  
 * [Designing Twitter Search](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/twitter-search.html){:target="_blank"}
@@ -127,9 +156,11 @@ published: true
 #### Web Crawler  
 * [Designing a Web Crawler](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/web-crwaler.html){:target="_blank"}
 * [Design a Web Crawler](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/web_crawler/README.md){:target="_blank"}
+* Alex Yu - Design A Web Crawler
 
 #### Facebook's Newsfeed  
 * [Designing Facebook’s Newsfeed](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/facebook-newsfeed.html){:target="_blank"}
+* Alex Yu - Design A News Feed System
 
 #### Yelp or Nearby Friends  
 * [Designing Yelp or Nearby Friends](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/yelp-ornearby-friends.html){:target="_blank"}
@@ -147,12 +178,14 @@ published: true
 #### Distributed Cache  
 * [System Design Interview - Distributed Cache](https://serhatgiydiren.github.io/system-design-interview-distributed-cache){:target="_blank"}
 * [Design a key-value store for a search engine	](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/query_cache/README.md){:target="_blank"}
+* Alex Yu - Design A Key Value Store
 
 #### Distributed Message Queue  
 * [System Design Interview - Distributed Message Queue](https://serhatgiydiren.github.io/system-design-interview-distributed-message-queue){:target="_blank"}
 
 #### Notification Service  
 * [System Design Interview - Notification Service](https://serhatgiydiren.github.io/system-design-interview-notification-service){:target="_blank"}
+* Alex Yu - Design A Notification System
 
 #### Top K Problem - Heavy Hitters
 * [System Design Interview - Top K Problem - Heavy Hitters](https://serhatgiydiren.github.io/system-design-interview-top-k-problem-heavy-hitters){:target="_blank"}
@@ -173,3 +206,4 @@ published: true
 * [Additional Resources](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/additional-resources.html){:target="_blank"}
 * [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f){:target="_blank"}
 * [HiredInTech System Design](https://www.hiredintech.com/system-design){:target="_blank"}
+* Alex Yu - A Framework for System Design Interviews
