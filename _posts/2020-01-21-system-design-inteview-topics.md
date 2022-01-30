@@ -48,6 +48,7 @@ published: true
 
 #### a URL Shortening service like TinyURL  
 * [Designing a URL Shortening service like TinyURL](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/url-shortening-service-like-tiny-url.html){:target="_blank"}
+* [Bitly: Lessons Learned Building A Distributed System That Handles 6 Billion Clicks A Month](http://highscalability.com/blog/2014/7/14/bitly-lessons-learned-building-a-distributed-system-that-han.html){:target="_blank"}
 
 #### Pastebin  
 * [Designing Pastebin](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/pastebin.html){:target="_blank"}
@@ -88,6 +89,7 @@ published: true
 
 #### Uber backend  
 * [Designing Uber backend](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/uber-backend.html){:target="_blank"}
+* [Designing Uber](http://highscalability.com/blog/2022/1/25/designing-uber.html){:target="_blank"}
 
 #### Ticketmaster  
 * [Design Ticketmaster](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/ticket-master.html){:target="_blank"}
@@ -107,3 +109,4 @@ published: true
 #### Additional Resources  
 * [Additional Resources](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/additional-resources.html){:target="_blank"}
 * [System Design Cheatsheet](https://gist.github.com/vasanthk/485d1c25737e8e72759f){:target="_blank"}
+* [HiredInTech System Design](https://www.hiredintech.com/system-design){:target="_blank"}
