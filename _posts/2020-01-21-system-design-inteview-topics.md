@@ -7,46 +7,58 @@ published: true
 
 #### System Design Basics  
 * [System Design Basics](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/system-design-basics.html){:target="_blank"}
+* [Fundamentals of System Design](https://learnsystemdesign.blogspot.com/2019/09/fundamentals-of-system-design.html){:target="_blank"}
 
 #### Key Characteristics of Distributed Systems  
 * [Key Characteristics of Distributed Systems](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/key-charactersitics-of-distributed-systems.html){:target="_blank"}
+* [Fundamentals of System Design](https://learnsystemdesign.blogspot.com/2019/09/fundamentals-of-system-design.html){:target="_blank"}
 
 #### Load Balancing  
 * [Load Balancing](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/load-balancing.html){:target="_blank"}
+* [Fundamentals of System Design](https://learnsystemdesign.blogspot.com/2019/09/fundamentals-of-system-design.html){:target="_blank"}
 * [Load Balancer](https://github.com/donnemartin/system-design-primer#load-balancer){:target="_blank"}
 * Alex Yu - Load balancer
 
 #### Caching  
 * [Caching](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/caching.html){:target="_blank"}
+* [Fundamentals of System Design](https://learnsystemdesign.blogspot.com/2019/09/fundamentals-of-system-design.html){:target="_blank"}
 * [Cache](https://github.com/donnemartin/system-design-primer#cache){:target="_blank"}
 * Alex Yu - Cache
 
 #### Data Partitioning  
 * [Data Partitioning](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/data-partitioning.html){:target="_blank"}
+* [Fundamentals of System Design](https://learnsystemdesign.blogspot.com/2019/09/fundamentals-of-system-design.html){:target="_blank"}
 
 #### Indexes  
 * [Indexes](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/indexes.html){:target="_blank"}
+* [Fundamentals of System Design](https://learnsystemdesign.blogspot.com/2019/09/fundamentals-of-system-design.html){:target="_blank"}
 
 #### Proxies  
 * [Proxies](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/proxies.html){:target="_blank"}
+* [Fundamentals of System Design](https://learnsystemdesign.blogspot.com/2019/09/fundamentals-of-system-design.html){:target="_blank"}
 * [Reverse Proxy - Web Server](https://github.com/donnemartin/system-design-primer#reverse-proxy-web-server){:target="_blank"}
 
 #### Redundancy and Replication  
 * [Redundancy and Replication](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/redundancy-and-replication.html){:target="_blank"}
+* [Fundamentals of System Design](https://learnsystemdesign.blogspot.com/2019/09/fundamentals-of-system-design.html){:target="_blank"}
 * Alex Yu - Database Replication
 
 #### SQL vs. NoSQL  
 * [SQL vs. NoSQL](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/sql-vs-nosql.html){:target="_blank"}
+* [Fundamentals of System Design](https://learnsystemdesign.blogspot.com/2019/09/fundamentals-of-system-design.html){:target="_blank"}
 
 #### CAP Theorem  
 * [CAP Theorem](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/cap-theorem.html){:target="_blank"}
+* [Fundamentals of System Design](https://learnsystemdesign.blogspot.com/2019/09/fundamentals-of-system-design.html){:target="_blank"}
 
 #### Consistent Hashing  
 * [Consistent Hashing](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/consistent-hashing.html){:target="_blank"}
+* [Fundamentals of System Design](https://learnsystemdesign.blogspot.com/2019/09/fundamentals-of-system-design.html){:target="_blank"}
 * Alex Yu - Design Consistent Hashing
 
 #### Long-Polling vs WebSockets vs Server-Sent Events  
 * [Long-Polling vs WebSockets vs Server-Sent Events](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/long-polling.html){:target="_blank"}
+* [Fundamentals of System Design](https://learnsystemdesign.blogspot.com/2019/09/fundamentals-of-system-design.html){:target="_blank"}
 
 #### Performance vs scalability  
 * [Performance vs scalability](https://github.com/donnemartin/system-design-primer#performance-vs-scalability){:target="_blank"}
