@@ -55,6 +55,7 @@ published: true
 
 #### Instagram  
 * [Designing Instagram](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/instagram.html){:target="_blank"}
+* [Designing Instagram](http://highscalability.com/blog/2022/1/11/designing-instagram.html){:target="_blank"}
 
 #### Dropbox  
 * [Designing Dropbox](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/dropbox.html){:target="_blank"}
@@ -62,11 +63,15 @@ published: true
 #### Facebook Messenger  
 * [Designing Facebook Messenger](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/facebook-messenger.html){:target="_blank"}
 
+#### WhatsApp  
+* [Designing WhatsApp](http://highscalability.com/blog/2022/1/3/designing-whatsapp.html){:target="_blank"}
+
 #### Twitter  
 * [Designing Twitter](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/twitter.html){:target="_blank"}
 
 #### Youtube or Netflix  
 * [Designing Youtube or Netflix](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/youtube-or-netflix.html){:target="_blank"}
+* [Designing Netflix](http://highscalability.com/blog/2021/12/13/designing-netflix.html){:target="_blank"}
 
 #### Typeahead Suggestion  
 * [Designing Typeahead Suggestio](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/typehead-suggestion.html){:target="_blank"}
@@ -90,6 +95,9 @@ published: true
 #### Uber backend  
 * [Designing Uber backend](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/uber-backend.html){:target="_blank"}
 * [Designing Uber](http://highscalability.com/blog/2022/1/25/designing-uber.html){:target="_blank"}
+
+#### Tinder  
+* [Designing Tinder](http://highscalability.com/blog/2022/1/17/designing-tinder.html){:target="_blank"}
 
 #### Ticketmaster  
 * [Design Ticketmaster](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/ticket-master.html){:target="_blank"}
