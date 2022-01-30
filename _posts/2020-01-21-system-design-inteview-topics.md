@@ -119,6 +119,7 @@ published: true
 
 #### A URL Shortening service like TinyURL  
 * [Designing a URL Shortening service like TinyURL](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/url-shortening-service-like-tiny-url.html){:target="_blank"}
+* [Designing a URL Shortening service like TinyURL](https://learnsystemdesign.blogspot.com/p/system-design-designing-url-shortening.html){:target="_blank"}
 * [Bitly: Lessons Learned Building A Distributed System That Handles 6 Billion Clicks A Month](http://highscalability.com/blog/2014/7/14/bitly-lessons-learned-building-a-distributed-system-that-han.html){:target="_blank"}
 * Alex Yu - Design A Url Shortener
 
@@ -139,6 +140,7 @@ published: true
 
 #### Facebook Messenger  
 * [Designing Facebook Messenger](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/facebook-messenger.html){:target="_blank"}
+* [Designing Facebook Messenger](https://learnsystemdesign.blogspot.com/p/design-facebook-messanger.html){:target="_blank"}
 
 #### WhatsApp  
 * [Designing WhatsApp](http://highscalability.com/blog/2022/1/3/designing-whatsapp.html){:target="_blank"}
@@ -186,6 +188,7 @@ published: true
 
 #### Ticketmaster  
 * [Design Ticketmaster](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/ticket-master.html){:target="_blank"}
+* [Design Ticketmaster](https://learnsystemdesign.blogspot.com/p/designing-ticketmaster.html){:target="_blank"}
 
 #### Distributed Cache  
 * [System Design Interview - Distributed Cache](https://serhatgiydiren.github.io/system-design-interview-distributed-cache){:target="_blank"}
