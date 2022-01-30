@@ -3,12 +3,12 @@ title: System Design Interview Topics
 published: true
 ---
 
-## GLOSSARY OF SYSTEM DESIGN BASICS  
+### GLOSSARY OF SYSTEM DESIGN BASICS  
 
-### System Design Basics  
+#### System Design Basics  
 * [System Design Basics](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/system-design-basics.html){:target="_blank"}
 
-### Key Characteristics of Distributed Systems  
+#### Key Characteristics of Distributed Systems  
 * [Key Characteristics of Distributed Systems](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-basics/key-charactersitics-of-distributed-systems.html){:target="_blank"}
 
 ### Load Balancing  
