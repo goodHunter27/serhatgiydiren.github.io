@@ -1,6 +1,6 @@
 ---
-title: Systems Design Interview Topics
-published: true
+title: System Design Interview Topics
+published: false
 ---
 
 ## GLOSSARY OF SYSTEM DESIGN BASICS  
