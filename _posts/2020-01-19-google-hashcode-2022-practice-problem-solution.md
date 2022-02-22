@@ -123,9 +123,9 @@ void optimize()
     while(temperature>EPS)
     {
       auto score_begin=score;
-      int typ=rand()%2;
+      int typ=rand()%1;
       if (typ==0) type_0();
-      else if (typ==1) type_0();
+      //else if (typ==1) type_1();
       temperature-=1;
       //if (score>score_begin) D(temperature, score);
       if (int(temperature)%100000==0) D(temperature, score);
