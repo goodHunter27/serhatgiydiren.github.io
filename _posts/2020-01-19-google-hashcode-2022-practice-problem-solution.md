@@ -8,7 +8,7 @@ published: true
 * B : 5
 * C : 5
 * D : 1805
-* E : 2087
+* E : 2079
 
 ```cpp
 #include <bits/stdc++.h>
