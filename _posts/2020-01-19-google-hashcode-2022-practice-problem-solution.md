@@ -44,6 +44,8 @@ vector < bool > keep;
 unordered_set < int > out;
 int score=0;
 int restart=1;
+int score_best=0;
+unordered_set < int > out_best;
 
 struct customer
 {
@@ -75,7 +77,14 @@ void calc_score()
   for(auto e:custs) score+=is_happy(e);
 }
 
-void type_0()
+bool is_accepted(const int &diff, const double &temperature)
+{
+ if (diff>=0) return true;
+ if (exp(double(diff)/temperature)-0.999999>EPS) return true;
+ return false;
+}
+
+void type_0(const double &temperature)
 {
   int idx=rng()%count_ing;
   if (sel[idx])
@@ -86,31 +95,36 @@ void type_0()
       for(auto e:ings[idx].pos) if (is_happy(custs[e])) diff--;
       out.erase(idx);
       for(auto e:ings[idx].neg) if (is_happy(custs[e])) diff++;
-      if (diff<0)
-      {
-        out.insert(idx);
-      }
-      else
+      if (is_accepted(diff,temperature))
       {
         score+=diff;
         sel[idx]=false;
       }
+      else
+      {
+        out.insert(idx);
+      }
     }
   }
-  else
+}
+
+void type_1(const double &temperature)
+{
+  int idx=rng()%count_ing;
+  if (!sel[idx])
   {
     int diff=0;
     for(auto e:ings[idx].neg) if (is_happy(custs[e])) diff--;
     out.insert(idx);
     for(auto e:ings[idx].pos) if (is_happy(custs[e])) diff++;
-    if (diff<0)
-    {
-      out.erase(idx);
-    }
-    else
+    if (is_accepted(diff,temperature))
     {
       score+=diff;
       sel[idx]=true;
+    }
+    else
+    {
+      out.erase(idx);
     }
   }
 }
@@ -119,16 +133,23 @@ void optimize()
 {
   while(restart--)
   {
-    double temperature=1000000000;
+    double temperature=1000000;
     while(temperature>EPS)
     {
       auto score_begin=score;
-      int typ=rand()%1;
-      if (typ==0) type_0();
-      //else if (typ==1) type_1();
-      temperature-=1;
-      //if (score>score_begin) D(temperature, score);
-      if (int(temperature)%100000==0) D(temperature, score);
+      int typ=rand()%2;
+      if (typ==0) type_0(temperature);
+      else if (typ==1) type_1(temperature);
+      temperature-=0.001;
+      if (score>score_best)
+      {
+        score_best=score;
+        out_best=out;
+      }
+      if (score>score_begin)
+      {
+        D(typ,temperature, score, score_best);
+      }
     }
   }
 }
@@ -196,8 +217,8 @@ void prep()
 
 void print_output()
 {
-  cout << out.size();
-  for(auto e:out) cout << " " << ings[e].name;
+  cout << out_best.size();
+  for(auto e:out_best) cout << " " << ings[e].name;
 }
 
 void init_score()
@@ -210,7 +231,7 @@ void init_score()
 void final_check()
 {
   //D(out);
-  D("success_ratio : ",score,c,100.0*score/c);
+  D("success_ratio : ",score_best,c,100.0*score_best/c);
 }
 
 void solve()
