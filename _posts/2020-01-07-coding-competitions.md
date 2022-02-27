@@ -7,6 +7,8 @@ published: true
 
 Date | Competition | Round | Rank | Urls
 ------------ | ------------- | ------------- | ------------- | -------------
+24.02.2022 | Google Hash Code | Qualification Round | 20 / 10.177 (Qualified for World Finals) | [Scoreboard](https://codingcompetitions.withgoogle.com/hashcode/round/00000000008caae7){:target="_blank"}<br />
+11.09.2021 | Facebook Hacker Cup | Round1 | 1.878 / 12.692 (Qualified for Round 2) | [Scoreboard](https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-1/scoreboard){:target="_blank"}
 16.10.2021 | Google Kick Start | Round G | 477 / 9.448 | [Scoreboard](https://codingcompetitions.withgoogle.com/kickstart/round/00000000004362d6){:target="_blank"}<br />
 22.08.2021 | Google Kick Start | Round E | 337 / 6.936 | [Scoreboard](https://codingcompetitions.withgoogle.com/kickstart/round/000000000043585c){:target="_blank"}<br />
 11.07.2021 | Google Kick Start | Round D | 596 / 10.933 | [Scoreboard](https://codingcompetitions.withgoogle.com/kickstart/round/00000000004361e3){:target="_blank"}<br />
