@@ -38,3 +38,6 @@ Event Website : [g.co/hashcode](https://g.co/hashcode){:target="_blank"}
 * [Basic Modeling for Discrete Optimization](https://www.coursera.org/learn/basic-modeling){:target="_blank"}
 * [Advanced Modeling for Discrete Optimization](https://www.coursera.org/learn/advanced-modeling){:target="_blank"}
 * [Solving Algorithms for Discrete Optimization](https://www.coursera.org/learn/solving-algorithms-discrete-optimization){:target="_blank"}
+* [Operations Research (1): Models and Applications](https://www.coursera.org/learn/operations-research-modeling){:target="_blank"}
+* [Operations Research (2): Optimization Algorithms](https://www.coursera.org/learn/operations-research-algorithms){:target="_blank"}
+* [Operations Research (3): Theory](https://www.coursera.org/learn/operations-research-theory){:target="_blank"}
