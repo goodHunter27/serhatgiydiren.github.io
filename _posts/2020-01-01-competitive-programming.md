@@ -19,14 +19,14 @@ I share some details below where you can obtain both theoretical knowledge and a
 
 ### Books
 
-* [Algorithms - Robert Sedgewick & Kevin Wayne](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X?&_encoding=UTF8&tag=serhatgiydire-20&linkCode=ur2&linkId=724fa827999b7fea27f8c752af080b57&camp=1789&creative=9325){:target="_blank"}
-* Introduction to Algorithms - Thomas H. Cormen & Charles E. Leiserson & Ronald L. Rivest & Clifford Stein
-* The Art of Computer Programming - Donald E. Knuth
-* Cracking the Coding Interview - Gayle Laakmann McDowell
-* Competitive Programming - Steven Halim
-* The Algorithm Design Manual - Steven S. Skiena
-* Programming Pearls - Jon Bentley
-* Programming Interviews Exposed: Secrets to Landing Your Next Job - John Mongan & Noah Suojanen & Eric Giguere
+* [Algorithms - Robert Sedgewick & Kevin Wayne](https://amzn.to/3J238Xo){:target="_blank"}
+* [Introduction to Algorithms - Thomas H. Cormen & Charles E. Leiserson & Ronald L. Rivest & Clifford Stein](https://amzn.to/3PRgibH){:target="_blank"}
+* [The Art of Computer Programming - Donald E. Knuth](https://amzn.to/3S0Ggvd){:target="_blank"}
+* [Cracking the Coding Interview - Gayle Laakmann McDowell](https://amzn.to/3J23mhc){:target="_blank"}
+* [Competitive Programming - Steven Halim](https://amzn.to/3zz0i9f){:target="_blank"}
+* [The Algorithm Design Manual - Steven S. Skiena](https://amzn.to/3cBc8Xg){:target="_blank"}
+* [Programming Pearls - Jon Bentley](https://amzn.to/3J2iOtJ){:target="_blank"}
+* [Programming Interviews Exposed: Secrets to Landing Your Next Job - John Mongan & Noah Suojanen & Eric Giguere](https://amzn.to/3z3OOsU){:target="_blank"}
 
 
 ### Online Courses
