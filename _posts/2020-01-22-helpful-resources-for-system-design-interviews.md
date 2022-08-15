@@ -4,9 +4,7 @@ published: true
 ---
 
 ### Good resources to ace Systems Design Interviews
-* [System Design Interview – An insider's guide - Alex Xu](https://amzn.to/3vdVLXd){:target="_blank"}
-* [System Design Interview – An Insider's Guide: Volume 2 - Alex Xu & Sahn Lam](https://amzn.to/3RXzPcp){:target="_blank"}  
-* [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems - Martin Kleppmann](https://amzn.to/3veIM7w){:target="_blank"} 
+
 * [MIT 6.824 Distributed Systems Lectures](https://www.youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB){:target="_blank"}
 * [CSE138 Distributed Systems Lectures](https://www.youtube.com/playlist?list=PLNPUF5QyWU8O0Wd8QDh9KaM1ggsxspJ31){:target="_blank"}
 * [Princeton COS418 Distributed Systems Lectures](https://www.cs.princeton.edu/courses/archive/fall19/cos418/schedule.html){:target="_blank"}
