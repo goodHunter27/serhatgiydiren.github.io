@@ -7,13 +7,6 @@ published: true
 
 -----------------------
 
-### Good resources to ace Systems Design Interviews
-* [System Design Interview – An insider's guide - Alex Xu](https://amzn.to/3vdVLXd){:target="_blank"}
-* [System Design Interview – An Insider's Guide: Volume 2 - Alex Xu & Sahn Lam](https://amzn.to/3RXzPcp){:target="_blank"}  
-* [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems - Martin Kleppmann](https://amzn.to/3veIM7w){:target="_blank"} 
-
------------------------
-
 ![Requirement Clarification](../assets/rl_rc.png)
 
 - Let's imaging we launched a web application. And the application became highly popular. Meaning that thousands of clients send thousands of requests every second to the front-end web service of our application. Everything works well. Until suddenly one or several clients started to send much more requests than they did previously. And this may happen due to a various of reasons.
