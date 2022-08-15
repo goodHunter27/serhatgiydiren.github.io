@@ -3,22 +3,6 @@ title: Preparation Guide for Tech Interviews - Ace Your Google & Facebook (Meta)
 published: true
 ---
 
-### Books
-
-* [Algorithms - Robert Sedgewick & Kevin Wayne](https://amzn.to/3J238Xo){:target="_blank"}
-* [Introduction to Algorithms - Thomas H. Cormen & Charles E. Leiserson & Ronald L. Rivest & Clifford Stein](https://amzn.to/3PRgibH){:target="_blank"}
-* [The Art of Computer Programming - Donald E. Knuth](https://amzn.to/3S0Ggvd){:target="_blank"}
-* [Cracking the Coding Interview - Gayle Laakmann McDowell](https://amzn.to/3J23mhc){:target="_blank"}
-* [Competitive Programming - Steven Halim](https://amzn.to/3zz0i9f){:target="_blank"}
-* [The Algorithm Design Manual - Steven S. Skiena](https://amzn.to/3cBc8Xg){:target="_blank"}
-* [Programming Pearls - Jon Bentley](https://amzn.to/3J2iOtJ){:target="_blank"}
-* [Programming Interviews Exposed: Secrets to Landing Your Next Job - John Mongan & Noah Suojanen & Eric Giguere](https://amzn.to/3z3OOsU){:target="_blank"}
-
-### Good resources to ace Systems Design Interviews
-* [System Design Interview – An insider's guide - Alex Xu](https://amzn.to/3vdVLXd){:target="_blank"}
-* [System Design Interview – An Insider's Guide: Volume 2 - Alex Xu & Sahn Lam](https://amzn.to/3RXzPcp){:target="_blank"}  
-* [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems - Martin Kleppmann](https://amzn.to/3veIM7w){:target="_blank"} 
-
 # Resume Preparation
 
 ## Resources 
