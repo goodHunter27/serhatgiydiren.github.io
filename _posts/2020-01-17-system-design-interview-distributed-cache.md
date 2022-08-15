@@ -7,13 +7,6 @@ published: true
 
 -----------------------
 
-### Good resources to ace Systems Design Interviews
-* [System Design Interview – An insider's guide - Alex Xu](https://amzn.to/3vdVLXd){:target="_blank"}
-* [System Design Interview – An Insider's Guide: Volume 2 - Alex Xu & Sahn Lam](https://amzn.to/3RXzPcp){:target="_blank"}  
-* [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems - Martin Kleppmann](https://amzn.to/3veIM7w){:target="_blank"} 
-
------------------------
-
 - A web application backed by a data store. This data store may be a database or another web service. Client makes a call to the web application, which in turn makes a call to the data store and result is returned back to the client. There may be several issues with this setup. First, calls to the data store may take a long time to execute or may utilize a lot of system resources. It would be good to store at least some results of these calls in memory, so that these results are retrieved and returned back to the client much faster. And if the data store is down or experiences a performance degradation and calls to the data store start to fail, our web application may still process requests as usual, at least for some period of time. So, storing data in memory will help to address these issues. When client request comes, we first check the cache and try to retrieve information from memory. And only if data is unavailable or stale, we then make a call to the datastore.
 - And why do we call it a distributed cache? Because amount of data is too large to be stored in memory of a single machine and we need to split the data and store it across several machines. Caches are everywhere nowadays. Even on this channel, remember when we designed distributed message queue or notification service or rate limiter, all those designs relied on a cache of some sort.
 
