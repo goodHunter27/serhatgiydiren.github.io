@@ -7,13 +7,6 @@ published: true
 
 -----------------------
 
-### Good resources to ace Systems Design Interviews
-* [System Design Interview – An insider's guide - Alex Xu](https://amzn.to/3vdVLXd){:target="_blank"}
-* [System Design Interview – An Insider's Guide: Volume 2 - Alex Xu & Sahn Lam](https://amzn.to/3RXzPcp){:target="_blank"}  
-* [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems - Martin Kleppmann](https://amzn.to/3veIM7w){:target="_blank"} 
-
------------------------
-
 - Today we design a system for identifying the top k heavy hitters (also known as the top k most frequent items). It's a popular system design interview question as it may take many different forms. Let's name a few. For example, we may be asked to find 100 of the most searched keywords on Google or viewed videos on Youtube or played songs on Spotify or shared posts on Facebook. An interviewer may be interested to know the most retweeted tweets on Twitter or liked photos on Instagram.
 - You probably have a feeling already that database or distributed cache, when applied directly, is not a good option for services of such scale. We are talking about hundreds of thousands requests per second, even millions at peak. Databases today can handle millions of requests per second. But even if we count all the views for Youtube videos in the database for some period of time, how do we calculate the top 100? We need to scan over entries in the database and order entries by view counts. For small scale such approach is fine, but for services of Youtube scale this is very ineffective: both expensive and slow.
 - Ok, sounds like a typical big data processing problem and MapReduce might help. MapReduce will indeed help us to solve this problem, but MapReduce along is not enough. We need our solution to return list of heavy hitters as close to real time as possible. For example, we need to return a list of most viewed videos for the last several minutes. Which moves this problem to the category of stream processing problems.
