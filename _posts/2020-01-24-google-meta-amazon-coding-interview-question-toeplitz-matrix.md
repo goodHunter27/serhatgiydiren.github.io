@@ -15,7 +15,7 @@ Given a matrix in the form `(int height, int weight, vector < vector < int > > m
 | J | I | H | G | F 
 
 
-[For more information, click here.]([https://amzn.to/3vdVLXd](https://en.wikipedia.org/wiki/Toeplitz_matrix)){:target="_blank"} 
+[For more information, click here.](https://en.wikipedia.org/wiki/Toeplitz_matrix){:target="_blank"} 
 
 ```cpp
 bool is_toeplitz(const int &height, const int &width, const vector < vector < int > > &matrix)
