@@ -3,6 +3,8 @@ title: Google Meta Amazon Coding Interview Question - Toeplitz Matrix
 published: true
 ---
 
+{% include temp.md %}
+
 Given a matrix in the form `(int height, int weight, vector < vector < int > > matrix)`, determine if the matrix is in the form of Toeplitz. 
 
 > In linear algebra, a Toeplitz matrix or diagonal-constant matrix, named after Otto Toeplitz, is a matrix in which each descending diagonal from left to right is constant. For instance, the following matrix is a Toeplitz matrix: 
