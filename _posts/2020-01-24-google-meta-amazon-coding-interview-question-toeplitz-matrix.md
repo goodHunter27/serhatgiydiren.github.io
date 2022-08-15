@@ -7,15 +7,15 @@ Given a matrix in the form `(int height, int weight, vector < vector < int > > m
 
 > In linear algebra, a Toeplitz matrix or diagonal-constant matrix, named after Otto Toeplitz, is a matrix in which each descending diagonal from left to right is constant. For instance, the following matrix is a Toeplitz matrix: 
 
-| A | B | C | D | E
-| F | A | B | C | D
-| G | F | A | B | C
-| H | G | F | A | B
-| I | H | G | F | A
-| J | I | H | G | F
+| A | B | C | D | E 
+| F | A | B | C | D 
+| G | F | A | B | C 
+| H | G | F | A | B 
+| I | H | G | F | A 
+| J | I | H | G | F 
 
 
-[For more information for Toeplitz Matrix, click here.]([https://amzn.to/3vdVLXd](https://en.wikipedia.org/wiki/Toeplitz_matrix)){:target="_blank"} 
+[For more information, click here.]([https://amzn.to/3vdVLXd](https://en.wikipedia.org/wiki/Toeplitz_matrix)){:target="_blank"} 
 
 ```cpp
 bool is_toeplitz(const int &height, const int &width, const vector < vector < int > > &matrix)
