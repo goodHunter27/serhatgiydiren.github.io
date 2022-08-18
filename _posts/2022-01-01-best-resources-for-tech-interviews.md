@@ -5,7 +5,7 @@ published: true
 
 ### Books for Coding Interviews
 
-* [Algorithms (Robert Sedgewick, Kevin Wayne)<br/>*** There are also two great online courses from the authors for this book (You may find them below)](https://amzn.to/3c010Dj){:target="_blank"}
+* [Algorithms (Robert Sedgewick, Kevin Wayne)<br/>*** There are two great online courses from the authors (You may find them below)](https://amzn.to/3c010Dj){:target="_blank"}
 * [Introduction to Algorithms (Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein)](https://amzn.to/3K7tHek){:target="_blank"}
 * [Cracking the Coding Interview: 189 Programming Questions and Solutions (Gayle Laakmann McDowell)](https://amzn.to/3QxnUkt){:target="_blank"}
 * [The Algorithm Design Manual (Texts in Computer Science) (Steven S. Skiena)](https://amzn.to/3C9gpMn){:target="_blank"}
@@ -26,7 +26,7 @@ published: true
 
 ### Online Courses for Coding Interviews
 
-* [Algorithms, Part I (Robert Sedgewick, Kevin Wayne)<br/>*** There is also a book from the authors for this course (You may find it above)](https://imp.i384100.net/YgaNNe){:target="_blank"}
+* [Algorithms, Part I (Robert Sedgewick, Kevin Wayne)<br/>*** There is a book from the authors (You may find it above)](https://imp.i384100.net/YgaNNe){:target="_blank"}
 * [Algorithms, Part II (Robert Sedgewick, Kevin Wayne)<br/>*** There is also a book from the authors for this course (You may find it above)](https://imp.i384100.net/LPN22V){:target="_blank"}
 * [Divide and Conquer, Sorting and Searching, and Randomized Algorithms (Tim Roughgarden)](https://imp.i384100.net/DVN335){:target="_blank"}
 * [Graph Search, Shortest Paths, and Data Structures (Tim Roughgarden)](https://imp.i384100.net/9WYEE4){:target="_blank"}
