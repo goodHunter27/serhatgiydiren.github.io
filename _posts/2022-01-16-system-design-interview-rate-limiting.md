@@ -3,10 +3,6 @@ title: System Design Interview - Rate Limiting (local and distributed)
 published: true
 ---
 
-#### Excerpted from [here](https://youtu.be/FU4WlwfS3G0){:target="_blank"}
-
------------------------
-
 ![Requirement Clarification](../assets/rl_rc.png)
 
 - Let's imaging we launched a web application. And the application became highly popular. Meaning that thousands of clients send thousands of requests every second to the front-end web service of our application. Everything works well. Until suddenly one or several clients started to send much more requests than they did previously. And this may happen due to a various of reasons.
@@ -235,4 +231,6 @@ time?
 - This is a distributed cache option we discussed above.
 - But the drawback of this approach is that it increases latency and operational cost.
 - It would be good to have these tradeoff discussions with your interviewer.
-- As it demonstrates both breadth and depth of your knowledge and critical thinking.
+- As it demonstrates both breadth and depth of your knowledge and critical thinking.  
+  
+> Excerpted from [here](https://youtu.be/FU4WlwfS3G0){:target="_blank"}
