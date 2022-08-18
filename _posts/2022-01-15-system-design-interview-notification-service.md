@@ -3,10 +3,6 @@ title: System Design Interview - Notification Service
 published: true
 ---
 
-#### Excerpted from [here](https://youtu.be/bBTPZ9NdSk8){:target="_blank"}
-
------------------------
-
 - There is a component called Publisher which produces messages that need to be delivered to a group of other components, called Subscribers.
 - We could have setup a synchronous communication between Publisher and Subscribers, when Publisher calls each Subscriber in some order and waits for the response.
 - But this introduces many different challenges: hard to scale such system when number of subscribers and messages grow and hard to extend such solution to support different types of subscribers.
@@ -166,4 +162,6 @@ Storage service will need to pay this price.
 - Did we design a highly performant system?
   - FrontEnd service is fast. We made it responsible for several relatively small and cheap activities. We delegated several other activities to agents that run asynchronously and does not impact request processing. Metadata service is a distributed cache. It is fast as we store data for active topics in memory. We discussed several Temporary Storage design options and mentioned 3-rd party solutions that are fast. And our Sender service splits message delivery into granular tasks, so that each one of them can be optimally performed.
 - Did we design a durable system?
-  - Yes. Whatever Temporary Storage solution we choose, data will be stored in the redundant manner, when several copies of a message is stored across several machines, and ideally across several data centers. We also retry messages for a period of time to make sure they are delivered to every subscriber at least once.
+  - Yes. Whatever Temporary Storage solution we choose, data will be stored in the redundant manner, when several copies of a message is stored across several machines, and ideally across several data centers. We also retry messages for a period of time to make sure they are delivered to every subscriber at least once.  
+  
+> Excerpted from [here](https://youtu.be/bBTPZ9NdSk8){:target="_blank"}
