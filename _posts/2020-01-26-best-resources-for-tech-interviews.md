@@ -35,4 +35,5 @@ published: true
 * [Algorithms Specialization (Tim Roughgarden)](https://imp.i384100.net/x9GZ5y){:target="_blank"}
 * [Data Structures and Algorithms Specialization (Neil Rhodes, Daniel M. Kane, Michael Levin, Pavel Pevzner, Alexander S. Kulikov)](https://imp.i384100.net/qnjyxg){:target="_blank"}
 
+  
 > If you need further guidance or mentorship, drop me a line at [here](mailto:serhatgiydiren@gmail.com){:target="_blank"}
