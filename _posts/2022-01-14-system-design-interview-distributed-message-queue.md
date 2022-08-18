@@ -3,8 +3,6 @@ title: System Design Interview - Distributed Message Queue
 published: true
 ---
 
------------------------
-
 ### Synchronous Communication
 - When producer makes a call to a consumer, waits for a response. 
 - Easier and faster to implement. 
