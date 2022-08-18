@@ -3,8 +3,6 @@ title: System Design Interview - Distributed Message Queue
 published: true
 ---
 
-#### Excerpted from [here](https://youtu.be/iJLL-KPqBpM){:target="_blank"}
-
 -----------------------
 
 ### Synchronous Communication
@@ -220,4 +218,6 @@ Message is later replicated to other hosts.
   - Each individual microservice needs to be fast.
   - And we need to run our software in high-performance data centers.
 - Is our system durable?
-  - Sure. We replicate data while storing and ensure messages are not lost during the transfer from a producer and to a consumer.
+  - Sure. We replicate data while storing and ensure messages are not lost during the transfer from a producer and to a consumer.  
+  
+> Excerpted from [here](https://youtu.be/iJLL-KPqBpM){:target="_blank"}
