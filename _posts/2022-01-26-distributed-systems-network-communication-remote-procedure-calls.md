@@ -136,5 +136,68 @@ send(sockfd, buf, strlen(buf), 0);
    - What if client, server, or network fails?
 3. Performance
    - Procedure call takes ≈ 10 cycles ≈ 3 ns
-   - RPC in a data center takes ≈ 10 μs (103× slower)
-     - In the wide area, typically 106× slower
+   - RPC in a data center takes ≈ 10 μs (10^3 slower)
+     - In the wide area, typically 10^6 slower
+
+### Problem: Differences in data representation
+
+- Not an issue for local procedure calls
+- For a remote procedure call, a remote machine may:
+  - Run process written in a different language
+  - Represent data types using different sizes
+  - Use a different byte ordering (endianness)
+  - Represent floating point numbers differently
+  - Have different data alignment requirements
+    - e.g., 4-byte type begins only on 4-byte memory boundary
+
+### Solution: Interface Description Language
+
+- Mechanism to pass procedure parameters and return values in a machine-independent way
+- Programmer may write an interface description in the IDL
+  - Defines API for procedure calls: names, parameter/return types
+- Then runs an IDL compiler which generates:
+  - Code to marshal (convert) native data types into machineindependent byte streams (and vice-versa, called unmarshaling)
+  - Client stub: Forwards local procedure call as a request to server
+  - Server stub: Dispatches RPC to its implementation
+
+### A day in the life of an RPC
+
+1. Client calls stub function (pushes parameters onto stack)
+
+![RPC Step 01](../assets/comm_rpc/comm_rpc_09.png)
+
+2. Stub marshals parameters to a network message
+
+![RPC Step 02](../assets/comm_rpc/comm_rpc_10.png)
+
+3. OS sends a network message to the server
+
+![RPC Step 03](../assets/comm_rpc/comm_rpc_11.png)
+
+4. Server OS receives message, sends it up to stub
+
+![RPC Step 04](../assets/comm_rpc/comm_rpc_12.png)
+
+5. Server stub unmarshals params, calls server function
+
+![RPC Step 05](../assets/comm_rpc/comm_rpc_13.png)
+
+6. Server function runs, returns a value
+
+![RPC Step 06](../assets/comm_rpc/comm_rpc_14.png)
+
+7. Server stub marshals the return value, sends message
+
+![RPC Step 07](../assets/comm_rpc/comm_rpc_15.png)
+
+8. Server OS sends the reply back across the network
+
+![RPC Step 08](../assets/comm_rpc/comm_rpc_16.png)
+
+9. Client OS receives the reply and passes up to stub
+
+![RPC Step 09](../assets/comm_rpc/comm_rpc_17.png)
+
+10. Client stub unmarshals return value, returns to client
+
+![RPC Step 10](../assets/comm_rpc/comm_rpc_18.png)
