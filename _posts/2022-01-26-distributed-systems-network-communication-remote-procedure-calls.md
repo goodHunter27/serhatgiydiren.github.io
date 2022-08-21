@@ -48,3 +48,45 @@ published: false
 
 ![Physical communication](../assets/comm_rpc/comm_rpc_05.png)
 
+### Communication between peers
+
+- How do peer protocols coordinate with each other?
+- Layer attaches its own header (H) to communicate with peer
+- Higher layers’ headers, data encapsulated inside message
+- Lower layers don’t generally inspect higher layers’ headers
+
+![Communication between peers](../assets/comm_rpc/comm_rpc_06.png)
+
+### Network socket-based communication
+
+- Socket: The interface the OS provides to the network
+  - Provides inter-process explicit message exchange
+- Can build distributed systems atop sockets: send(), recv()
+  - e.g.: put(key,value) -> message
+
+![Network socket-based communication](../assets/comm_rpc/comm_rpc_07.png)
+
+### Socket programming: still not great
+
+```c
+// Create a socket for the client
+if ((sockfd = socket (AF_INET, SOCK_STREAM, 0)) < 0) {
+ perror(”Socket creation");
+ exit(2);
+}
+
+// Set server address and port
+memset(&servaddr, 0, sizeof(servaddr));
+servaddr.sin_family = AF_INET;
+servaddr.sin_addr.s_addr = inet_addr(argv[1]);
+servaddr.sin_port = htons(SERV_PORT); // to big-endian
+
+// Establish TCP connection
+if (connect(sockfd, (struct sockaddr *) &servaddr, sizeof(servaddr)) < 0) {
+ perror(”Connect to server");
+ exit(3);
+}
+
+// Transmit the data over the TCP connection
+send(sockfd, buf, strlen(buf), 0);
+```
