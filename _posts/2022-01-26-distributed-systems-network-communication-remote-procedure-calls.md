@@ -68,11 +68,11 @@ published: false
 
 ### Socket programming: still not great
 
-```c
+```C
 // Create a socket for the client
 if ((sockfd = socket (AF_INET, SOCK_STREAM, 0)) < 0) {
- perror(”Socket creation");
- exit(2);
+perror(”Socket creation");
+exit(2);
 }
 
 // Set server address and port
@@ -83,8 +83,8 @@ servaddr.sin_port = htons(SERV_PORT); // to big-endian
 
 // Establish TCP connection
 if (connect(sockfd, (struct sockaddr *) &servaddr, sizeof(servaddr)) < 0) {
- perror(”Connect to server");
- exit(3);
+perror(”Connect to server");
+exit(3);
 }
 
 // Transmit the data over the TCP connection
