@@ -1,6 +1,6 @@
 ---
 title: Distributed Systems - Network Communication and Remote Procedure Calls (RPCs)
-published: false
+published: true
 ---
 
 ### The problem of communication
@@ -201,3 +201,20 @@ send(sockfd, buf, strlen(buf), 0);
 10. Client stub unmarshals return value, returns to client
 
 ![RPC Step 10](../assets/comm_rpc/comm_rpc_18.png)
+
+### What could possibly go wrong?
+
+- All of these may look the same to the client
+  - Client may crash and reboot
+  - Packets may be dropped
+    - Some individual packet loss in the Internet
+    - Broken routing results in many lost packets
+  - Server may crash and reboot
+  - Network or server might just be very slow
+
+### Summary
+
+- Layers are our friends!
+- RPCs are everywhere
+- Necessary issues surrounding machine heterogeneity
+- Subtle issues around failures
