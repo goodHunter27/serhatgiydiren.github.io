@@ -156,49 +156,49 @@ send(sockfd, buf, strlen(buf), 0);
 - Programmer may write an interface description in the IDL
   - Defines API for procedure calls: names, parameter/return types
 - Then runs an IDL compiler which generates:
-  - Code to marshal (convert) native data types into machineindependent byte streams (and vice-versa, called unmarshaling)
+  - Code to marshal (convert) native data types into machine-independent byte streams (and vice-versa, called unmarshaling)
   - Client stub: Forwards local procedure call as a request to server
   - Server stub: Dispatches RPC to its implementation
 
 ### A day in the life of an RPC
 
-1. Client calls stub function (pushes parameters onto stack)
+- Client calls stub function (pushes parameters onto stack)
 
 ![RPC Step 01](../assets/comm_rpc/comm_rpc_09.png)
 
-2. Stub marshals parameters to a network message
+- Stub marshals parameters to a network message
 
 ![RPC Step 02](../assets/comm_rpc/comm_rpc_10.png)
 
-3. OS sends a network message to the server
+- OS sends a network message to the server
 
 ![RPC Step 03](../assets/comm_rpc/comm_rpc_11.png)
 
-4. Server OS receives message, sends it up to stub
+- Server OS receives message, sends it up to stub
 
 ![RPC Step 04](../assets/comm_rpc/comm_rpc_12.png)
 
-5. Server stub unmarshals params, calls server function
+- Server stub unmarshals params, calls server function
 
 ![RPC Step 05](../assets/comm_rpc/comm_rpc_13.png)
 
-6. Server function runs, returns a value
+- Server function runs, returns a value
 
 ![RPC Step 06](../assets/comm_rpc/comm_rpc_14.png)
 
-7. Server stub marshals the return value, sends message
+- Server stub marshals the return value, sends message
 
 ![RPC Step 07](../assets/comm_rpc/comm_rpc_15.png)
 
-8. Server OS sends the reply back across the network
+- Server OS sends the reply back across the network
 
 ![RPC Step 08](../assets/comm_rpc/comm_rpc_16.png)
 
-9. Client OS receives the reply and passes up to stub
+- Client OS receives the reply and passes up to stub
 
 ![RPC Step 09](../assets/comm_rpc/comm_rpc_17.png)
 
-10. Client stub unmarshals return value, returns to client
+- Client stub unmarshals return value, returns to client
 
 ![RPC Step 10](../assets/comm_rpc/comm_rpc_18.png)
 
