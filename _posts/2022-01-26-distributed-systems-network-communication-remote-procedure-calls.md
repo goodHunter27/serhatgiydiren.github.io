@@ -99,3 +99,42 @@ send(sockfd, buf, strlen(buf), 0);
 - Still pretty painful… have to worry a lot about the network
 
 ![Solution RPC Layer](../assets/comm_rpc/comm_rpc_08.png)
+
+### Why RPC?
+
+- The typical programmer is trained to write single-threaded code that runs in one place
+- Goal: Easy-to-program network communication that makes client-server communication seem transparent
+  - Retains the “feel” of writing centralized code
+  - Programmer needn’t think (much) about the network
+
+### Everyone uses RPCs
+
+- Google gRPC
+- Facebook/Apache Thrift
+- Twitter Finagle
+- ...
+
+### What’s the goal of RPC?
+
+- Within a single program, running in a single process, recall the well-known notion of a procedure call:
+  - Caller pushes arguments onto stack,
+    - jumps to address of callee function
+  - Callee reads arguments from stack,
+    - executes, puts return value in register,
+    - returns to next instruction in caller
+
+> RPC’s Goal: make communication appear like a local procedure call: way less painful than sockets
+
+# RPC issues
+
+1. Heterogeneity
+   - Client needs to rendezvous with the server
+   - Server must dispatch to the required function
+     - What if server is different type of machine?
+2. Failure
+   - What if messages get dropped?
+   - What if client, server, or network fails?
+3. Performance
+   - Procedure call takes ≈ 10 cycles ≈ 3 ns
+   - RPC in a data center takes ≈ 10 μs (103× slower)
+     - In the wide area, typically 106× slower
