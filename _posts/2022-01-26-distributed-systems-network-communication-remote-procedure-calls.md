@@ -90,3 +90,12 @@ if (connect(sockfd, (struct sockaddr *) &servaddr, sizeof(servaddr)) < 0) {
 // Transmit the data over the TCP connection
 send(sockfd, buf, strlen(buf), 0);
 ```
+
+- Lots for the programmer to deal with every time
+  - How to separate different requests on the same connection?
+  - How to write bytes to the network / read bytes from the network?
+    - What if Host A’s process is written in Go and Host B’s process is in C++?
+  - What to do with those bytes?
+- Still pretty painful… have to worry a lot about the network
+
+![Solution RPC Layer](../assets/comm_rpc/comm_rpc_08.png)
