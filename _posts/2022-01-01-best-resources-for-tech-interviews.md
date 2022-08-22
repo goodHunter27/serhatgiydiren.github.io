@@ -5,24 +5,24 @@ published: true
 
 ### Books for Coding Interviews
 
-* [Algorithms (Robert Sedgewick, Kevin Wayne)<br/>*** There are two great online courses from the authors (You may find them below)](https://amzn.to/3c010Dj){:target="_blank"}
-* [Introduction to Algorithms (Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein)](https://amzn.to/3K7tHek){:target="_blank"}
-* [Cracking the Coding Interview: 189 Programming Questions and Solutions (Gayle Laakmann McDowell)](https://amzn.to/3QxnUkt){:target="_blank"}
-* [The Algorithm Design Manual (Texts in Computer Science) (Steven S. Skiena)](https://amzn.to/3C9gpMn){:target="_blank"}
-* [Programming Interviews Exposed: Coding Your Way Through the Interview (John Mongan, Noah Suojanen Kindler, Eric Giguere)](https://amzn.to/3w61jmU){:target="_blank"}
-* [Competitive Programming 3 (Steven Halim)](https://amzn.to/3zZLxeE){:target="_blank"}
-* [Guide to Competitive Programming: Learning and Improving Algorithms Through Contests (Undergraduate Topics in Computer Science) (Antti Laaksonen)](https://amzn.to/3Ca30U6){:target="_blank"}
-* [Programming Pearls (Jon Bentley)](https://amzn.to/3K1FfzF){:target="_blank"}
-* [The Art of Computer Programming, Volumes 1-4A Boxed Set (Donald E. Knuth)](https://amzn.to/3Qz6Yu6){:target="_blank"}
+* [Algorithms (Robert Sedgewick, Kevin Wayne)<br/>*** There are two great online courses from the authors (You may find them below)](https://amzn.to/3PEXwUz){:target="_blank"}
+* [Introduction to Algorithms (Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein)](https://amzn.to/3QJsv35){:target="_blank"}
+* [Cracking the Coding Interview: 189 Programming Questions and Solutions (Gayle Laakmann McDowell)](https://amzn.to/3QL2tfW){:target="_blank"}
+* [The Algorithm Design Manual (Texts in Computer Science) (Steven S. Skiena)](https://amzn.to/3T6erT0){:target="_blank"}
+* [Programming Interviews Exposed: Coding Your Way Through the Interview (John Mongan, Noah Suojanen Kindler, Eric Giguere)](https://amzn.to/3AFr7c4){:target="_blank"}
+* [Competitive Programming 3 (Steven Halim)](https://amzn.to/3CrFmmf){:target="_blank"}
+* [Guide to Competitive Programming: Learning and Improving Algorithms Through Contests (Undergraduate Topics in Computer Science) (Antti Laaksonen)](https://amzn.to/3Co4t9v){:target="_blank"}
+* [Programming Pearls (Jon Bentley)](https://amzn.to/3c9Xvu6){:target="_blank"}
+* [The Art of Computer Programming, Volumes 1-4A Boxed Set (Donald E. Knuth)](https://amzn.to/3dBfiL1){:target="_blank"}
 
 ### Books for System Design Interviews
 
-* [System Design Interview – An insider's guide (Alex Xu)](https://amzn.to/3QRGLGy){:target="_blank"}
-* [System Design Interview – An Insider's Guide: Volume 2 (Alex Xu)](https://amzn.to/3Pv7oju){:target="_blank"}
-* [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems (Martin Kleppmann)](https://amzn.to/3Auxmjb){:target="_blank"}
-* [System Design Interview: Mastering Basic Introduction to System Analysis and Design (Groks King)](https://amzn.to/3QwPhuT){:target="_blank"}
-* [Hacking the System Design Interview: Real Big Tech Interview Questions and In-depth Solutions (Stanley Chiang)](https://amzn.to/3C8rygo){:target="_blank"}
-* [Software Engineering at Google: Lessons Learned from Programming Over Time (Titus Winters, Tom Manshreck, Hyrum Wright)](https://amzn.to/3CdguP4){:target="_blank"}
+* [System Design Interview – An insider's guide (Alex Xu)](https://amzn.to/3whvmrZ){:target="_blank"}
+* [System Design Interview – An Insider's Guide: Volume 2 (Alex Xu)](https://amzn.to/3TkA56f){:target="_blank"}
+* [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems (Martin Kleppmann)](https://amzn.to/3pACcFb){:target="_blank"}
+* [System Design Interview: Mastering Basic Introduction to System Analysis and Design (Groks King)](https://amzn.to/3pGEl1W){:target="_blank"}
+* [Hacking the System Design Interview: Real Big Tech Interview Questions and In-depth Solutions (Stanley Chiang)](https://amzn.to/3Ag8c6h){:target="_blank"}
+* [Software Engineering at Google: Lessons Learned from Programming Over Time (Titus Winters, Tom Manshreck, Hyrum Wright)](https://amzn.to/3wpKuDB){:target="_blank"}
 
 ### Online Courses for Coding Interviews
 
