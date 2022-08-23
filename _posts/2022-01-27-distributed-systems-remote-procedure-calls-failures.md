@@ -53,7 +53,7 @@ published: true
   - Client stub includes unique transaction ID (xid) with each RPC request
   - Client stub uses same xid for retransmitted requests
 
-'''
+```
 At-Most-Once Server Stub
  if seen(xid):
    retval = old(xid)
@@ -62,7 +62,7 @@ At-Most-Once Server Stub
    old(xid) = retval
    seen(xid) = true
  return retval
-'''
+```
 
 ### At-Most-Once: Providing unique XIDs
 
