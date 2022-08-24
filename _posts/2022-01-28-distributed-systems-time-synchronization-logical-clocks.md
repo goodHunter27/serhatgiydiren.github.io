@@ -181,3 +181,65 @@ published: true
 
 > Can’t use Lamport timestamps to infer causal relationships between events
 
+### Totally-Ordered Multicast
+
+> Goal: All sites apply updates in (same) Lamport clock order
+
+- Client sends update to one replica site j
+ - Replica assigns it Lamport timestamp Cj . j
+- Key idea: Place events into a sorted local queue
+  - Sorted by increasing Lamport timestamps
+
+Example: P1’s local queue:
+
+![Totally-Ordered Multicast](../assets/time/time_17.png)
+
+### Totally-Ordered Multicast (Almost correct)
+
+1. On receiving an update from client, broadcast to others (including self)
+2. On receiving an update from replica:
+   - Add it to your local queue
+   - Broadcast an acknowledgement message to every replica (including yourself)
+3. On receiving an acknowledgement:
+   - Mark corresponding update acknowledged in your queue
+4. Remove and process updates everyone has ack’ed from head of queue
+
+![Totally-Ordered Multicast (Almost correct)](../assets/time/time_18.png)
+
+- P1 queues $, P2 queues %
+- P1 queues and ack’s %
+- P1 marks %fully ack’ed
+- P2 marks % fully ack’ed
+
+> ✘ P2 processes %
+
+### Totally-Ordered Multicast (Correct Version)
+
+1. On receiving an update from client, broadcast to others (including self)
+2. On receiving or processing an update:
+   - Add it to your local queue, if received update
+   - Broadcast an acknowledgement message to every replica (including yourself) only from head of queue
+3. On receiving an acknowledgement:
+   - Mark corresponding update acknowledged in your queue
+4. Remove and process updates everyone has ack’ed from head of queue
+
+![Totally-Ordered Multicast (Correct Version)](../assets/time/time_19.png)
+
+### So, are we done?
+
+- Does totally-ordered multicast solve the problem of multi-site replication in general?
+- Not by a long shot!
+
+1. Our protocol assumed:
+   - No node failures
+   - No message loss
+   - No message corruption
+2. All to all communication does not scale
+3. Waits forever for message delays (performance?)
+
+### Lamport Clocks Review
+
+Q: a -> b => LC(a) < LC(b)
+Q: LC(a) < LC(b) => b -/-> a ( a -> b or a / b )
+Q: a / b => nothing
+
