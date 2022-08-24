@@ -1,6 +1,6 @@
 ---
 title: Distributed Systems - Time Synchronization and Logical Clocks
-published: false
+published: true
 ---
 
 ### A distributed edit-compile workflow
@@ -190,9 +190,7 @@ published: false
 - Key idea: Place events into a sorted local queue
   - Sorted by increasing Lamport timestamps
 
-Example: P1’s local queue:
-
-![Totally-Ordered Multicast](../assets/time/time_17.png)
+![Totally-Ordered Multicast](../assets/time/time_18.png)
 
 ### Totally-Ordered Multicast (Almost correct)
 
@@ -204,7 +202,7 @@ Example: P1’s local queue:
    - Mark corresponding update acknowledged in your queue
 4. Remove and process updates everyone has ack’ed from head of queue
 
-![Totally-Ordered Multicast (Almost correct)](../assets/time/time_18.png)
+![Totally-Ordered Multicast (Almost correct)](../assets/time/time_19.png)
 
 - P1 queues $, P2 queues %
 - P1 queues and ack’s %
@@ -223,7 +221,7 @@ Example: P1’s local queue:
    - Mark corresponding update acknowledged in your queue
 4. Remove and process updates everyone has ack’ed from head of queue
 
-![Totally-Ordered Multicast (Correct Version)](../assets/time/time_19.png)
+![Totally-Ordered Multicast (Correct Version)](../assets/time/time_20.png)
 
 ### So, are we done?
 
