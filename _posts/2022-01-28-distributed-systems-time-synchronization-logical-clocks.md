@@ -62,3 +62,48 @@ published: false
 
 ![Cristian’s algorithm: Offset sample calculation](../assets/time/time_04.png)
 
+### Clock synchronization: Take-away points
+
+- Clocks on different systems will always behave differently
+  - Disagreement between machines can result in undesirable behavior
+- NTP clock synchronization
+  - Rely on timestamps to estimate network delays
+  - 100s �s−ms accuracy
+  - Clocks never exactly synchronized
+- Often inadequate for distributed systems
+  - Often need to reason about the order of events
+  - Might need precision on the order of ns 
+
+### Motivation: Multi-site database replication
+
+- A New York-based bank wants to make its transaction ledger database resilient to whole-site failures
+- Replicate the database, keep one copy in sf, one in nyc
+
+![Motivation: Multi-site database replication](../assets/time/time_05.png)
+
+### The consequences of concurrent updates
+
+- Replicate the database, keep one copy in sf, one in nyc
+  - Client sends reads to the nearest copy
+  - Client sends update to both copies
+
+![The consequences of concurrent updates](../assets/time/time_06.png)
+
+### RFC 677 (1975) - The Maintenance of Duplicate Databases
+
+> To the extent that the communication paths can be made reliable, and the clocks used by the processes kept close to synchrony, the probability of seemingly strange behavior can be made very small. However, the distributed nature of the system dictates that this probability can never be zero.
+
+### Idea: Logical clocks
+
+- Landmark 1978 paper by Leslie Lamport
+- Insight: only the events themselves matter
+
+> Idea: Disregard the precise clock time. Instead, capture just a “happens before” relationship between a pair of events
+
+### Defining “happens-before” (<-)
+
+![Defining happens-before step 01](../assets/time/time_07.png)
+
+![Defining happens-before step 01](../assets/time/time_08.png)
+
+![Defining happens-before step 01](../assets/time/time_09.png)
