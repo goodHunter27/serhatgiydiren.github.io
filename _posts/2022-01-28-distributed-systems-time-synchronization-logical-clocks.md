@@ -1,6 +1,6 @@
 ---
 title: Distributed Systems - Time Synchronization and Logical Clocks
-published: false
+published: true
 ---
 
 ### A distributed edit-compile workflow
@@ -157,4 +157,27 @@ published: false
    - Set Cj and receive event time C(c) <- 1 + max{ Cj, C(m) }
 
 ![The Lamport Clock algorithm step 05](../assets/time/time_15.png)
+
+### Lamport Timestamps: Ordering all events
+
+- Break ties by appending the process number to each event:
+  1. Process Pi timestamps event e with Ci(e).i
+  2. C(a).i < C(b).j when:
+  - C(a) < C(b), or C(a) = C(b) and i < j
+- Now, for any two events a and b, C(a) < C(b) or C(b) < C(a)
+  - This is called a total ordering of events
+
+### Order all these events
+
+![Order all these events](../assets/time/time_16.png)
+
+### Take-away points: Lamport clocks
+
+- Can totally-order events in a distributed system: that’s useful!
+  - We saw an application of Lamport clocks for totally-ordered multicast
+- But: while by construction, a -> b implies C(a) < C(b),
+  - The converse is not necessarily true:
+    - C(a) < C(b) does not imply a -> b (possibly, a || b)
+
+> Can’t use Lamport timestamps to infer causal relationships between events
 
