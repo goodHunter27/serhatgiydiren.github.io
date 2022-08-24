@@ -48,3 +48,17 @@ published: false
 
 > How can the client use these timestamps to synchronize its local clock to the server’s local clock?
 
+### Cristian’s algorithm: Offset sample calculation
+
+> Goal: Client sets clock <- T3 + &resp
+
+- Client samples round trip time (𝛿)
+  - 𝛿 = 𝛿req + 𝛿resp = (T4 − T1) − (T3 − T2)
+- But client knows 𝛿, not 𝛿resp
+
+> Assume: 𝛿req ≈ 𝛿resp
+
+> Client sets clock <- T3 + ½𝛿
+
+![Cristian’s algorithm: Offset sample calculation](../assets/time/time_04.png)
+
