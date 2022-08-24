@@ -247,3 +247,44 @@ published: true
 - Given two timestamps C(a) and C(z), want to know whether there’s a chain of events linking them:
   - a -> b -> ... -> y -> z
 
+### Vector clock: Introduction
+
+- One integer can’t order events in more than one process
+- So, a Vector Clock (VC) is a vector of integers, one entry for each process in the entire distributed system
+- Label event e with VC(e) = (c1, c2 …, cn)
+  - Each entry ck is a count of events in process k that causally precede e
+
+### Vector clock: Update rules
+
+- Initially, all vectors are (0, 0, …, 0)
+- Two update rules:
+  1. For each local event on process i, increment local entry ci
+  2. If process j receives message with vector (d1, d2, …, dn):
+     - Set each local entry ck = max{ck, dk}
+     - Increment local entry cj
+
+### Vector clock: Example
+
+- All processes’ VCs start at (0, 0, 0)
+- Applying local update rule
+- Applying message rule
+  - Local vector clock piggybacks on inter-process messages
+
+![Vector clock: Example](../assets/time/time_21.png)
+
+### Comparing vector timestamps
+
+- Rule for comparing vector timestamps:
+  - V(a) = V(b) when ak = bk for all k
+  - V(a) < V(b) when ak ≤ bk for all k and V(a) ≠ V(b)
+
+- Concurrency:
+  - V(a) / V(b) if ai < bi and aj > bj , some i, j
+
+- Two events a, z
+  - Lamport clocks: C(a) < C(z)
+    - Conclusion: z -/-> a, i.e., either a -> z or a / z
+  - Vector clocks: V(a) < V(z)
+    - Conclusion: a -> z
+
+> Vector clock timestamps precisely capture happens-before relation (potential causality)
