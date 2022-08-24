@@ -237,9 +237,9 @@ published: true
 
 ### Lamport Clocks Review
 
-Q: a -> b => LC(a) < LC(b)
-Q: LC(a) < LC(b) => b -/-> a ( a -> b or a / b )
-Q: a / b => nothing
+- Q: a -> b => LC(a) < LC(b)
+- Q: LC(a) < LC(b) => b -/-> a ( a -> b or a / b )
+- Q: a / b => nothing
 
 ### Lamport Clocks and Causality
 
