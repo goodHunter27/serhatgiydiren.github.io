@@ -121,7 +121,7 @@ published: true
 ### Concurrent events
 
 - Not all events are related by ->
-- a, d not related by -> so concurrent, written as a || d
+- a, d not related by -> so concurrent, written as a | d
 
 ![Concurrent events](../assets/time/time_10.png)
 
@@ -177,7 +177,7 @@ published: true
   - We saw an application of Lamport clocks for totally-ordered multicast
 - But: while by construction, a -> b implies C(a) < C(b),
   - The converse is not necessarily true:
-    - C(a) < C(b) does not imply a -> b (possibly, a || b)
+    - C(a) < C(b) does not imply a -> b (possibly, a | b)
 
 > Can’t use Lamport timestamps to infer causal relationships between events
 
