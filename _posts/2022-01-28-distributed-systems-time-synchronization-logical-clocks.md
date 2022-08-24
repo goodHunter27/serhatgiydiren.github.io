@@ -102,8 +102,59 @@ published: false
 
 ### Defining “happens-before” (<-)
 
+- Consider three processes: P1, P2, and P3
+- Notation: Event a happens before event b (a -> b)
+
 ![Defining happens-before step 01](../assets/time/time_07.png)
 
-![Defining happens-before step 01](../assets/time/time_08.png)
+- Can observe event order at a single process
 
-![Defining happens-before step 01](../assets/time/time_09.png)
+![Defining happens-before step 02](../assets/time/time_08.png)
+
+1. If same process and a occurs before b, then a -> b
+2. If c is a message receipt of b, then b -> c
+3. If a -> b and b -> c, then a -> c
+4. Can observe ordering transitively
+
+![Defining happens-before step 03](../assets/time/time_09.png)
+
+### Concurrent events
+
+- Not all events are related by ->
+- a, d not related by -> so concurrent, written as a || d
+
+![Concurrent events](../assets/time/time_10.png)
+
+### Lamport clocks: Objective
+
+- We seek a clock time C(a) for every event a
+
+> Plan: Tag events with clock times; use clock times to make distributed system correct
+
+- Clock condition: If a -> b, then C(a) < C(b)
+
+### The Lamport Clock algorithm
+
+- Each process Pi maintains a local clock Ci
+
+1. Before executing an event, Ci <- Ci + 1
+
+![The Lamport Clock algorithm step 01](../assets/time/time_11.png)
+
+- Set event time C(a) <- Ci
+
+![The Lamport Clock algorithm step 02](../assets/time/time_12.png)
+
+- Set event time C(b) <- Ci
+
+![The Lamport Clock algorithm step 03](../assets/time/time_13.png)
+
+2. Send the local clock in the message m
+
+![The Lamport Clock algorithm step 04](../assets/time/time_14.png)
+
+3. On process Pj receiving a message m:
+   - Set Cj and receive event time C(c) <- 1 + max{ Cj, C(m) }
+
+![The Lamport Clock algorithm step 05](../assets/time/time_15.png)
+
