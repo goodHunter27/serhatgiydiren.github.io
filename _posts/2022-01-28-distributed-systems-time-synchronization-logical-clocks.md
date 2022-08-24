@@ -272,14 +272,23 @@ published: true
 
 ![Vector clock: Example](../assets/time/time_21.png)
 
+### Vector clocks capture causality
+
+- V(w) < V(z) then there is a chain of events linked by
+  - Happens-Before (->) between a and z
+• V(a) / V(w) then there is no such chain of events between a and w
+
+![Vector clocks capture causality](../assets/time/time_22.png)
+
 ### Comparing vector timestamps
 
 - Rule for comparing vector timestamps:
   - V(a) = V(b) when ak = bk for all k
   - V(a) < V(b) when ak ≤ bk for all k and V(a) ≠ V(b)
-
+    - a -> b
 - Concurrency:
   - V(a) / V(b) if ai < bi and aj > bj , some i, j
+    - a / b
 
 - Two events a, z
   - Lamport clocks: C(a) < C(z)
