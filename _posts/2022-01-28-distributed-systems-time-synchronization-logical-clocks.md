@@ -1,6 +1,6 @@
 ---
 title: Distributed Systems - Time Synchronization and Logical Clocks
-published: true
+published: false
 ---
 
 ### A distributed edit-compile workflow
@@ -242,4 +242,10 @@ Example: P1’s local queue:
 Q: a -> b => LC(a) < LC(b)
 Q: LC(a) < LC(b) => b -/-> a ( a -> b or a / b )
 Q: a / b => nothing
+
+### Lamport Clocks and Causality
+
+- Lamport clock timestamps do not capture causality
+- Given two timestamps C(a) and C(z), want to know whether there’s a chain of events linking them:
+  - a -> b -> ... -> y -> z
 
