@@ -276,7 +276,7 @@ published: true
 
 - V(w) < V(z) then there is a chain of events linked by
   - Happens-Before (->) between a and z
-• V(a) / V(w) then there is no such chain of events between a and w
+- V(a) / V(w) then there is no such chain of events between a and w
 
 ![Vector clocks capture causality](../assets/time/time_22.png)
 
