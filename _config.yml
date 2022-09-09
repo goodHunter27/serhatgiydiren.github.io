@@ -33,4 +33,4 @@ plugins:
 owner : "me"
 year : "2020"
 
-theme: jekyll-theme-modernist
+theme: jekyll-theme-hacker
