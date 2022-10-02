@@ -3,6 +3,8 @@ title: System Design Interview - Notification Service
 published: true
 ---
 
+> Besides reading this post, I strongly recommend reading chapter 10 (Design a Notification System) of the book [System Design Interview – An insider's guide (Xu, Alex)](https://www.amazon.com/dp/B08CMF2CQF?tag=sg20220822-20&linkCode=ogi&th=1&psc=1){:target="_blank"}
+> 
 - There is a component called Publisher which produces messages that need to be delivered to a group of other components, called Subscribers.
 - We could have setup a synchronous communication between Publisher and Subscribers, when Publisher calls each Subscriber in some order and waits for the response.
 - But this introduces many different challenges: hard to scale such system when number of subscribers and messages grow and hard to extend such solution to support different types of subscribers.
