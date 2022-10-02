@@ -3,6 +3,8 @@ title: System Design Interview - Distributed Cache
 published: true
 ---
 
+> Besides reading this post, I strongly recommend reading chapter 5 (Design Consistent Hashing) and chapter 6 (Design a Key-Value Store) of the book [System Design Interview – An insider's guide (Xu, Alex)](https://www.amazon.com/dp/B08CMF2CQF?tag=sg20220822-20&linkCode=ogi&th=1&psc=1){:target="_blank"}
+> 
 - A web application backed by a data store. This data store may be a database or another web service. Client makes a call to the web application, which in turn makes a call to the data store and result is returned back to the client. There may be several issues with this setup. First, calls to the data store may take a long time to execute or may utilize a lot of system resources. It would be good to store at least some results of these calls in memory, so that these results are retrieved and returned back to the client much faster. And if the data store is down or experiences a performance degradation and calls to the data store start to fail, our web application may still process requests as usual, at least for some period of time. So, storing data in memory will help to address these issues. When client request comes, we first check the cache and try to retrieve information from memory. And only if data is unavailable or stale, we then make a call to the datastore.
 - And why do we call it a distributed cache? Because amount of data is too large to be stored in memory of a single machine and we need to split the data and store it across several machines. Caches are everywhere nowadays. Even on this channel, remember when we designed distributed message queue or notification service or rate limiter, all those designs relied on a cache of some sort.
 
