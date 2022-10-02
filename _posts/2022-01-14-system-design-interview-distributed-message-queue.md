@@ -4,7 +4,7 @@ published: true
 ---
 
 > Besides reading this post, I strongly recommend reading chapter 4 (Distributed Message Queue) of the book [System Design Interview – An Insider's Guide: Volume 2 (Xu, Alex - Lam, Sahn)](https://www.amazon.com/dp/1736049119?tag=sg20220822-20&linkCode=ogi&th=1&psc=1){:target="_blank"}
-> 
+
 ### Synchronous Communication
 - When producer makes a call to a consumer, waits for a response. 
 - Easier and faster to implement. 
