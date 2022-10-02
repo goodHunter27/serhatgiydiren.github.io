@@ -4,7 +4,7 @@ published: true
 ---
 
 > Besides reading this post, I strongly recommend reading chapter 4 (Design a Rate Limiter) of the book [System Design Interview – An insider's guide (Xu, Alex)](https://www.amazon.com/dp/B08CMF2CQF?tag=sg20220822-20&linkCode=ogi&th=1&psc=1){:target="_blank"}
-> 
+
 ![Requirement Clarification](../assets/rl_rc.png)
 
 - Let's imaging we launched a web application. And the application became highly popular. Meaning that thousands of clients send thousands of requests every second to the front-end web service of our application. Everything works well. Until suddenly one or several clients started to send much more requests than they did previously. And this may happen due to a various of reasons.
