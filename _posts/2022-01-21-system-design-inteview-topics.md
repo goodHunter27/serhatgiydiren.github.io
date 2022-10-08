@@ -103,10 +103,8 @@ published: true
 ### SYSTEM DESIGN PROBLEMS  
 
 #### System Design Interviews: A step by step guide  
-* [System Design Interviews: A step by step guide](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/system-design-interviews.html){:target="_blank"}
 
 #### A URL Shortening service like TinyURL  
-* [Designing a URL Shortening service like TinyURL](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/url-shortening-service-like-tiny-url.html){:target="_blank"}
 * [Designing a URL Shortening service like TinyURL](https://learnsystemdesign.blogspot.com/p/system-design-designing-url-shortening.html){:target="_blank"}
 * [Bitly: Lessons Learned Building A Distributed System That Handles 6 Billion Clicks A Month](http://highscalability.com/blog/2014/7/14/bitly-lessons-learned-building-a-distributed-system-that-han.html){:target="_blank"}
 * Alex Yu - Design A Url Shortener
@@ -115,19 +113,15 @@ published: true
 * Alex Yu - Design A Unique ID Generator in Distributed Systems
 
 #### Pastebin  
-* [Designing Pastebin](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/pastebin.html){:target="_blank"}
 * [Design Pastebin.com (or Bit.ly)](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/pastebin/README.md){:target="_blank"}
 
 #### Instagram  
-* [Designing Instagram](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/instagram.html){:target="_blank"}
 * [Designing Instagram](http://highscalability.com/blog/2022/1/11/designing-instagram.html){:target="_blank"}
 
 #### Dropbox  
-* [Designing Dropbox](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/dropbox.html){:target="_blank"}
 * Alex Yu - Design Google Drive
 
 #### Facebook Messenger  
-* [Designing Facebook Messenger](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/facebook-messenger.html){:target="_blank"}
 * [Designing Facebook Messenger](https://learnsystemdesign.blogspot.com/p/design-facebook-messanger.html){:target="_blank"}
 
 #### WhatsApp  
@@ -135,20 +129,16 @@ published: true
 * Alex Yu - Design A Chat System  
 
 #### Twitter  
-* [Designing Twitter](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/twitter.html){:target="_blank"}
 * [Design the Twitter timeline and search (or Facebook feed and search)](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/twitter/README.md){:target="_blank"}
 
 #### Youtube or Netflix  
-* [Designing Youtube or Netflix](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/youtube-or-netflix.html){:target="_blank"}
 * [Designing Netflix](http://highscalability.com/blog/2021/12/13/designing-netflix.html){:target="_blank"}
 * Alex Yu - Design Youtube
 
 #### Typeahead Suggestion  
-* [Designing Typeahead Suggestio](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/typehead-suggestion.html){:target="_blank"}
 * Alex Yu - Design A Search Autocomplete System  
 
 #### API Rate Limiter  
-* [Designing an API Rate Limiter](https://akshay-iyangar.github.io/system-design/grokking-system-design/system-design-problems/api-rate-limiter.html){:target="_blank"}
 * [System Design Interview - Rate Limiting (local and distributed)](https://serhatgiydiren.github.io/system-design-interview-rate-limiting){:target="_blank"}
 * Alex Yu - Design a Rate Limiter
 
