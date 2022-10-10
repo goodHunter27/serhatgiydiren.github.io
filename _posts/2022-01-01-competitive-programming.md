@@ -1,6 +1,7 @@
 ---
 title: Competitive Programming
 published: true
+redirect_to: https://serhatgiydiren.com/competitive-programming
 ---
 
 Aka Sports Programming.
