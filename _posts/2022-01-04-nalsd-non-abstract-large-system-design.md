@@ -1,6 +1,7 @@
 ---
 title: NALSD (Non-Abstract Large System Design)
 published: true
+redirect_to: https://serhatgiydiren.com/nalsd-non-abstract-large-system-design
 ---
 
 Introductory information is [here](https://landing.google.com/sre/workbook/chapters/non-abstract-design/){:target="_blank"}.
