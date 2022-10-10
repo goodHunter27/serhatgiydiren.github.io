@@ -1,6 +1,7 @@
 ---
 title: Google Meta Amazon Coding Interview Question - Minimum Depth of Binary Tree
 published: true
+redirect_to: https://serhatgiydiren.com/google-meta-amazon-coding-interview-question-min-depth-binary-tree
 ---
 
 Find the minimum depth (depth of first leaf) of a binary tree.
