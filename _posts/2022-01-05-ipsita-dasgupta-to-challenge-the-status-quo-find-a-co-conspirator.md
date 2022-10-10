@@ -1,6 +1,7 @@
 ---
 title: Quotes from TED talk "Ipsita Dasgupta - To challenge the status quo, find a co-conspirator"
 published: true
+redirect_to: https://serhatgiydiren.com/ipsita-dasgupta-to-challenge-the-status-quo-find-a-co-conspirator
 ---
 
 > To achieve great heights or change the world, no matter how smart we are, we all need people.
