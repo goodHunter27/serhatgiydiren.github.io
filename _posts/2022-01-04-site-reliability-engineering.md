@@ -1,6 +1,7 @@
 ---
 title: Site Reliability Engineering
 published: true
+redirect_to: https://serhatgiydiren.com/site-reliability-engineering
 ---
 
 > Fundamentally, it’s what happens when you ask a software engineer to design an operations function.
