@@ -1,6 +1,7 @@
 ---
 title: 3-way Partitioning & Quick Select & Quick Sort & Find Kth Largest Element
 published: true
+redirect_to: https://serhatgiydiren.com/3-way-partition-quick-select-quick-sort
 ---
 
 ```cpp
