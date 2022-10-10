@@ -1,8 +1,0 @@
-DirectoryIndex index.html
-
-RewriteEngine On
-RewriteBase /
-
-{% for post in site.posts %}
-RewriteRule ^{{ post.url }} {{ post.redirect_to }} [R=301,L]
-{% endfor %}
