@@ -1,6 +1,7 @@
 ---
 title: Distributed Systems - Network Communication and Remote Procedure Calls (RPCs)
 published: true
+redirect_to: https://serhatgiydiren.com/distributed-systems-network-communication-remote-procedure-calls
 ---
 
 ### The problem of communication
