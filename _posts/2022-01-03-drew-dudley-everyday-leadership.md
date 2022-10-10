@@ -1,6 +1,7 @@
 ---
 title: Quotes from TED talk "Drew Dudley - Everyday leadership"
 published: true
+redirect_to: https://serhatgiydiren.com/drew-dudley-everyday-leadership
 ---
 
 > Our greatest fear is not that we are inadequate. It is that we are powerful beyond measure. It is our light and not our darkness that frightens us.
