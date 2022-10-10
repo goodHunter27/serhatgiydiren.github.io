@@ -1,6 +1,7 @@
 ---
 title: Prepare for Your Google Interview - Leadership
 published: true
+redirect_to: https://serhatgiydiren.com/prepare-for-your-google-interview-leadership
 ---
 
 #### Excerpted from [here](https://youtu.be/2Cr3-et4xkI){:target="_blank"}
