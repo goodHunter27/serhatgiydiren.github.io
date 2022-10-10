@@ -1,6 +1,7 @@
 ---
 title: Coding Competitions
 published: true
+redirect_to: https://serhatgiydiren.com/coding-competitions
 ---
 
 ### Past Competitions  
