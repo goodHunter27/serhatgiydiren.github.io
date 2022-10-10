@@ -1,6 +1,7 @@
 ---
 title: Build confidence with self-promotion
 published: true
+redirect_to: https://serhatgiydiren.com/build-confidence-with-self-promotion
 ---
 
 #### Excerpted from [here](https://learndigital.withgoogle.com/digitalworkshop-eu/course/self-promotion){:target="_blank"}
