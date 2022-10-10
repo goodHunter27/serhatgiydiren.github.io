@@ -2,6 +2,7 @@
 title: Best Resources for Tech Interviews (Coding & System Design)
 published: true
 redirect_to: https://serhatgiydiren.com/best-resources-for-tech-interviews
+
 ---
 
 ### Best Books for System Design Interviews
