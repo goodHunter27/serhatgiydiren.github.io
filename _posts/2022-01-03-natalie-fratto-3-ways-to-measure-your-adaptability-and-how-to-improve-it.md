@@ -1,6 +1,7 @@
 ---
 title: Quotes from TED talk "Natalie Fratto - 3 ways to measure your adaptability and how to improve it"
 published: true
+redirect_to: https://serhatgiydiren.com/natalie-fratto-3-ways-to-measure-your-adaptability-and-how-to-improve-it
 ---
 
 > It's adaptability. How well a person reacts to the inevitability of change. I subscribe to the belief that adaptability itself is a form of intelligence, and our adaptability quotient, or AQ, is something that can be measured, tested and improved.
