@@ -1,6 +1,7 @@
 ---
 title: System Design Interview Topics
 published: true
+redirect_to: https://serhatgiydiren.com/system-design-inteview-topics
 ---
 
 ### GLOSSARY OF SYSTEM DESIGN BASICS  
