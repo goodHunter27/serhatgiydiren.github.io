@@ -2,9 +2,6 @@
 <html lang="en-US">
   <meta charset="utf-8">
   <title>Redirecting&hellip;</title>
-  {% if page.redirect.to == "" %}
-   {% page.redirect.to = "https://serhatgiydiren.com" %}
-  {% endif %}
   <link rel="canonical" href="{{ page.redirect.to }}">
   <script>location="{{ page.redirect.to }}"</script>
   <meta http-equiv="refresh" content="0; url={{ page.redirect.to }}">
