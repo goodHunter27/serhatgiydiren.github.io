@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Archive
+redirect_to: https://serhatgiydiren.com
 ---
 
 <section>
