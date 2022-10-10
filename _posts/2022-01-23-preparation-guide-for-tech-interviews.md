@@ -1,6 +1,7 @@
 ---
 title: Preparation Guide for Tech Interviews - Ace Your Google & Facebook (Meta) Interviews
 published: true
+redirect_to: https://serhatgiydiren.com/preparation-guide-for-tech-interviews
 ---
 
 # Resume Preparation
