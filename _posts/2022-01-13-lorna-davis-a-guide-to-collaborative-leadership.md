@@ -1,6 +1,7 @@
 ---
 title: Quotes from TED talk "Lorna Davis - A guide to collaborative leadership"
 published: true
+redirect_to: https://serhatgiydiren.com/lorna-davis-a-guide-to-collaborative-leadership
 ---
 
 > In a world as complex and interconnected as the one we live in, the idea that one person has the answer is ludicrous. It's not only ineffective, it's dangerous, because it leads us to believe that it's been solved by that hero, and we have no role. 
