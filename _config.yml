@@ -30,9 +30,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
-include: 
-  - .htaccess
-
 # Custom variables
 owner : "me"
 year : "2020"
