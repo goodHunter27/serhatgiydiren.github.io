@@ -1,6 +1,7 @@
 ---
 title: System Design Interview - Distributed Cache
 published: true
+redirect_to: https://serhatgiydiren.com/system-design-interview-distributed-cache
 ---
 
 > Besides reading this post, I strongly recommend reading chapter 5 (Design Consistent Hashing) and chapter 6 (Design a Key-Value Store) of the book [System Design Interview – An insider's guide (Xu, Alex)](https://www.amazon.com/dp/B08CMF2CQF?tag=sg20220822-20&linkCode=ogi&th=1&psc=1){:target="_blank"}
