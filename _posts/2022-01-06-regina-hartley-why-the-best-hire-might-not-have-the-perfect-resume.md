@@ -1,7 +1,7 @@
 ---
 title: Quotes from TED talk "Regina Hartley - Why the best hire might not have the perfect resume"
 published: true
-redirect_to: https://serhatgiydiren.com/regina-hartley-why-the-best-hire-might-not-have-the-perfect-resume
+redirect_to: https://serhatgiydiren.com/regina-hartley-why-the-best-hire-might-not-have-the-perfect-resume/
 ---
 
 > A series of odd jobs may indicate inconsistency, lack of focus, unpredictability. Or it may signal a committed struggle against obstacles.
