@@ -1,7 +1,7 @@
 ---
 title: Goal Setting
 published: true
-redirect_to: https://serhatgiydiren.com/goal-setting
+redirect_to: https://serhatgiydiren.com/goal-setting/
 ---
 
 #### Excerpted from [here](https://rework.withgoogle.com/subjects/goal-setting/){:target="_blank"}
