@@ -1,7 +1,7 @@
 ---
 title: Helpful Resources for System Design Interviews
 published: true
-redirect_to: https://serhatgiydiren.com/helpful-resources-for-system-design-interviews
+redirect_to: https://serhatgiydiren.com/helpful-resources-for-system-design-interviews/
 ---
 
 ### Good resources to ace Systems Design Interviews
