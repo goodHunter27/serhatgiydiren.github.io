@@ -1,7 +1,7 @@
 ---
 title: Distributed Systems - Remote Procedure Calls (RPCs) and Failures
 published: true
-redirect_to: https://serhatgiydiren.com/distributed-systems-remote-procedure-calls-failures
+redirect_to: https://serhatgiydiren.com/distributed-systems-remote-procedure-calls-failures/
 ---
 
 ### Failures, from client’s perspective
