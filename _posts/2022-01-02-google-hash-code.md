@@ -1,7 +1,7 @@
 ---
 title: Google Hash Code
 published: true
-redirect_to: https://serhatgiydiren.com/google-hash-code
+redirect_to: https://serhatgiydiren.com/google-hash-code/
 ---
 
 Hash Code is a team programming competition, organized by Google, for students and professionals around the world.
