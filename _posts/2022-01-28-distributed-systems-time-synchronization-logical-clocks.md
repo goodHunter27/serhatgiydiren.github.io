@@ -1,7 +1,7 @@
 ---
 title: Distributed Systems - Time Synchronization and Logical Clocks
 published: true
-redirect_to: https://serhatgiydiren.com/distributed-systems-time-synchronization-logical-clocks
+redirect_to: https://serhatgiydiren.com/distributed-systems-time-synchronization-logical-clocks/
 ---
 
 ### A distributed edit-compile workflow
