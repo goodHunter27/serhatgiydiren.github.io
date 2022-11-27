@@ -1,7 +1,7 @@
 ---
 title: System Design Interview - Notification Service
 published: true
-redirect_to: https://serhatgiydiren.com/system-design-interview-notification-service
+redirect_to: https://serhatgiydiren.com/system-design-interview-notification-service/
 ---
 
 > Besides reading this post, I strongly recommend reading chapter 10 (Design a Notification System) of the book [System Design Interview – An insider's guide (Xu, Alex)](https://www.amazon.com/dp/B08CMF2CQF?tag=sg20220822-20&linkCode=ogi&th=1&psc=1){:target="_blank"}
