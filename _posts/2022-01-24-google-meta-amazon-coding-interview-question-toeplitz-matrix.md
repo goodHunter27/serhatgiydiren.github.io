@@ -1,7 +1,7 @@
 ---
 title: Google Meta Amazon Coding Interview Question - Toeplitz Matrix
 published: true
-redirect_to: https://serhatgiydiren.com/google-meta-amazon-coding-interview-question-toeplitz-matrix
+redirect_to: https://serhatgiydiren.com/google-meta-amazon-coding-interview-question-toeplitz-matrix/
 ---
 
 Given a matrix in the form `(int height, int weight, vector < vector < int > > matrix)`, determine if the matrix is in the form of Toeplitz. 
