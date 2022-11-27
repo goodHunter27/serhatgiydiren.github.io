@@ -1,7 +1,7 @@
 ---
 title: Google Hashcode 2022 Practice Problem (One Pizza) Solution & Scores
 published: true
-redirect_to: https://serhatgiydiren.com/google-hashcode-2022-practice-problem-solution
+redirect_to: https://serhatgiydiren.com/google-hashcode-2022-practice-problem-solution/
 ---
 
 ### High Scores
