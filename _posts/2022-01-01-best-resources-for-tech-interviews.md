@@ -1,7 +1,7 @@
 ---
 title: Best Resources for Tech Interviews (Coding & System Design)
 published: true
-redirect_to: https://serhatgiydiren.com/best-resources-for-tech-interviews
+redirect_to: https://serhatgiydiren.com/best-resources-for-tech-interviews/
 
 ---
 
