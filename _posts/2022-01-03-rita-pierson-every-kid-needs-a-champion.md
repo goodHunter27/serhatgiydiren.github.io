@@ -1,7 +1,7 @@
 ---
 title: Quotes from TED talk "Rita Pierson - Every kid needs a champion"
 published: true
-redirect_to: https://serhatgiydiren.com/rita-pierson-every-kid-needs-a-champion
+redirect_to: https://serhatgiydiren.com/rita-pierson-every-kid-needs-a-champion/
 ---
 
 > Seeking first to understand, as opposed to being understood.
