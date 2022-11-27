@@ -1,7 +1,7 @@
 ---
 title: High Performance Collaboration - Leadership, Teamwork, and Negotiation
 published: true
-redirect_to: https://serhatgiydiren.com/high-performance-collaboration-leadership-teamwork-negotiation
+redirect_to: https://serhatgiydiren.com/high-performance-collaboration-leadership-teamwork-negotiation/
 ---
 
 #### Excerpted from [here](https://www.coursera.org/learn/leadership-collaboration){:target="_blank"}
